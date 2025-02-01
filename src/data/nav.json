@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "label": "Home",
+    "link": "/",
+    "icon": false
+  },
+  {
+    "id": "2",
+    "label": "About",
+    "link": "/about",
+    "icon": false
+  },
+  {
+    "id": "3",
+    "label": "Tours",
+    "link": "/package",
+    "icon": false
+  },
+  {
+    "id": "4",
+    "label": "Visas",
+    "link": "/visa",
+    "icon": false
+  },
+  {
+    "id": "5",
+    "label": "Gallery",
+    "link": "/gallery",
+    "icon": false
+  },
+  {
+    "id": "6",
+    "label": "Contact",
+    "link": "/contact",
+    "icon": false
+  }
+]
