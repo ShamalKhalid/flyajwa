@@ -1,19 +1,8 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/package/maldives-package/page": "app/package/maldives-package/page.js",
-  "/package/package-details/page": "app/package/package-details/page.js",
-  "/visa/page": "app/visa/page.js",
   "/package/page": "app/package/page.js",
-  "/about/page": "app/about/page.js",
-  "/page": "app/page.js",
   "/visa/visa-details/page": "app/visa/visa-details/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/destination/style3/page": "app/destination/style3/page.js",
-  "/destination/destination-details/page": "app/destination/destination-details/page.js",
-  "/destination/page": "app/destination/page.js",
-  "/destination/style4/page": "app/destination/style4/page.js",
-  "/destination/style2/page": "app/destination/style2/page.js",
-  "/destination/style5/page": "app/destination/style5/page.js"
+  "/package/package-details/page": "app/package/package-details/page.js",
+  "/page": "app/page.js",
+  "/not-found": "app/not-found.js",
+  "/package/maldives-package/page": "app/package/maldives-package/page.js"
 }

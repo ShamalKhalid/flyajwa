@@ -68,9 +68,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting From:</h6>
-                            <span>
-                              $70000 <del>$58000</del>
-                            </span>
+                            <span>₹70000</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link

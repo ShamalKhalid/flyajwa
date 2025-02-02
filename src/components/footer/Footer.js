@@ -22,10 +22,11 @@ const Footer = ({ style }) => {
                       src="/assets/img/Ajwa/logo-ajwa.png"
                       alt=""
                       style={{
-                        height: "120%",
-                        width: "120%",
+                        height: "110%",
+                        width: "110%",
                         backgroundColor: "#ffffff",
                         borderRadius: "40px",
+                        marginLeft: "22px",
                       }}
                     />
                   </Link>
@@ -125,42 +126,6 @@ const Footer = ({ style }) => {
                   Edappal , Arangotukkara, Ponnani, Cheruthuruthy,Alappuzha,
                   UAE,Maldives,Dammam
                 </p>
-                {/*<div className="payment-partner">
-                  <div className="widget-title">
-                    <h5>Payment Partner</h5>
-                  </div>
-                  <div className="icons">
-                    <ul>
-                      <li>
-                        <img
-                          src="/assets/img/home1/icon/visa-logo.svg"
-                          alt=""
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="/assets/img/home1/icon/stripe-logo.svg"
-                          alt=""
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="/assets/img/home1/icon/paypal-logo.svg"
-                          alt=""
-                        />
-                      </li>
-                      <li>
-                        <img src="/assets/img/home1/icon/woo-logo.svg" alt="" />
-                      </li>
-                      <li>
-                        <img
-                          src="/assets/img/home1/icon/skrill-logo.svg"
-                          alt=""
-                        />
-                      </li>
-                    </ul>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>

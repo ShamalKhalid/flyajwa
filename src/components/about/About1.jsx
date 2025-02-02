@@ -70,7 +70,7 @@ const About1 = () => {
                           <path d="M19.5332 6.72978V9.40957L14.5211 14.4216C14.2242 14.7084 14.216 15.1815 14.5028 15.4784C14.7896 15.7752 15.2628 15.7835 15.5595 15.4967C15.5657 15.4907 15.5719 15.4846 15.5779 15.4784L20.59 10.4663H23.2696C23.4679 10.4663 23.6578 10.3876 23.7982 10.2473L28.2818 5.76345C28.5735 5.47166 28.5735 4.99857 28.2818 4.70672C28.2124 4.63734 28.13 4.58232 28.0394 4.54478C27.9487 4.50724 27.8516 4.48792 27.7535 4.48793H25.5116V2.24601C25.5116 1.83334 25.177 1.49871 24.764 1.49894C24.566 1.49899 24.3761 1.57769 24.236 1.71773L19.7522 6.20156C19.6828 6.27088 19.6277 6.35322 19.5901 6.44386C19.5525 6.5345 19.5332 6.63166 19.5332 6.72978ZM21.0278 7.03927L24.0169 4.05006V5.23523C24.0169 5.64791 24.3516 5.98254 24.7643 5.98254H25.9494L22.9602 8.9717H21.0278V7.03927Z" />
                         </g>
                       </svg>
-                      Mission &amp; Vision
+                      Mission
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
@@ -104,7 +104,7 @@ const About1 = () => {
                           <path d="M15.0004 30.0215C15.2865 30.0215 15.5185 29.7896 15.5185 29.5035C15.5185 29.2174 15.2865 28.9855 15.0004 28.9855C14.7143 28.9855 14.4824 29.2174 14.4824 29.5035C14.4824 29.7896 14.7143 30.0215 15.0004 30.0215Z" />
                         </g>
                       </svg>
-                      Focus On Customer
+                      Vision
                     </button>
                   </li>
                 </ul>
@@ -114,28 +114,14 @@ const About1 = () => {
                     id="mission"
                     role="tabpanel"
                   >
-                    Etiam ac tortor id purus commodo vulputate. Vestibulum
-                    porttitor erat felis and sed vehicula tortor malesuada
-                    gravida. Mauris volutpat enim quis pulv gont congue.
-                    Suspendisse ullamcorper, enim vitae tristique blandit,
-                    eratot augue torel tempo libero, non porta lectus tortor et
-                    elit. Quisque finibusot enim et eratourgt gravida, eu
-                    elementum turpis lacinia. Integer female go tellus ligula,
-                    attendora and condimentum.
+                    At Fly Ajwa Travels and Tours, our mission is to provide exceptional travel experiences that blend comfort, affordability, and personalized service. We aim to make every journey seamless, enriching, and memorable by offering well-curated travel packages, seamless booking services, and expert guidance. Our commitment is to deliver high-quality travel solutions while ensuring customer satisfaction, safety, and hassle-free adventures.
                   </div>
                   <div
                     className="tab-pane fade"
                     id="focus-customer"
                     role="tabpanel"
                   >
-                    Etiam ac tortor id purus commodo vulputate. Vestibulum
-                    porttitor erat felis and sed vehicula tortor malesuada
-                    gravida. Mauris volutpat enim quis pulv gont congue.
-                    Suspendisse ullamcorper, enim vitae tristique blandit,
-                    eratot augue torel tempo libero, non porta lectus tortor et
-                    elit. Quisque finibusot enim et eratourgt gravida, eu
-                    elementum turpis lacinia. Integer female go tellus ligula,
-                    attendora and condimentum.
+                    Our vision is to become a trusted and leading travel company known for its excellence in customer service, innovative travel experiences, and commitment to sustainable tourism. We aspire to connect travelers with the world's most breathtaking destinations while promoting responsible and ethical tourism. Through continuous innovation and dedication, we envision Fly Ajwa as a global name in the travel industry, inspiring wanderlust and creating unforgettable journeys for all.
                   </div>
                 </div>
                 <div className="about-content-bottom">

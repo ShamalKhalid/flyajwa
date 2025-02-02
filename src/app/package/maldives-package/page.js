@@ -180,12 +180,10 @@ const Page = () => {
           </div>
           <div className="row g-xl-12 gy-5">
             <div className="col-xl-12 col-lg-12">
-              <h2>
-                Experience the tour of excitement with the most adventurous
-                activities.
-              </h2>
+              <h2>Experience the Maldives: A Thrilling Adventure Awaits!</h2>
               <div className="tour-price">
-                <h3>$175/</h3>
+                <span>From:&nbsp;</span>
+                <h3>₹70000/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">
@@ -198,7 +196,7 @@ const Page = () => {
                   >
                     <path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z"></path>
                   </svg>
-                  4 Days / 5 Night
+                  4 Days / 3 Night
                 </li>
                 <li>
                   <svg
@@ -209,38 +207,15 @@ const Page = () => {
                   >
                     <path d="M7 7C7.92826 7 8.8185 6.63125 9.47487 5.97487C10.1313 5.3185 10.5 4.42826 10.5 3.5C10.5 2.57174 10.1313 1.6815 9.47487 1.02513C8.8185 0.368749 7.92826 0 7 0C6.07174 0 5.1815 0.368749 4.52513 1.02513C3.86875 1.6815 3.5 2.57174 3.5 3.5C3.5 4.42826 3.86875 5.3185 4.52513 5.97487C5.1815 6.63125 6.07174 7 7 7ZM14 12.8333C14 14 12.8333 14 12.8333 14H1.16667C1.16667 14 0 14 0 12.8333C0 11.6667 1.16667 8.16667 7 8.16667C12.8333 8.16667 14 11.6667 14 12.8333Z"></path>
                   </svg>
-                  Max People : 40
-                </li>
-                <li>
-                  <svg
-                    width={14}
-                    height={14}
-                    viewBox="0 0 14 14"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M14 0.43748C14 0.372778 13.9856 0.308889 13.9579 0.250418C13.9302 0.191947 13.8898 0.140348 13.8398 0.0993396C13.7897 0.0583312 13.7312 0.0289339 13.6684 0.0132656C13.6057 -0.00240264 13.5402 -0.00395173 13.4768 0.00872996L9.1875 0.86623L4.89825 0.00872996C4.84164 -0.00258444 4.78336 -0.00258444 4.72675 0.00872996L0.35175 0.88373C0.252608 0.903546 0.163389 0.957088 0.099263 1.03525C0.0351366 1.11342 6.10593e-05 1.21138 0 1.31248L0 13.5625C3.90711e-05 13.6272 0.0144289 13.6911 0.0421328 13.7495C0.0698367 13.808 0.110165 13.8596 0.160212 13.9006C0.210259 13.9416 0.268779 13.971 0.331556 13.9867C0.394332 14.0024 0.459803 14.0039 0.52325 13.9912L4.8125 13.1337L9.10175 13.9912C9.15836 14.0025 9.21664 14.0025 9.27325 13.9912L13.6482 13.1162C13.7474 13.0964 13.8366 13.0429 13.9007 12.9647C13.9649 12.8865 13.9999 12.7886 14 12.6875V0.43748ZM4.375 12.3287V0.97123L4.8125 0.88373L5.25 0.97123V12.3287L4.89825 12.2587C4.84165 12.2474 4.78335 12.2474 4.72675 12.2587L4.375 12.3287ZM8.75 13.0287V1.67123L9.10175 1.74123C9.15836 1.75254 9.21664 1.75254 9.27325 1.74123L9.625 1.67123V13.0287L9.1875 13.1162L8.75 13.0287Z"
-                    ></path>
-                  </svg>
-                  Italy &amp; France.
+                  Tour Type: Private / Group Tour
                 </li>
               </ul>
               <p>
-                Tour and travel refer to the activities related to planning,
-                organizing, and experiencing trips to various destinations for
-                leisure, exploration, adventure, or relaxation.Choose your
-                destination based on your interests and preferences, whether
-                it's a cultural experience, a natural adventure, historical
-                exploration, or a beach vacation.
-              </p>
-              <p>
-                Book suitable accommodation, which can range from hotels,
-                resorts, hostels, vacation rentals, or even camping depending on
-                your travel style and destination.Arrange transportation to and
-                within your destination. This can include flights, trains,
-                buses, rental cars, or even cruises.
+                Discover the breathtaking beauty of the Maldives while indulging
+                in the most thrilling and adventurous activities. From diving
+                into vibrant coral reefs to jet skiing across crystal-clear
+                waters, your Maldives adventure promises unforgettable
+                excitement.
               </p>
               <h4>Included and Excluded</h4>
               <div className="includ-and-exclud-area mb-20">
@@ -291,38 +266,36 @@ const Page = () => {
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Our team of knowledgeable guides and travel experts are
-                    dedicated to making your journey memorable and worry-free
+                    Sunset Cruise &amp; Fishing Trip – Enjoy breathtaking sunset
+                    views and a fresh BBQ dinner.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Dive into rich cultures and traditions. Explore historic
-                    sites, savor authentic cuisine, and connect with locals.
+                    Snorkeling &amp; Dolphin Watching – Explore vibrant coral
+                    reefs and spot dolphins &amp; turtles.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    We take care of all the details, so you can focus on
-                    creating memories. Rest assured that your journey is in
-                    capable hands
+                    Sandbank Picnic – Relax on a stunning secluded sandbank with
+                    a packed lunch.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Sip cocktails on the beach as you watch the sun dip below
-                    the horizon.
+                    Manta Ray &amp; Shark Encounter – Witness majestic marine
+                    life up close.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    From accommodations to dining experiences, we select the
-                    best partners to ensure your comfort and enjoyment
-                    throughout your journey.
+                    Thrilling Water Sports – Experience jet skiing, parasailing,
+                    kayaking, and more.
                   </li>
                 </ul>
               </div>
@@ -548,7 +521,7 @@ const Page = () => {
                           aria-expanded="true"
                           aria-controls="travelcollapseOne"
                         >
-                          01. How do I book a trip on your website?
+                          01. How do I book a trip on you?
                         </button>
                       </h2>
                       <div
@@ -558,10 +531,15 @@ const Page = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this.
+                          You can book a trip with Flyajwa Travels &amp; Tours
+                          by contacting us via WhatsApp, call, or email.Share
+                          your travel preferences, including destination, travel
+                          dates, and any specific requirements. Our team will
+                          provide you with a customized itinerary and pricing
+                          details. Once you confirm the booking and complete the
+                          payment, you will receive a confirmation with all
+                          necessary details. For any queries or assistance, feel
+                          free to get in touch.
                         </div>
                       </div>
                     </div>
@@ -585,12 +563,12 @@ const Page = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          We accept a variety of payment methods to make your
+                          transactions as convenient as possible. You can pay
+                          using cash, bank transfer, UPI, or credit/debit cards.
+                          We aim to provide flexible options that suit your
+                          preferences, ensuring a smooth and efficient payment
+                          process for all your bookings and services.
                         </div>
                       </div>
                     </div>
@@ -615,12 +593,13 @@ const Page = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Yes, you can make changes to your reservation
+                          depending on the time of the request. The ability to
+                          modify or cancel your booking may vary based on how
+                          far in advance you contact us. For more details and to
+                          discuss specific changes, please feel free to get in
+                          touch with us directly, and we'll assist you
+                          accordingly.
                         </div>
                       </div>
                     </div>
@@ -644,12 +623,15 @@ const Page = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Our cancellation policy depends on the timing of the
+                          request. If you cancel your reservation within a
+                          certain period before the scheduled service, you may
+                          be eligible for a refund or partial refund. However,
+                          cancellations made closer to the date of service may
+                          incur cancellation fees. For detailed information and
+                          specific terms regarding cancellations, please contact
+                          us directly, and we’ll provide further assistance
+                          based on your situation.
                         </div>
                       </div>
                     </div>
@@ -673,12 +655,13 @@ const Page = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Yes, we offer group booking discounts. If you're
+                          planning a trip or event with a larger group, we can
+                          provide special pricing to make your experience more
+                          affordable. For more details or to inquire about
+                          specific group sizes, feel free to contact us, and
+                          we’ll be happy to assist you with the best available
+                          options.
                         </div>
                       </div>
                     </div>
