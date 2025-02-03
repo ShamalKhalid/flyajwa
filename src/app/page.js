@@ -31,12 +31,8 @@ export default function Home() {
       <About1 />
       <Destination1 />
       <Home1Facilities2 />
-      {/*<Home1FacilitySlide /> */}
-      {/*<Home1TourPackage /> */}
       <Home1WhyChoose />
-      {/* <Home1popularTour /> */}
       <Home1Activities />
-      {/*<Home1Banner2 /> */}
       <Home1Testimonial />
       <Home1Visa />
       <Footer />

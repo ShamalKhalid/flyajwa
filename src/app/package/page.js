@@ -60,15 +60,15 @@ const page = () => {
                         <div className="card-content-top">
                           <h5>
                             <Link href="/package/maldives-package">
-                              Explore the Maldives' Pristine Beaches, Vibrant
-                              Marine Life, and Tropical Serenity.
+                              Explore the Maldives: Beaches, Marine Life &amp;
+                              Serenity.
                             </Link>
                           </h5>
                         </div>
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting From:</h6>
-                            <span>₹70000</span>
+                            <span>₹69,499</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -95,16 +95,16 @@ const page = () => {
                     <div className="package-card">
                       <div className="package-card-img-wrap">
                         <Link
-                          href="/package/package-details"
+                          href="/package/malaysia-package"
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/home1/package-card-img2.png"
+                            src="/assets/img/Ajwa/Malaysia-ajwa.jpg"
                             alt=""
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">7 Days / 8 Night</span>
+                          <span className="date">5 Days / 4 Night</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -116,10 +116,7 @@ const page = () => {
                             </svg>
                             <ul className="location-list">
                               <li>
-                                <Link href="/package">Egypt</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Turkey Tour</Link>
+                                <Link href="/package">Malaysia</Link>
                               </li>
                             </ul>
                           </div>
@@ -128,42 +125,19 @@ const page = () => {
                       <div className="package-card-content">
                         <div className="card-content-top">
                           <h5>
-                            <Link href="/package/package-details">
-                              Explore Travel NYC's Museums, Diversity, and
-                              Energy.
+                            <Link href="/package/malaysia-package">
+                              Explore Malaysia’s Wonders, Culture, and Vibrance.
                             </Link>
                           </h5>
-                          <div className="location-area">
-                            <ul className="location-list scrollTextAni">
-                              <li>
-                                <Link href="/package">Mecca</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Medina</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Riyadh</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Doha</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Al Wakrah</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Al Rayyan</Link>
-                              </li>
-                            </ul>
-                          </div>
                         </div>
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>$3,256</span>
+                            <span>₹34,999</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
-                            href="/package/package-details"
+                            href="/package/malaysia-package"
                             className="primary-btn2"
                           >
                             Book a Trip
