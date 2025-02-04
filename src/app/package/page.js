@@ -160,16 +160,16 @@ const page = () => {
                     <div className="package-card">
                       <div className="package-card-img-wrap">
                         <Link
-                          href="/package/package-details"
+                          href="/package/azerbaijan-package"
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/home1/package-card-img3.png"
+                            src="/assets/img/Ajwa/azerbaijan/azerbaijan-ajwa.jpg"
                             alt=""
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">5 Days / 6 Night</span>
+                          <span className="date">5 Days / 4 Night</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -181,10 +181,9 @@ const page = () => {
                             </svg>
                             <ul className="location-list">
                               <li>
-                                <Link href="/package">France</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Spain Tour</Link>
+                                <Link href="/package/azerbaijan-package">
+                                  Azerbaijan
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -193,43 +192,20 @@ const page = () => {
                       <div className="package-card-content">
                         <div className="card-content-top">
                           <h5>
-                            <Link href="/package/package-details">
-                              Embark Tranquility, Adventure, and Spiritual.
+                            <Link href="/package/azerbaijan-package">
+                              Experience Azerbaijan’s Wonders, Culture &amp;
+                              Vibrance.
                             </Link>
                           </h5>
-                          <div className="location-area">
-                            <ul className="location-list scrollTextAni">
-                              <li>
-                                <Link href="/package">Alexandria</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Sharm El Sheikh</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Mansoura</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Karachi</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Lahore</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Islamabad</Link>
-                              </li>
-                            </ul>
-                          </div>
                         </div>
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>
-                              $1,988 <del>$2500</del>
-                            </span>
+                            <span>₹67,999</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
-                            href="/package/package-details"
+                            href="/package/azerbaijan-package"
                             className="primary-btn2"
                           >
                             Book a Trip
@@ -315,7 +291,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>$3,798</span>
+                            <span>₹3,798</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -405,9 +381,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>
-                              $4,562 <del>$5,000</del>
-                            </span>
+                            <span>₹4,562</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -497,9 +471,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>
-                              $5,320 <del>$5,500</del>
-                            </span>
+                            <span>₹5,320</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
