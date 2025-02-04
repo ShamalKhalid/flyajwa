@@ -77,7 +77,7 @@ const Home2Activities = () => {
                 <div className="eg-section-tag">
                   <span>What We Do</span>
                 </div>
-                <h2>Our Particular Activities</h2>
+                <h2>Services we Provide</h2>
               </div>
               <div className="tab-content-area">
                 <div className="row g-xl-4 gy-5 ">
@@ -97,9 +97,9 @@ const Home2Activities = () => {
                             role="tab"
                             aria-controls="outdoor"
                             aria-selected="true"
-                            style={{ height: '12vh', justifyContent: 'center' }}
+                            style={{ height: '5vh', justifyContent: 'center' }}
                           >
-                            <h6>Zip lining</h6>
+                            <h6>Flight Tickets</h6>
                           </div>
                         </li>
                         <li className="nav-item" role="presentation">
@@ -111,9 +111,9 @@ const Home2Activities = () => {
                             role="tab"
                             aria-controls="cultural"
                             aria-selected="false"
-                            style={{ height: '12vh', justifyContent: 'center' }}
+                            style={{ height: '5vh', justifyContent: 'center' }}
                           >
-                            <h6>Bungee Jumping</h6>
+                            <h6>Visas</h6>
                           </div>
                         </li>
                         <li className="nav-item" role="presentation">
@@ -125,23 +125,9 @@ const Home2Activities = () => {
                             role="tab"
                             aria-controls="cuisine"
                             aria-selected="false"
-                            style={{ height: '12vh', justifyContent: 'center' }}
+                            style={{ height: '5vh', justifyContent: 'center' }}
                           >
                             <h6>Rafting</h6>
-                          </div>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                          <div
-                            className="nav-link"
-                            id="wildlife-tab"
-                            data-bs-toggle="pill"
-                            data-bs-target="#wildlife"
-                            role="tab"
-                            aria-controls="wildlife"
-                            aria-selected="false"
-                            style={{ height: '12vh', justifyContent: 'center' }}
-                          >
-                            <h6>Paragliding</h6>
                           </div>
                         </li>
                         <li className="nav-item" role="presentation">
@@ -153,9 +139,65 @@ const Home2Activities = () => {
                             role="tab"
                             aria-controls="event"
                             aria-selected="false"
-                            style={{ height: '12vh', justifyContent: 'center' }}
+                            style={{ height: '5vh', justifyContent: 'center' }}
                           >
-                            <h6>Ski touring</h6>
+                            <h6>Recruitment</h6>
+                          </div>
+                        </li>
+                        <li className="nav-item" role="presentation">
+                          <div
+                            className="nav-link"
+                            id="event-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#event"
+                            role="tab"
+                            aria-controls="event"
+                            aria-selected="false"
+                            style={{ height: '5vh', justifyContent: 'center' }}
+                          >
+                            <h6>Umrah &amp; Hajj</h6>
+                          </div>
+                        </li>
+                        <li className="nav-item" role="presentation">
+                          <div
+                            className="nav-link"
+                            id="event-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#event"
+                            role="tab"
+                            aria-controls="event"
+                            aria-selected="false"
+                            style={{ height: '5vh', justifyContent: 'center' }}
+                          >
+                            <h6>Study Abroad</h6>
+                          </div>
+                        </li>
+                        <li className="nav-item" role="presentation">
+                          <div
+                            className="nav-link"
+                            id="wildlife-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#wildlife"
+                            role="tab"
+                            aria-controls="wildlife"
+                            aria-selected="false"
+                            style={{ height: '5vh', justifyContent: 'center' }}
+                          >
+                            <h6>Document Attestation</h6>
+                          </div>
+                        </li>
+                        <li className="nav-item" role="presentation">
+                          <div
+                            className="nav-link"
+                            id="event-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#event"
+                            role="tab"
+                            aria-controls="event"
+                            aria-selected="false"
+                            style={{ height: '5vh', justifyContent: 'center' }}
+                          >
+                            <h6>Tours and Travel Packages</h6>
                           </div>
                         </li>
                       </ul>
