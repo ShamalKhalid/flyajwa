@@ -257,7 +257,7 @@ const Header = () => {
             <div className="content">
               <span>For More Inquiry</span>
               <h6>
-                <a href="tel:+990737621432">+91 99476 17000</a>
+                <a href="tel:+91 98466 17000">+91 98466 17000</a>
               </h6>
             </div>
           </div>
@@ -281,7 +281,7 @@ const Header = () => {
             <div className="content">
               <span>For More Inquiry</span>
               <h6>
-                <a href="tel:+990737621432">+91 99476 17000</a>
+                <a href="tel:+91 98466 17000">+91 98466 17000</a>
               </h6>
             </div>
           </div>

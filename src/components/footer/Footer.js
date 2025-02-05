@@ -76,7 +76,7 @@ const Footer = ({ style }) => {
                     </svg>
                     <h5>For More Inquiry</h5>
                   </div>
-                  <a href="tel:999858624984">+91 99476 17000</a>
+                  <a href="tel:+91 98466 17000">+91 98466 17000</a>
                 </div>
                 <div className="single-contact mb-35">
                   <div className="widget-title">

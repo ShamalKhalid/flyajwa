@@ -128,7 +128,7 @@ const Page = () => {
                             onClick={() =>
                               setOpenimg({
                                 openingState: true,
-                                openingIndex: 4,
+                                openingIndex: 3,
                               })
                             }
                           >
@@ -137,7 +137,7 @@ const Page = () => {
                               onClick={() =>
                                 setOpenimg({
                                   openingState: true,
-                                  openingIndex: 4,
+                                  openingIndex: 3,
                                 })
                               }
                             />
@@ -154,7 +154,7 @@ const Page = () => {
                             onClick={() =>
                               setOpenimg({
                                 openingState: true,
-                                openingIndex: 3,
+                                openingIndex: 4,
                               })
                             }
                           >
@@ -163,7 +163,7 @@ const Page = () => {
                               onClick={() =>
                                 setOpenimg({
                                   openingState: true,
-                                  openingIndex: 3,
+                                  openingIndex: 4,
                                 })
                               }
                             />

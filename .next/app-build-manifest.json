@@ -37,16 +37,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/visa/page.js"
     ],
-    "/visa/visa-details/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/visa/visa-details/page.js"
-    ],
-    "/gallery/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/gallery/page.js"
-    ],
     "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -57,17 +47,34 @@
       "static/chunks/main-app.js",
       "static/chunks/app/contact/layout.js"
     ],
-    "/package/maldives-package/page": [
+    "/gallery/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/package/maldives-package/page.css",
-      "static/chunks/app/package/maldives-package/page.js"
+      "static/chunks/app/gallery/page.js"
+    ],
+    "/package/vietnam-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/vietnam-package/page.css",
+      "static/chunks/app/package/vietnam-package/page.js"
     ],
     "/package/azerbaijan-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/package/azerbaijan-package/page.css",
       "static/chunks/app/package/azerbaijan-package/page.js"
+    ],
+    "/package/thailand-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/thailand-package/page.css",
+      "static/chunks/app/package/thailand-package/page.js"
+    ],
+    "/package/dubai-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/dubai-package/page.css",
+      "static/chunks/app/package/dubai-package/page.js"
     ]
   }
 }
