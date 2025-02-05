@@ -1,10 +1,7 @@
 "use client";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Newslatter from "@/components/common/Newsletter";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
-import SelectComponent from "@/uitils/SelectComponent";
 import Link from "next/link";
 import React from "react";
 
@@ -32,7 +29,7 @@ const page = () => {
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">4 Days / 3 Night</span>
+                          <span className="date">4 Days / 3 Nights</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +101,7 @@ const page = () => {
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">5 Days / 4 Night</span>
+                          <span className="date">5 Days / 4 Nights</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +166,7 @@ const page = () => {
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">5 Days / 4 Night</span>
+                          <span className="date">5 Days / 4 Nights</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -228,16 +225,16 @@ const page = () => {
                     <div className="package-card">
                       <div className="package-card-img-wrap">
                         <Link
-                          href="/package/package-details"
+                          href="/package/vietnam-package"
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/home1/package-card-img4.png"
+                            src="/assets/img/Ajwa/Vietnam/vietnam-ajwa.jpg"
                             alt=""
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">8 Days / 9 Night</span>
+                          <span className="date">4 Days / 3 Nights</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -249,10 +246,9 @@ const page = () => {
                             </svg>
                             <ul className="location-list">
                               <li>
-                                <Link href="/package">India</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Japan Tour</Link>
+                                <Link href="/package/vietnam-package">
+                                  Vietnam
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -261,41 +257,20 @@ const page = () => {
                       <div className="package-card-content">
                         <div className="card-content-top">
                           <h5>
-                            <Link href="/package/package-details">
-                              Embracing City Lights, Landm, and Iconic Culture.
+                            <Link href="/package/vietnam-package">
+                              Vietnam: Timeless beauty, from cities to
+                              landscapes.
                             </Link>
                           </h5>
-                          <div className="location-area">
-                            <ul className="location-list">
-                              <li>
-                                <Link href="/package">Bangalore</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Chennai</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">New Delhi</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Dhaka</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Rangpur</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Sylhet</Link>
-                              </li>
-                            </ul>
-                          </div>
                         </div>
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹3,798</span>
+                            <span>₹79,999</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
-                            href="/package/package-details"
+                            href="/package/vietnam-package"
                             className="primary-btn2"
                           >
                             Book a Trip
@@ -318,16 +293,16 @@ const page = () => {
                     <div className="package-card">
                       <div className="package-card-img-wrap">
                         <Link
-                          href="/package/package-details"
+                          href="/package/thailand-package"
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/home1/package-card-img5.png"
+                            src="/assets/img/Ajwa/thailand/thailand-ajwa.jpg"
                             alt=""
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">6 Days / 7 Night</span>
+                          <span className="date">5 Days / 4 Nights</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -339,10 +314,9 @@ const page = () => {
                             </svg>
                             <ul className="location-list">
                               <li>
-                                <Link href="/package">Brazil</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Hungary Tour</Link>
+                                <Link href="/package/thailand-package">
+                                  Thailand
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -351,41 +325,20 @@ const page = () => {
                       <div className="package-card-content">
                         <div className="card-content-top">
                           <h5>
-                            <Link href="/package/package-details">
-                              A Journey of Tour Beauty and Inspiration.
+                            <Link href="/package/thailand-package">
+                              Explore Thailand – vibrant cities, stunning
+                              beaches, and rich culture.
                             </Link>
                           </h5>
-                          <div className="location-area">
-                            <ul className="location-list scrollTextAni">
-                              <li>
-                                <Link href="/package">Paris</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Marseille</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Bordeaux</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Madrid</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Barcelona</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Valencia</Link>
-                              </li>
-                            </ul>
-                          </div>
                         </div>
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹4,562</span>
+                            <span>₹87,499</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
-                            href="/package/package-details"
+                            href="/package/-thailand-package"
                             className="primary-btn2"
                           >
                             Book a Trip
@@ -408,16 +361,16 @@ const page = () => {
                     <div className="package-card">
                       <div className="package-card-img-wrap">
                         <Link
-                          href="/package/package-details"
+                          href="/package/dubai-package"
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/home1/package-card-img6.png"
+                            src="/assets/img/Ajwa/dubai/dubai-ajwa.jpg"
                             alt=""
                           />
                         </Link>
                         <div className="batch">
-                          <span className="date">4 Days / 5 Night</span>
+                          <span className="date">5 Days / 4 Nights</span>
                           <div className="location">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -429,10 +382,7 @@ const page = () => {
                             </svg>
                             <ul className="location-list">
                               <li>
-                                <Link href="/package">Nepal</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Indonesia Tour </Link>
+                                <Link href="/package/dubai-package">Dubai</Link>
                               </li>
                             </ul>
                           </div>
@@ -441,41 +391,20 @@ const page = () => {
                       <div className="package-card-content">
                         <div className="card-content-top">
                           <h5>
-                            <Link href="/package/package-details">
-                              Adventure Art, Architecture, and Mediterranean.
+                            <Link href="/package/dubai-package">
+                              Experience Dubai – luxury, adventure, and
+                              innovation.
                             </Link>
                           </h5>
-                          <div className="location-area">
-                            <ul className="location-list scrollTextAni">
-                              <li>
-                                <Link href="/package">Kathmandu</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Pokhara</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Lalitpur</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Jakarta</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Surabaya</Link>
-                              </li>
-                              <li>
-                                <Link href="/package">Bandung</Link>
-                              </li>
-                            </ul>
-                          </div>
                         </div>
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹5,320</span>
+                            <span>₹57,999</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
-                            href="/package/package-details"
+                            href="/package/dubai-package"
                             className="primary-btn2"
                           >
                             Book a Trip

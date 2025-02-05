@@ -1,13 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -17,32 +15,29 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan1.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai1.jpg",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan2.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai2.jpg",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan3.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai3.jpg",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan4.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai4.jpg",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan5.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai5.jpg",
     },
   ];
   return (
     <>
       <Header />
-      <Breadcrumb
-        pagename="Azerbaijan Package"
-        pagetitle="Azerbaijan Package"
-      />
+      <Breadcrumb pagename="Dubai Package" pagetitle="Dubai Package" />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container">
           <div className="row">
@@ -51,10 +46,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img
-                        src="/assets/img/Ajwa/azerbaijan/azerbaijan1.jpg"
-                        alt=""
-                      />
+                      <img src="/assets/img/Ajwa/dubai/dubai1.jpg" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -73,10 +65,7 @@ const Page = () => {
                     <div className="row g-3 h-100">
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan2.jpg"
-                            alt=""
-                          />
+                          <img src="/assets/img/Ajwa/dubai/dubai2.jpg" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -99,10 +88,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan3.jpg"
-                            alt=""
-                          />
+                          <img src="/assets/img/Ajwa/dubai/dubai3.jpg" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -125,36 +111,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan4.jpg"
-                            alt=""
-                          />
-                          <a
-                            onClick={() =>
-                              setOpenimg({
-                                openingState: true,
-                                openingIndex: 4,
-                              })
-                            }
-                          >
-                            <i
-                              className="bi bi-eye"
-                              onClick={() =>
-                                setOpenimg({
-                                  openingState: true,
-                                  openingIndex: 4,
-                                })
-                              }
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="col-6">
-                        <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan5.jpg"
-                            alt=""
-                          />
+                          <img src="/assets/img/Ajwa/dubai/dubai4.jpg" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -175,6 +132,29 @@ const Page = () => {
                           </a>
                         </div>
                       </div>
+                      <div className="col-6">
+                        <div className="gallery-img-wrap">
+                          <img src="/assets/img/Ajwa/dubai/dubai5.jpg" alt="" />
+                          <a
+                            onClick={() =>
+                              setOpenimg({
+                                openingState: true,
+                                openingIndex: 4,
+                              })
+                            }
+                          >
+                            <i
+                              className="bi bi-eye"
+                              onClick={() =>
+                                setOpenimg({
+                                  openingState: true,
+                                  openingIndex: 4,
+                                })
+                              }
+                            />
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -183,10 +163,13 @@ const Page = () => {
           </div>
           <div className="row g-xl-12 gy-5">
             <div className="col-xl-12 col-lg-12">
-              <h2>Experience Azerbaijan’s Wonders, Culture &amp; Vibrance.</h2>
+              <h2>
+                Discover the allure of Dubai – a city of luxury, innovation, and
+                endless adventure.
+              </h2>
               <div className="tour-price">
                 <span>From:&nbsp;</span>
-                <h3>₹67,999/</h3>
+                <h3>₹57,999/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">
@@ -214,9 +197,12 @@ const Page = () => {
                 </li>
               </ul>
               <p>
-                Experience the Magic of Azerbaijan! From vibrant cities to
-                breathtaking landscapes, immerse yourself in a journey of
-                culture, adventure, and timeless beauty.
+                Dubai is a global hotspot that beautifully blends modern luxury
+                with rich tradition, offering unforgettable experiences. A
+                highlight of any trip is the **desert safari**, where you can
+                venture across sweeping sand dunes, enjoy thrilling dune
+                bashing, ride camels, and indulge in authentic Bedouin
+                entertainment under the starlit sky.
               </p>
               <h4>Included and Excluded</h4>
               <div className="includ-and-exclud-area mb-20">
@@ -267,37 +253,36 @@ const Page = () => {
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Shahdag Mountain Adventure – Enjoy outdoor activities or a
-                    peaceful nature walk in the stunning Caucasus Mountains.
+                    Desert Safari – Experience dune bashing, camel rides, and
+                    cultural performances under the stars.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Tufandag Ropeway (Gabala) – Take in breathtaking panoramic
-                    views from the famous cable car.
+                    Burj Khalifa Level 124 – Take in panoramic views from one of
+                    the tallest buildings in the world.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Absheron Peninsula Tour – Visit the Atashgah Fire Temple and
-                    witness the eternal flames of Yanardag Fire Mountain.
+                    Dubai Frame &amp; Miracle Garden – Discover stunning city
+                    views and breathtaking floral displays.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Baku Old Town (Icherisheher) Exploration – Discover the
-                    historic charm of Baku, including the Maiden Tower and the
-                    Palace of the Shirvanshahs.
+                    Sheikh Zayed Grand Mosque – Visit one of the largest and
+                    most beautiful mosques in the world.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Waterfall 7 Beauties &amp; Lake Nokhur (Gabala) – Experience
-                    the serene beauty of these natural wonders.
+                    Marina Dhow Cruise Dinner – Enjoy a scenic dinner cruise
+                    along Dubai's Marina, with beautiful views of the city.
                   </li>
                 </ul>
               </div>
@@ -313,7 +298,8 @@ const Page = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      <span>Day 01 :</span> Arrival &amp; Hotel Check-in
+                      <span>Day 01 :</span> Arrival in Thailand &amp; Pattaya
+                      Exploration
                     </button>
                   </h2>
                   <div
@@ -324,31 +310,43 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Upon arrival at the international airport, you will be
-                        greeted by our company representative and assisted with
-                        your smooth transfer to the hotel. After check-in, take
-                        some time to relax and unwind. Enjoy a comfortable
-                        overnight stay as you prepare for the adventures ahead.
+                        Upon arriving at DXB airport, check into your hotel and
+                        prepare for an exhilarating Desert Safari experience.
+                        Enjoy a thrilling dune bashing ride, followed by a
+                        delicious dinner and captivating cultural performances
+                        at a desert camp, before being dropped off at your hotel
+                        for the night.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Arrival at International Airport – Warm welcome by our
-                          company representative.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Airport Transfer –
-                          Smooth transfer from the airport to your hotel.
+                          Airport Pick-up – Arrival at DXB Airport and transfer
+                          to your Dubai hotel.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" /> Hotel Check-in –
-                          Relax and settle in (as per the standard check-in
-                          time).
+                          Check in and relax at the hotel.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> Afternoon Pick-up for
+                          Desert Safari – Get ready for an exciting afternoon of
+                          adventure.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Overnight Stay at Hotel – Rest and recharge for the
-                          journey ahead.
+                          Dune Bashing – Experience thrilling dune bashing in a
+                          Land Cruiser across the golden sands
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Dinner at Desert Camp - Enjoy a delicious dinner at
+                          the desert camp with a Tanura show, fire performance,
+                          and belly dance.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Late Evening Drop-off – Return to the hotel for a
+                          restful night.
                         </li>
                       </ul>
                     </div>
@@ -364,7 +362,8 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      <span>Day 02 :</span> Shahdag Mountain Adventure
+                      <span>Day 02 :</span> Dubai City Tour &amp; Burj Khalifa
+                      Experience
                     </button>
                   </h2>
                   <div
@@ -375,44 +374,37 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After a hearty breakfast at the hotel, set off for a
-                        thrilling journey to Shahdag Mountain Resort. Explore
-                        the breathtaking landscapes and choose from various
-                        outdoor activities or simply enjoy a peaceful walk in
-                        nature. Take in the dramatic views of the mountains and
-                        the Quresh Forest. On the way back, stop at the Guba
-                        Genocide Memorial Complex to gain insight into the
-                        region’s history. Later, return to the hotel for a
-                        relaxing overnight stay.
+                        After breakfast, embark on a private city tour visiting
+                        Dubai’s landmarks, followed by a visit to Burj Khalifa
+                        and the Fountain Show before returning to the hotel.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Start your day with a delicious meal.
+                          Hotel – Start your day with a hearty breakfast.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Shahdag Mountain
-                          Resort – Embark on a private adventure to the stunning
-                          Shahdag region.
+                          <i className="bi bi-check-lg" /> Pick-up for Half-Day
+                          Dubai City Tour – Enjoy a private, 4-hour city tour,
+                          including stops at the Museum of the Future, Zabeel
+                          Palace, Jumeirah Mosque, Burj Al Arab, Jumeirah Beach,
+                          The Pointe, and photo stops at key landmarks like Palm
+                          Island, Atlantis Hotel, Marina Mall, and Mall of
+                          Emirates. You’ll also pass by Etihad Museum, Burj
+                          Khalifa, and Dubai Mall.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Outdoor Activities
-                          &amp; Exploration – Choose from a variety of
-                          activities or enjoy a peaceful walk in nature.
+                          <i className="bi bi-check-lg" />
+                          Burj Khalifa Level 124 – Experience stunning views
+                          from the 124th floor during non-prime hours.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Scenic Views – Take
-                          in breathtaking views of the mountains and the Quresh
-                          Forest.
+                          <i className="bi bi-check-lg" /> Fountain Show – Watch
+                          the captivating Dubai Fountain show.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Guba Genocide
-                          Memorial Complex – Visit this historical site to learn
-                          about the region’s past.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Return to Hotel –
-                          Relax after a day of adventure.
+                          <i className="bi bi-check-lg" /> Return Transfer –
+                          Head back to your hotel after an exciting day.
                         </li>
                       </ul>
                     </div>
@@ -428,7 +420,8 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      <span>Day 03 :</span> Exploring the Charm of Gabala
+                      <span>Day 03 :</span> Dubai Frame, Miracle Garden &amp;
+                      Global Village Exploration
                     </button>
                   </h2>
                   <div
@@ -439,47 +432,35 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After enjoying breakfast at the hotel, get ready to
-                        explore the enchanting city of Gabala. Start your tour
-                        with a panoramic view of the city before heading to the
-                        Tufandag Ropeway, where you can take in the fresh
-                        mountain air and breathtaking views of the Caucasus
-                        Mountains. Continue your journey with visits to nearby
-                        attractions like the mesmerizing Waterfall 7 Beauties,
-                        the serene Lake Nokhur, and the historical site of
-                        Kabalaka (Chuhur Gabala). After a day filled with
-                        exploration and discovery, return to the hotel for an
-                        overnight stay.
+                        Enjoy a private transfer for a day of sightseeing,
+                        starting with the Dubai Frame, followed by a visit to
+                        Miracle Garden and Global Village, before returning to
+                        your hotel.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Begin your day with a refreshing meal.
+                          <i className="bi bi-check-lg" />
+                          Pick-up from Hotel – Begin your day with a private
+                          transfer to visit the Dubai Frame, an iconic landmark
+                          offering breathtaking views of the city.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Gabala City Tour –
-                          Enjoy a panoramic view of the charming city.
+                          <i className="bi bi-check-lg" /> Miracle Garden –
+                          Explore the stunning floral displays at Miracle
+                          Garden, home to millions of flowers arranged in
+                          beautiful patterns.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Tufandag Ropeway –
-                          Ascend the summer-winter tourist complex for stunning
-                          mountain vistas.
+                          <i className="bi bi-check-lg" />
+                          Global Village – Experience the vibrant cultural
+                          attractions at Global Village, a unique destination
+                          combining shopping, entertainment, and international
+                          cuisine.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Waterfall 7 Beauties
-                          – Marvel at the cascading waters in a serene setting.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Lake Nokhur –
-                          Discover the tranquil beauty of this picturesque lake.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Kabalaka (Chuhur
-                          Gabala) – Explore the historical sites of Gabala.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Overnight Stay at
-                          Hotel – Rest and prepare for the next adventure..
+                          <i className="bi bi-check-lg" /> Return to Hotel –
+                          After a fun-filled day, enjoy a private transfer back
+                          to your hotel.
                         </li>
                       </ul>
                     </div>
@@ -495,8 +476,8 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      <span>Day 04 :</span> Journey to Baku &amp; Absheron
-                      Peninsula Tour
+                      <span>Day 04 :</span> Abu Dhabi City Tour &amp; Marina
+                      Dhow Cruise Dinner
                     </button>
                   </h2>
                   <div
@@ -507,46 +488,48 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, check out from the hotel and embark on
-                        a scenic transfer to Baku. Upon arrival, explore the
-                        fascinating Absheron Peninsula, starting with a visit to
-                        the Atashgah Fire Temple, an ancient site of fire
-                        worship. Continue to Yanardag, the mystical Fire
-                        Mountain, where flames have been burning naturally for
-                        centuries. After an enriching day, check in at your
-                        hotel in Baku for an overnight stay, ready for more
-                        adventures ahead.
+                        Enjoy a guided tour of Abu Dhabi, visiting major
+                        landmarks and enjoying a shopping stop. Finish the day
+                        with a scenic Marina-Dhow cruise dinner, all with
+                        private transfers.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Enjoy a delicious morning meal.
+                          <i className="bi bi-check-lg" /> Pick-up from Hotel –
+                          Begin your professional guided tour of Abu Dhabi with
+                          a drive along Sheikh Zayed Road.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Hotel Check-out – Prepare for your transfer.
+                          BAPS Abu Dhabi Hindu Temple – Visit the stunning BAPS
+                          Hindu Temple.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Transfer to Baku –
-                          Travel to the vibrant capital city.
+                          <i className="bi bi-check-lg" />
+                          Ferrari World – Stop for photos and a lunch break at
+                          Ferrari World.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Absheron Peninsula
-                          Tour – Discover the unique landscapes of Absheron.
+                          <i className="bi bi-check-lg" /> Sheikh Zayed Grand
+                          Mosque – Visit the iconic Sheikh Zayed Grand Mosque.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Atashgah Fire Temple
-                          – Visit the ancient Zoroastrian temple of fire
-                          worship.
+                          <i className="bi bi-check-lg" /> Al Bateen
+                          Presidential Palace, His Highness Palace, Emirates
+                          Palace Hotel, ADNOC HQ, Etihad Tower, Sadiya Island,
+                          Marina Mall, Corniche, Heritage Village, Yas Island –
+                          Pass by these renowned landmarks and attractions in
+                          Abu Dhabi.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Yanardag Fire
-                          Mountain – Witness the mesmerizing eternal flames of
-                          this natural wonder.
+                          <i className="bi bi-check-lg" /> Date Market – Enjoy a
+                          shopping stopover at the famous Date Market.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Overnight Stay in
-                          Baku – Rest and unwind for the next day’s exploration.
+                          <i className="bi bi-check-lg" /> Evening Pick-up for
+                          Marina-Dhow Cruise Dinner – Experience an
+                          unforgettable dinner cruise along the Marina with
+                          private transfer.
                         </li>
                       </ul>
                     </div>
@@ -562,7 +545,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseFive"
                     >
-                      <span>Day 05 :</span> Baku City Tour &amp; Departure
+                      <span>Day 05 :</span> Departure from Dubai
                     </button>
                   </h2>
                   <div
@@ -573,50 +556,13 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, check out from the hotel and embark on
-                        a fascinating Baku city tour. Stroll through the
-                        historic Old Town (Icherisheher), visit the majestic
-                        Palace of the Shirvanshahs, and admire the legendary
-                        Maiden Tower, a true symbol of Baku. Later, transfer to
-                        the airport for your flight back home, carrying
-                        cherished memories of your Azerbaijani adventure.
+                        After check-out, you’ll be transferred privately from
+                        your hotel to the airport for your flight back home.
                       </p>
-                      <ul>
-                        <li>
-                          <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Enjoy your final morning meal in Azerbaijan.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" />
-                          Hotel Check-out – Prepare for your departure.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Baku City Tour –
-                          Explore the rich history and culture of the capital.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Palace of the
-                          Shirvanshahs – Visit this architectural masterpiece of
-                          Azerbaijan’s medieval rulers.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Maiden Tower –
-                          Discover Baku’s iconic ancient landmark.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Airport Transfer –
-                          Smooth transfer to the airport for your departure.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Fly Back Home – End
-                          your journey with unforgettable memories.
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
-
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
                   <h4>Frequently Asked &amp; Question</h4>
@@ -630,7 +576,7 @@ const Page = () => {
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#travelcollapseOne"
-                          aria-expanded="true"
+                          aria-expanded="false"
                           aria-controls="travelcollapseOne"
                         >
                           01. How do I book a trip on you?

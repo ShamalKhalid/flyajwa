@@ -16,13 +16,11 @@ const Home2About = () => {
                   <div className="eg-section-tag">
                     <span>About Us</span>
                   </div>
-                  <h2>We provide the best tour facilities.</h2>
+                  <h2>Your Trusted Partner in Unforgettable Journeys</h2>
                   <p>
-                    Etiam ac tortor id purus commodo vulputate. Vestibulum
-                    porttitor erat felis and sed vehicula tortor malesuada
-                    gravida. Mauris volutpat enim quis pulv gont congue.
-                    Suspendisse ullamcorper.
+                    Flyajwa Travels and Holidays is a leading tour company offering expertly designed travel packages across Asia and the Middle East. We specialize in crafting personalized itineraries that cater to your unique preferences, ensuring unforgettable experiences and seamless journeys.
                   </p>
+                  <p>Whether you're looking for a relaxing beach holiday, an adventurous exploration, or a cultural immersion, our team takes care of every detail, from flights and accommodations to local tours. At Flyajwa Travels and Holidays, we are committed to making your travel dreams come true with luxury, adventure, and comfort at every step.</p>
                 </div>
                 <div className="row g-4 mb-50">
                   <div className="col-md-6">
