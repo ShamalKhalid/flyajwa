@@ -22,47 +22,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
-    ],
     "/package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/package/page.js"
-    ],
-    "/visa/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/visa/page.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/contact/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/layout.js"
-    ],
-    "/gallery/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/gallery/page.js"
-    ],
-    "/package/vietnam-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/vietnam-package/page.css",
-      "static/chunks/app/package/vietnam-package/page.js"
-    ],
-    "/package/azerbaijan-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/azerbaijan-package/page.css",
-      "static/chunks/app/package/azerbaijan-package/page.js"
     ],
     "/package/thailand-package/page": [
       "static/chunks/webpack.js",
@@ -70,11 +33,11 @@
       "static/css/app/package/thailand-package/page.css",
       "static/chunks/app/package/thailand-package/page.js"
     ],
-    "/package/dubai-package/page": [
+    "/package/manali-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/package/dubai-package/page.css",
-      "static/chunks/app/package/dubai-package/page.js"
+      "static/css/app/package/manali-package/page.css",
+      "static/chunks/app/package/manali-package/page.js"
     ]
   }
 }

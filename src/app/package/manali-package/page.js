@@ -1,13 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -17,29 +15,29 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia1-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali1.jpg",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia2-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali2.jpg",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia3-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali3.jpg",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia5-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali4.jpg",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia4-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali5.jpg",
     },
   ];
   return (
     <>
       <Header />
-      <Breadcrumb pagename="Malaysia Package" pagetitle="Malaysia Package" />
+      <Breadcrumb pagename="Manali Package" pagetitle="Manali Package" />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container">
           <div className="row">
@@ -48,10 +46,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img
-                        src="/assets/img/Ajwa/malaysia/malaysia1-ajwa.jpg"
-                        alt=""
-                      />
+                      <img src="/assets/img/Ajwa/manali/manali1.jpg" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -71,7 +66,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia2-ajwa.jpg"
+                            src="/assets/img/Ajwa/manali/manali2.jpg"
                             alt=""
                           />
                           <a
@@ -97,7 +92,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia3-ajwa.jpg"
+                            src="/assets/img/Ajwa/manali/manali3.jpg"
                             alt=""
                           />
                           <a
@@ -123,33 +118,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia4-ajwa.jpg"
-                            alt=""
-                          />
-                          <a
-                            onClick={() =>
-                              setOpenimg({
-                                openingState: true,
-                                openingIndex: 4,
-                              })
-                            }
-                          >
-                            <i
-                              className="bi bi-eye"
-                              onClick={() =>
-                                setOpenimg({
-                                  openingState: true,
-                                  openingIndex: 4,
-                                })
-                              }
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div className="col-6">
-                        <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/malaysia/malaysia5-ajwa.jpg"
+                            src="/assets/img/Ajwa/manali/manali4.jpg"
                             alt=""
                           />
                           <a
@@ -172,6 +141,32 @@ const Page = () => {
                           </a>
                         </div>
                       </div>
+                      <div className="col-6">
+                        <div className="gallery-img-wrap">
+                          <img
+                            src="/assets/img/Ajwa/manali/manali5.jpg"
+                            alt=""
+                          />
+                          <a
+                            onClick={() =>
+                              setOpenimg({
+                                openingState: true,
+                                openingIndex: 4,
+                              })
+                            }
+                          >
+                            <i
+                              className="bi bi-eye"
+                              onClick={() =>
+                                setOpenimg({
+                                  openingState: true,
+                                  openingIndex: 4,
+                                })
+                              }
+                            />
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -181,11 +176,11 @@ const Page = () => {
           <div className="row g-xl-12 gy-5">
             <div className="col-xl-12 col-lg-12">
               <h2>
-                Discover Malaysia: Culture, Adventure &amp; Natural Beauty!
+                Explore Manali – snow-capped peaks, lush valleys, and adventure.
               </h2>
               <div className="tour-price">
                 <span>From:&nbsp;</span>
-                <h3>₹34,999/</h3>
+                <h3>₹9,499/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">
@@ -198,7 +193,7 @@ const Page = () => {
                   >
                     <path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z"></path>
                   </svg>
-                  4 Days / 3 Night
+                  5 Days / 4 Night
                 </li>
                 <li>
                   <svg
@@ -213,9 +208,9 @@ const Page = () => {
                 </li>
               </ul>
               <p>
-                Experience the Magic of Malaysia! From bustling cities to serene
-                islands, dive into a world of culture, adventure, and natural
-                beauty for an unforgettable journey.
+                Discover the Magic of Manali! From snow-capped peaks to lush
+                valleys, immerse yourself in nature, adventure, and breathtaking
+                Himalayan landscapes.
               </p>
               <h4>Included and Excluded</h4>
               <div className="includ-and-exclud-area mb-20">
@@ -266,37 +261,36 @@ const Page = () => {
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    KL Tower Observation Deck – Witness stunning panoramic views
-                    of Kuala Lumpur.
+                    Solang Valley &amp; Sissu Snow Point – Enjoy adventure
+                    activities and breathtaking views of the snow-capped peaks.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Batu Caves Exploration – Visit the famous limestone caves
-                    and Hindu temple.
+                    Atal Tunnel – Experience the world's longest highway tunnel,
+                    an engineering marvel.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Genting Highlands &amp; Cable Car Ride – Enjoy a scenic
-                    two-way cable car ride with a stop at Chin Swee Temple.
+                    Kullu Adventure River Rafting – Option to try thrilling
+                    river rafting on the Beas River.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Langkawi Sky Cab &amp; Sky Bridge – Experience breathtaking
-                    views from the Langkawi Cable Car and walk on the iconic Sky
-                    Bridge.
+                    Tibetan Monastery &amp; Hadimba Devi Temple – Visit these
+                    iconic Manali attractions for their beauty and spirituality.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Langkawi City Tour – Explore the island’s top attractions,
-                    from cultural landmarks to scenic spots.
+                    Hadimba Devi Temple – Explore this ancient temple surrounded
+                    by dense cedar forests.
                   </li>
                 </ul>
               </div>
@@ -312,7 +306,7 @@ const Page = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      <span>Day 01 :</span> Arrival &amp; KL Tower Experience
+                      <span>Day 01 :</span>Journey to Manali
                     </button>
                   </h2>
                   <div
@@ -323,34 +317,24 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Upon arrival at the airport, proceed to the designated
-                        level for your transfer to a famous chocolate outlet,
-                        where you can enjoy a delightful visit. Afterward, check
-                        in at the hotel (as per the standard check-in time).
-                        Later, head to KL Tower for an unforgettable experience
-                        at the observation deck, with tickets included in the
-                        package. After the visit, you'll be dropped off at the
-                        hotel for an overnight stay, ready to continue your
-                        journey the next day.
+                        Embark on an overnight Volvo journey from Delhi to
+                        Manali, enjoying a comfortable ride through scenic
+                        landscapes.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Airport Transfer – Smooth transfer from the airport to
-                          your designated destination.
+                          Volvo Bus Station – Arrive at the station and board
+                          your bus.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Visit a famous
-                          chocolate outlet for a delightful experience.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> KL Tower Observation
-                          Deck – Enjoy breathtaking views (tickets included).
+                          <i className="bi bi-check-lg" /> Boarded to Bus –
+                          Begin your journey from Delhi to Manali.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Overnight Stay at Hotel – Rest and unwind at your
-                          hotel after an exciting day.
+                          Overnight Journey – Travel comfortably overnight to
+                          reach Manali the next day.
                         </li>
                       </ul>
                     </div>
@@ -366,7 +350,8 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      <span>Day 02 :</span> Genting Highlands Adventure
+                      <span>Day 02 :</span> Arrival &amp; Local Sightseeing in
+                      Manali
                     </button>
                   </h2>
                   <div
@@ -377,44 +362,28 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, we’ll head to Genting Highland,
-                        following the driver’s instructions and ensuring you're
-                        ready at the lobby on time. Enroute, we’ll stop at the
-                        iconic Batu Caves for a quick photo op. Enjoy a scenic
-                        two-way cable car ride, and don’t miss the beautiful
-                        Chin Swee Temple Station along the way. After the day’s
-                        program, we’ll return to the hotel for an overnight
-                        stay, allowing you to relax and unwind.
+                        Arrive in Manali, explore local attractions, shop at
+                        Mall Road, and unwind with dinner at the hotel.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast – Enjoy a
-                          delicious meal before starting the day.
+                          <i className="bi bi-check-lg" /> Arrival in Manali
+                          &amp; Hotel Check-in – Freshen up and rest after the
+                          overnight journey.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Departure for Genting
-                          Highlands – Follow the driver’s instructions and be
-                          ready at the lobby on time.
+                          <i className="bi bi-check-lg" /> Local Sightseeing by
+                          Foot – Visit Tibetan Monastery, Hadimba Devi Temple,
+                          and Vann Vihar Park.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Enroute Stop at Batu
-                          Caves – Capture a photo at this iconic Hindu temple
-                          and limestone cave.
+                          <i className="bi bi-check-lg" /> Explore Mall Road –
+                          Stroll through the bustling Mall Road for shopping and
+                          local cuisine
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Two-Way Cable Car
-                          Ride – Experience the scenic cable car ride to Genting
-                          Highlands.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Visit Chin Swee
-                          Temple Station – Don't miss this beautiful temple
-                          station along the way.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Overnight Stay at
-                          Hotel – Head back to hotel, Relax and unwind for the
-                          night.
+                          <i className="bi bi-check-lg" /> Return to Hotel –
+                          Enjoy dinner and overnight stay.
                         </li>
                       </ul>
                     </div>
@@ -430,8 +399,8 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      <span>Day 03 :</span> Arrival &amp; Exploration in
-                      Langkawi
+                      <span>Day 03 :</span> Solang Valley &amp; Atal Tunnel
+                      Exploration
                     </button>
                   </h2>
                   <div
@@ -442,24 +411,34 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Upon arrival in Langkawi, you will be greeted and picked
-                        up for a scenic Langkawi City Tour, where you'll have
-                        the opportunity to explore the island's iconic
-                        attractions. After the tour, you'll be dropped off at
-                        your hotel to unwind and enjoy a restful overnight stay.
+                        After breakfast, head out to explore either Solang
+                        Valley or Sissu Snow Point, where you’ll be surrounded
+                        by picturesque snow-capped peaks and have the option to
+                        try thrilling activities. Then, take a scenic drive
+                        through the Atal Tunnel, an engineering marvel that
+                        offers a unique perspective of the region’s majestic
+                        mountains. After a day full of adventure and natural
+                        beauty, return to your hotel for a restful night with
+                        dinner.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Arrive in Langkawi
-                          and proceed with pickup.
+                          <i className="bi bi-check-lg" /> Breakfast at Hotel –
+                          Start your day with a delicious breakfast.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Embark on a Langkawi
-                          City Tour, exploring iconic attractions.
+                          <i className="bi bi-check-lg" /> Transfer for
+                          Sightseeing – Visit Solang Valley or Sissu Snow Point,
+                          enjoying adventure activities and stunning landscapes.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> After the tour, drop
-                          off at the hotel for an overnight stay.
+                          <i className="bi bi-check-lg" />
+                          Atal Tunnel – Experience a scenic drive through the
+                          world's longest highway tunnel.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> Return to Hotel –
+                          Enjoy dinner and overnight stay.
                         </li>
                       </ul>
                     </div>
@@ -475,7 +454,8 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      <span>Day 04 :</span> Langkawi Sky Adventure
+                      <span>Day 04 :</span> Kullu Exploration &amp; Journey to
+                      Delhi
                     </button>
                   </h2>
                   <div
@@ -486,69 +466,73 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After enjoying breakfast at the hotel, you will be
-                        transferred to Oriental Village for an exciting day.
-                        Experience a thrilling cable car ride with breathtaking
-                        views, followed by visits to the Sky Dome, Sky Rex, 3D
-                        Art Langkawi, and the iconic Sky Bridge. Afterward, you
-                        will return to the hotel for a relaxing overnight stay.
+                        After a day of exploring Manali and Kullu, including an
+                        optional adventure rafting experience, you’ll head back
+                        to Delhi for the next leg of your journey.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Enjoy breakfast at
-                          the hotel.
+                          <i className="bi bi-check-lg" /> Breakfast at Hotel –
+                          Enjoy a hearty breakfast before checking out.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Transfer to Oriental
-                          Village for an exciting day.
+                          <i className="bi bi-check-lg" /> Continue Exploration
+                          in Manali – Spend some time exploring more of Manali
+                          before proceeding.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Experience a
-                          thrilling cable car ride with breathtaking views.
+                          <i className="bi bi-check-lg" />
+                          Proceed to Kullu – Drive to Kullu (43 km / 2 hours)
+                          and enjoy the scenic views along the way.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Explore: Sky Dome,
-                          Sky Rex, 3D Art, Langkawi Sky Bridge
+                          <i className="bi bi-check-lg" />
+                          Adventure River Rafting (Optional) – Experience the
+                          thrill of river rafting on the Beas River (optional,
+                          available at an additional cost).
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Return to the hotel
-                          for an overnight stay.
+                          <i className="bi bi-check-lg" /> Proceed to Delhi –
+                          After Kullu, begin your journey back to Delhi.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Overnight Travel to Delhi – Overnight journey back to
+                          Delhi by bus.
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingFour">
+                  <h2 className="accordion-header" id="headingFive">
                     <button
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour"
+                      data-bs-target="#collapseFive"
                       aria-expanded="false"
-                      aria-controls="collapseFour"
+                      aria-controls="collapseFive"
                     >
-                      <span>Day 05 :</span> Departure
+                      <span>Day 05 :</span> Arrival in Delhi &amp; Trip End
                     </button>
                   </h2>
                   <div
-                    id="collapseFour"
+                    id="collapseFive"
                     className="accordion-collapse collapse"
-                    aria-labelledby="headingFour"
+                    aria-labelledby="headingFive"
                     data-bs-parent="#tourPlan"
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast at the hotel, you will be transferred to
-                        the airport for your return flight. As you depart, take
-                        with you cherished memories of your unforgettable
-                        journey through Malaysia.
+                        After a scenic journey, you will arrive in Delhi, where
+                        we’ll assist you with transfers, ensuring a smooth
+                        departure.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
                   <h4>Frequently Asked &amp; Question</h4>
@@ -562,7 +546,7 @@ const Page = () => {
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#travelcollapseOne"
-                          aria-expanded="true"
+                          aria-expanded="false"
                           aria-controls="travelcollapseOne"
                         >
                           01. How do I book a trip with you?
