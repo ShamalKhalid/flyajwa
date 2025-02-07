@@ -27,17 +27,32 @@
       "static/chunks/main-app.js",
       "static/chunks/app/package/page.js"
     ],
-    "/package/thailand-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/thailand-package/page.css",
-      "static/chunks/app/package/thailand-package/page.js"
-    ],
     "/package/manali-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/package/manali-package/page.css",
       "static/chunks/app/package/manali-package/page.js"
+    ],
+    "/package/goa-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/goa-package/page.css",
+      "static/chunks/app/package/goa-package/page.js"
+    ],
+    "/visa/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/visa/page.js"
+    ],
+    "/visa/visa-details/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/visa/visa-details/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
     ]
   }
 }
