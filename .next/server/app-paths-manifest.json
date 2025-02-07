@@ -1,7 +1,9 @@
 {
   "/page": "app/page.js",
-  "/package/page": "app/package/page.js",
   "/package/manali-package/page": "app/package/manali-package/page.js",
   "/not-found": "app/not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/package/goa-package/page": "app/package/goa-package/page.js",
+  "/visa/visa-details/page": "app/visa/visa-details/page.js",
+  "/visa/page": "app/visa/page.js",
+  "/about/page": "app/about/page.js"
 }
