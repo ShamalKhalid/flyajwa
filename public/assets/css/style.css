@@ -839,6 +839,64 @@ ul {
   transform-origin: left;
 }
 
+/* ------------------------------------------------------- */
+.primary-btn6 {
+  border-radius: 5px;
+  background-color: var(--primary-color1);
+  font-family: var(--font-rubik);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white-color);
+  letter-spacing: 0.48px;
+  text-transform: capitalize;
+  line-height: 1;
+  padding: 11px 16px;
+  display: flex; /* Change to flex */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 7px;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  white-space: nowrap;
+  width: 24vw; /* Set width to 24vw */
+  text-align: center; /* Ensure text alignment */
+}
+
+.primary-btn6 svg {
+  fill: var(--white-color);
+  transition: 0.5s;
+}
+.primary-btn6::after {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 15%;
+  right: -20%;
+  top: -4%;
+  height: 150%;
+  width: 150%;
+  bottom: 0;
+  border-radius: 2px;
+  background-color: #0a1019;
+  transform: skewX(45deg) scale(0, 1);
+  z-index: -1;
+  transition: all 0.5s ease-out 0s;
+}
+.primary-btn6:hover {
+  color: var(--white-color);
+}
+.primary-btn6:hover svg {
+  fill: var(--white-color);
+}
+.primary-btn6:hover::after {
+  transform: skewX(45deg) scale(1, 1);
+}
+.primary-btn6.two {
+  border-radius: unset;
+}
+/* ----------------------------------------------------------- */
 .primary-btn4 {
   padding: 5px;
   border: 1px dashed var(--primary-color1);
@@ -2067,7 +2125,7 @@ header.style-1 .nav-right .mobile-menu-btn {
     display: flex;
     margin-left: 20px;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     visibility: visible;
     justify-content: center;
     position: relative;
@@ -2825,7 +2883,7 @@ header.style-2 .nav-right .mobile-menu-btn {
     display: flex;
     margin-left: 10px;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     visibility: visible;
     justify-content: center;
     position: relative;
@@ -3574,7 +3632,7 @@ header.style-3 .nav-right .mobile-menu-btn {
     display: flex;
     margin-left: 15px;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     visibility: visible;
     justify-content: center;
     position: relative;
@@ -17836,7 +17894,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 .room-suits-card .room-content .content-bottom .price-and-book {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
 }
 @media (max-width: 576px) {
   .room-suits-card .room-content .content-bottom .price-and-book {
@@ -17845,7 +17903,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 .room-suits-card .room-content .content-bottom .price-area {
   margin-bottom: 10px;
-  text-align: end;
+  text-align: flex-end;
 }
 @media (max-width: 576px) {
   .room-suits-card .room-content .content-bottom .price-area {
@@ -18043,7 +18101,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 .room-details-area .location-and-review .review-area ul {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 5px;
 }
 @media (max-width: 576px) {
@@ -20041,12 +20099,12 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 }
 .transport-card .transport-content .card-bottom .review-area {
   line-height: 1;
-  text-align: end;
+  text-align: flex-end;
 }
 .transport-card .transport-content .card-bottom .review-area .rating {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 5px;
   margin-bottom: 7px;
 }
