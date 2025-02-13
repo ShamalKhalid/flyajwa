@@ -119,20 +119,6 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link"
-                            id="cuisine-tab"
-                            data-bs-toggle="pill"
-                            data-bs-target="#cuisine"
-                            role="tab"
-                            aria-controls="cuisine"
-                            aria-selected="false"
-                            style={{ height: '5vh', justifyContent: 'center' }}
-                          >
-                            <h6>Rafting</h6>
-                          </div>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                          <div
-                            className="nav-link"
                             id="event-tab"
                             data-bs-toggle="pill"
                             data-bs-target="#event"

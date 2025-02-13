@@ -1,10 +1,9 @@
 {
-  "/services/page": "app/services/page.js",
+  "/page": "app/page.js",
   "/not-found": "app/not-found.js",
   "/about/page": "app/about/page.js",
+  "/services/page": "app/services/page.js",
   "/gallery/page": "app/gallery/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/visa/page": "app/visa/page.js",
+  "/package/page": "app/package/page.js",
   "/contact/page": "app/contact/page.js"
 }
