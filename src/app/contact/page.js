@@ -1,6 +1,30 @@
+"use client";
 import React from "react";
+import { useState } from "react";
 
 const page = () => {
+  const [phone, setPhone] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  const [formError, setFormError] = useState("");
+
+  const handlePhoneChange = (e) => {
+    const value = e.target.value;
+    if (/^\d{0,10}$/.test(value)) {
+      setPhone(value);
+      setError("");
+    } else {
+      setError("Phone number must be 10 digits.");
+    }
+  };
+
+  const handlePhoneBlur = () => {
+    if (phone.length !== 10) {
+      setError("Phone number must be exactly 10 digits.");
+    }
+  };
   return (
     <>
       <div className="contact-page pt-120 mb-120">
@@ -25,10 +49,10 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="tel:">+990-737 621 432</a>
+                    <a href="tel:+91 98466 17000">+91 98466 17000</a>
                   </h6>
                   <h6>
-                    <a href="tel:">+990-737 621 432</a>
+                    <a href="tel:+91 95266 17000">+91 95266 17000</a>
                   </h6>
                 </div>
               </div>
@@ -48,13 +72,63 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                  </h6>
-                  <h6>
-                    <a href="mailto:example@example.com">example@example.com</a>
+                    <a href="mailto:ajwatravels1@gmail.com">
+                      ajwatravels1@gmail.com
+                    </a>
                   </h6>
                 </div>
               </div>
+              <div className="single-contact mb-40">
+                <div className="title">
+                  <h6>Follow Us on Instagram</h6>
+                </div>
+                <div className="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={20}
+                    height={20}
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M7.5 2C4.42 2 2 4.42 2 7.5v9C2 19.58 4.42 22 7.5 22h9c3.08 0 5.5-2.42 5.5-5.5v-9C22 4.42 19.58 2 16.5 2h-9ZM7.5 4h9c1.93 0 3.5 1.57 3.5 3.5v9c0 1.93-1.57 3.5-3.5 3.5h-9C5.57 20 4 18.43 4 16.5v-9C4 5.57 5.57 4 7.5 4Zm9.25 1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5ZM12 6.5c-3.04 0-5.5 2.46-5.5 5.5s2.46 5.5 5.5 5.5 5.5-2.46 5.5-5.5-2.46-5.5-5.5-5.5Zm0 2c1.93 0 3.5 1.57 3.5 3.5S13.93 15.5 12 15.5 8.5 13.93 8.5 12 10.07 8.5 12 8.5Z" />
+                  </svg>
+                </div>
+                <div className="content">
+                  <h6>
+                    <a href="https://www.instagram.com/ajwa_holidayss/">
+                      ajwa_holidayss
+                    </a>
+                  </h6>
+                </div>
+              </div>
+              <div className="single-contact mb-40">
+                <div className="title">
+                  <h6>Follow on Facebook</h6>
+                </div>
+                <div className="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={20}
+                    height={20}
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987H7.898v-2.89h2.54v-2.2c0-2.507 1.492-3.89 3.777-3.89 1.096 0 2.238.196 2.238.196v2.46h-1.26c-1.243 0-1.63.773-1.63 1.562v1.872h2.773l-.443 2.89h-2.33v6.987C18.343 21.128 22 16.991 22 12z" />
+                  </svg>
+                </div>
+                <div className="content">
+                  <h6>
+                    <a
+                      href="https://www.facebook.com/AjwaTravelsandHolidays/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      AjwaTravelsandHolidays
+                    </a>
+                  </h6>
+                </div>
+              </div>
+
               <div className="single-contact mb-40">
                 <div className="title">
                   <h6>Location</h6>
@@ -72,9 +146,9 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="#">
-                      168/170, Avenue 01, Old York Drive Rich Mirpur DOHS,
-                      Bangladesh
+                    <a href="https://g.co/kgs/5fYjKgq">
+                      Flyajwa travels and tours,<br></br> 1st floor, CK Tower,
+                      Pattambi Rd,<br></br> Edappal, Kerala 679576
                     </a>
                   </h6>
                 </div>
@@ -118,40 +192,72 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h6>
-                    <a href="#">8:00Am - 10:Pm, Friday Close</a>
+                    <a href="#">
+                      9:00 am - 06:00 pm, <br></br>Closed on Sunday
+                    </a>
                   </h6>
                 </div>
               </div>
             </div>
             <div className="col-lg-7">
               <div className="contact-form-area">
-                <h3>Reach Us Anytime</h3>
-                <form>
+                <h3>Send us your Enquiries</h3>
+                <form
+                  action="https://formsubmit.co/8e6c36073e90dccd68dd5d8a31e10816"
+                  method="POST"
+                >
                   <div className="row">
                     <div className="col-lg-12 mb-20">
                       <div className="form-inner">
                         <label>Name*</label>
-                        <input type="text" placeholder="Daniel Scoot" />
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6 mb-20">
                       <div className="form-inner">
                         <label>Phone</label>
-                        <input type="text" placeholder="Phone Number..." />
+                        <input
+                          type="text"
+                          name="Phone"
+                          placeholder="Phone Number"
+                          value={phone}
+                          onChange={handlePhoneChange}
+                          onBlur={handlePhoneBlur}
+                          maxLength={10}
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6 mb-20">
                       <div className="form-inner">
                         <label>Email</label>
-                        <input type="email" placeholder="Email Us...." />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-12 mb-30">
                       <div className="form-inner">
                         <label>Write Your Massage*</label>
                         <textarea
-                          placeholder="What’s on your mind"
-                          defaultValue={""}
+                          type="text"
+                          name="Message"
+                          placeholder="write your message"
+                          value={message}
+                          onChange={(e) => setMessage(e.target.value)}
+                          required
                         />
                       </div>
                     </div>
@@ -175,7 +281,7 @@ const page = () => {
 
       <div className="contact-map mb-80">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5647631857846!2d90.36311167605992!3d23.83407118555764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14c8682a473%3A0xa6c74743d52adb88!2sEgens%20Lab!5e0!3m2!1sen!2sbd!4v1700138349574!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3740024916165!2d76.00701227405351!3d10.782640489366445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b96e0e59eaeb%3A0xbc45401d41bf578!2sAjwa%20Travels%20and%20Holidays!5e0!3m2!1sen!2sin!4v1739457704220!5m2!1sen!2sin"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
