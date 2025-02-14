@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
 
 const Home1Activities = () => {
   const [isOpen, setOpen] = useState(false);
@@ -672,17 +671,6 @@ const Home1Activities = () => {
           </div>
         </div>
       </div>
-      <React.Fragment>
-        <ModalVideo
-          channel="youtube"
-          onClick={() => setOpen(true)}
-          isOpen={isOpen}
-          animationSpeed="350"
-          videoId="r4KpWiK08vM"
-          ratio="16:9"
-          onClose={() => setOpen(false)}
-        />
-      </React.Fragment>
     </div>
   );
 };
