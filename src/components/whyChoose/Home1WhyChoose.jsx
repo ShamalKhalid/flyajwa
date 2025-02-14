@@ -61,8 +61,7 @@ const Home1WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Worldwide Coverage</h6>
                   <p>
-                    Cras facilisis fermentum ex seda ullamcorper odio rutrum
-                    accoun Phasellus auctor
+                    Explore destinations across the globe with ease.
                   </p>
                 </div>
               </div>
@@ -83,8 +82,7 @@ const Home1WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Competitive Pricing</h6>
                   <p>
-                    Burabitur convallis enim atnora ullamcorper sagittis. Morbi
-                    nug scelerisque for thana.
+                    Get the best travel deals at unbeatable prices.
                   </p>
                 </div>
               </div>
@@ -108,8 +106,7 @@ const Home1WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Fast Booking</h6>
                   <p>
-                    Fermentum eitorx quis maximum Etiam luctus erat vulputate
-                    urnan posuere convallis.
+                    Secure your trips quickly with a hassle-free booking process.
                   </p>
                 </div>
               </div>
@@ -131,8 +128,7 @@ const Home1WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Guided Tours</h6>
                   <p>
-                    Pellentesque venenatis egestasoi diam Proin velgorat elit
-                    porttitor metus convallis.
+                    Enjoy expert-led tours for a memorable experience.
                   </p>
                 </div>
               </div>
@@ -157,8 +153,7 @@ const Home1WhyChoose = () => {
                 <div className="feature-card-content">
                   <h6>Best Support 24/7</h6>
                   <p>
-                    Sed venenatis mauris nec nulla euismod, accounv varius
-                    lectus viverra oncen.
+                    Our team is always available to assist you anytime.
                   </p>
                 </div>
               </div>
@@ -183,10 +178,9 @@ const Home1WhyChoose = () => {
                   </svg>
                 </div>
                 <div className="feature-card-content">
-                  <h6>Ultimate flexibility</h6>
+                  <h6>Customized Travel Plans</h6>
                   <p>
-                    Duis leo sapien, lacinia utorrent efficitur utom suscipit
-                    quis nulla Sed auctor eu
+                    Tailor-made itineraries to suit your preferences.
                   </p>
                 </div>
               </div>
