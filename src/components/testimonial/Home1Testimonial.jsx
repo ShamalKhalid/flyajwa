@@ -1,5 +1,6 @@
 "use client";
 import React, { useMemo } from "react";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Autoplay,
@@ -8,8 +9,17 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+import testimonials from "@/data/testimonials";
+
 
 const Home1Testimonial = () => {
+
+  const [showMore, setShowMore] = useState(false);
+
+  const toggleShowMore = () => {
+    setShowMore(!showMore);
+  };
+
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -95,53 +105,6 @@ const Home1Testimonial = () => {
       <div className="testimonial-wrapper">
         <div className="container">
           <div className="testimonial-nav-area">
-            {/* <ul className="nav nav-pills" id="pills-tab" role="tablist">
-              <li className="nav-item" role="presentation">
-                <div
-                  className="nav-link active"
-                  id="allreview-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#allreview"
-                  role="tab"
-                  aria-controls="allreview"
-                  aria-selected="true"
-                >
-                  All Reviews
-                </div>
-              </li>
-              <li className="nav-item" role="presentation">
-                <div
-                  className="nav-link"
-                  id="facebook-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#facebook"
-                  role="tab"
-                  aria-controls="facebook"
-                  aria-selected="false"
-                >
-                  <div className="icon">
-                    <img src="/assets/img/home1/icon/facebook-logo.svg" alt="" />
-                  </div>
-                  Facebook
-                </div>
-              </li>
-              <li className="nav-item" role="presentation">
-                <div
-                  className="nav-link"
-                  id="google-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#google"
-                  role="tab"
-                  aria-controls="google"
-                  aria-selected="false"
-                >
-                  <div className="icon">
-                    <img src="/assets/img/home1/icon/google-logo.svg" alt="" />
-                  </div>
-                  Google
-                </div>
-              </li>
-            </ul> */}
           </div>
         </div>
         <div className="testimonial-card-slider-area">
@@ -164,12 +127,34 @@ const Home1Testimonial = () => {
                           <div className="tesimonial-card-wrapper">
                             <div className="tesimonial-card">
                               <div className="testimonial-content">
-                                <p>
-                                  “I cannot express enough how satisfied I am
-                                  with the web development services provided by
-                                  Egens Lab. From the initial consultation to
-                                  the final delivery, they have exceeded.”
+                                <p className="text-gray-700 inline">
+                                  “Our group of six (three couples) enjoyed a fantastic 7-day, 6-night trip to Thailand, visiting Pattaya, Bangkok, Krabi, Phuket, and Phi Phi.
+                                  {!showMore && (
+                                    <>
+                                      ...
+                                      <span
+                                        className="text-blue-600 cursor-pointer hover:underline"
+                                        onClick={toggleShowMore}
+                                      >
+                                        See More
+                                      </span>
+                                    </>
+                                  )}
+                                  {showMore && (
+                                    <span>
+                                      {" "}The trip was wonderfully organized by Ajwa, with exceptional support from Najiha and Ashiq. They were instrumental in making our trip memorable and budget-friendly. When our original hotel booking was cancelled, Ajwa went above and beyond, securing us new accommodations in a prime location on Patong Beach in Phuket – a definite upgrade to our initial plans! The transportation arrangements were also excellent. I highly recommend Ajwa for anyone planning a trip to Thailand.
+                                    </span>
+                                  )}
                                 </p>
+
+                                {showMore && (
+                                  <p
+                                    className="text-blue-600 text-sm cursor-pointer hover:underline mt-2"
+                                    onClick={toggleShowMore}
+                                  >
+                                    Show Less
+                                  </p>
+                                )}
                               </div>
                               <div className="testimonial-bottom">
                                 <div className="rating-area">
@@ -205,21 +190,20 @@ const Home1Testimonial = () => {
                                   </svg>
                                 </div>
                                 <div className="date-and-time">
-                                  <p>May 9, 2023</p>
-                                  <span>10.30 PM</span>
+                                  <p>Feb, 2025</p>
                                 </div>
                               </div>
                             </div>
                             <div className="author-area">
                               <div className="author-img">
                                 <img
-                                  src="/assets/img/home1/testi-author-img1.png"
+                                  src="/assets/img/Ajwa/male_review.jpg"
                                   alt=""
                                 />
                               </div>
                               <div className="author-content">
-                                <h5>Mateo Daniel</h5>
-                                <span>Indonesia</span>
+                                <h5>
+                                  Joseph Jose</h5>
                               </div>
                             </div>
                           </div>
@@ -228,12 +212,38 @@ const Home1Testimonial = () => {
                           <div className="tesimonial-card-wrapper">
                             <div className="tesimonial-card">
                               <div className="testimonial-content">
-                                <p>
-                                  “I love Tour! This is an amazing service and
-                                  it has saved me and my small business so much
-                                  time. I plan to use it for a long time to
-                                  come. And i travel with TripRex again ”{" "}
+                                <p className="text-gray-700 inline">
+                                  “We had planned for our dream honeymoon to Maldives through Ajwa holidays. As the trip was planned immediately after our wedding
+                                  {!showMore && (
+                                    <>
+                                      ...
+                                      <span
+                                        className="text-blue-600 cursor-pointer hover:underline"
+                                        onClick={toggleShowMore}
+                                      >
+                                        See More
+                                      </span>
+                                    </>
+                                  )}
+                                  {showMore && (
+                                    <span>
+                                      {" "},we needed a perfect getaway from all the wedding stress and Ajwa exactly did that.
+                                      They planned our entire trip in such a manner that it was hassle free from the beginning till the end. We had a 2 day stay in watervilla at Fihalhohi resort. The stay was amazing and the food was top notch especially the new year eve gala night dinner.
+                                      We then had a 2 day stay at Mafushi island. All our needs were taken care of by team arranged by Ajwa holidays. We did snorkeling and swimming by the whitesand beach. Took amazing photos and had a great time despite bad weather.
+                                      Highly recommend this travel agency for amazing and hassle free travel experiences.
+                                      Thank you Ajwa❤️
+                                    </span>
+                                  )}
                                 </p>
+
+                                {showMore && (
+                                  <p
+                                    className="text-blue-600 text-sm cursor-pointer hover:underline mt-2"
+                                    onClick={toggleShowMore}
+                                  >
+                                    Show Less
+                                  </p>
+                                )}
                               </div>
                               <div className="testimonial-bottom">
                                 <div className="rating-area">
@@ -269,21 +279,20 @@ const Home1Testimonial = () => {
                                   </svg>
                                 </div>
                                 <div className="date-and-time">
-                                  <p>May 9, 2023</p>
-                                  <span>10.30 PM</span>
+                                  <p>Jan, 2025</p>
                                 </div>
                               </div>
                             </div>
                             <div className="author-area">
                               <div className="author-img">
                                 <img
-                                  src="/assets/img/home1/testi-author-img2.png"
+                                  src="/assets/img/Ajwa/male_review.jpg"
                                   alt=""
                                 />
                               </div>
                               <div className="author-content">
-                                <h5>Liam Nohkan</h5>
-                                <span>Istanbul</span>
+                                <h5>
+                                  Mohammed Adeeb S</h5>
                               </div>
                             </div>
                           </div>
@@ -292,19 +301,40 @@ const Home1Testimonial = () => {
                           <div className="tesimonial-card-wrapper">
                             <div className="tesimonial-card">
                               <div className="testimonial-content">
-                                <p>
-                                  “Duis ac est tincidunt, bibendum eros
-                                  attendato, dignissim purus. Nunc posuere
-                                  ornare velitbon, bibendum venenatis metus
-                                  bibendum admora. Aliquam at vestibulum.”
+                                <p className="text-gray-700 inline">
+                                  “Our first trip together as a couple to Malaysia was truly unforgettable,all thanks to Ajwa Travels! From seamless bookings to perfectly planned itineraries,
+                                  {!showMore && (
+                                    <>
+                                      ...
+                                      <span
+                                        className="text-blue-600 cursor-pointer hover:underline"
+                                        onClick={toggleShowMore}
+                                      >
+                                        See More
+                                      </span>
+                                    </>
+                                  )}
+                                  {showMore && (
+                                    <span>
+                                      {" "}  everything was handled with such professionalism and care.
+                                      The team ensured we had a stress-free experience, and every detail was taken care of.
+                                      Thank you, @AjwaTravels, for making our first trip so special🥰
+                                    </span>
+                                  )}
                                 </p>
+
+                                {showMore && (
+                                  <p
+                                    className="text-blue-600 text-sm cursor-pointer hover:underline mt-2"
+                                    onClick={toggleShowMore}
+                                  >
+                                    Show Less
+                                  </p>
+                                )}
                               </div>
                               <div className="testimonial-bottom">
                                 <div className="rating-area">
                                   <ul className="rating">
-                                    <li>
-                                      <i className="bi bi-star-fill" />
-                                    </li>
                                     <li>
                                       <i className="bi bi-star-fill" />
                                     </li>
@@ -333,21 +363,20 @@ const Home1Testimonial = () => {
                                   </svg>
                                 </div>
                                 <div className="date-and-time">
-                                  <p>May 9, 2023</p>
-                                  <span>10.30 PM</span>
+                                  <p>Jan, 2025</p>
                                 </div>
                               </div>
                             </div>
                             <div className="author-area">
                               <div className="author-img">
                                 <img
-                                  src="/assets/img/home1/testi-author-img3.png"
+                                  src="/assets/img/Ajwa/female_review.jpg"
                                   alt=""
                                 />
                               </div>
                               <div className="author-content">
-                                <h5>Jack Michael</h5>
-                                <span>Bangladesh</span>
+                                <h5>
+                                  Ashitha s Nair</h5>
                               </div>
                             </div>
                           </div>
@@ -356,19 +385,38 @@ const Home1Testimonial = () => {
                           <div className="tesimonial-card-wrapper">
                             <div className="tesimonial-card">
                               <div className="testimonial-content">
-                                <p>
-                                  “I cannot express enough how satisfied I am
-                                  with the web development services provided by
-                                  Egens Lab. From the initial consultation to
-                                  the final delivery, they have exceeded.”
+                                <p className="text-gray-700 inline">
+                                  “Thanks ajwa travels to serve us excellent service , we have wonderful experience of travelling and enjoying the beauty of maldives , thanks to team ajwa for
+                                  {!showMore && (
+                                    <>
+                                      ...
+                                      <span
+                                        className="text-blue-600 cursor-pointer hover:underline"
+                                        onClick={toggleShowMore}
+                                      >
+                                        See More
+                                      </span>
+                                    </>
+                                  )}
+                                  {showMore && (
+                                    <span>
+                                      {" "}assisting throughout the trip , over all it was an amazing experience for me and my family
+                                    </span>
+                                  )}
                                 </p>
+
+                                {showMore && (
+                                  <p
+                                    className="text-blue-600 text-sm cursor-pointer hover:underline mt-2"
+                                    onClick={toggleShowMore}
+                                  >
+                                    Show Less
+                                  </p>
+                                )}
                               </div>
                               <div className="testimonial-bottom">
                                 <div className="rating-area">
                                   <ul className="rating">
-                                    <li>
-                                      <i className="bi bi-star-fill" />
-                                    </li>
                                     <li>
                                       <i className="bi bi-star-fill" />
                                     </li>
@@ -397,21 +445,20 @@ const Home1Testimonial = () => {
                                   </svg>
                                 </div>
                                 <div className="date-and-time">
-                                  <p>May 9, 2023</p>
-                                  <span>10.30 PM</span>
+                                  <p>Jan, 2025</p>
                                 </div>
                               </div>
                             </div>
                             <div className="author-area">
                               <div className="author-img">
                                 <img
-                                  src="/assets/img/home1/testi-author-img1.png"
+                                  src="/assets/img/Ajwa/female_review.jpg"
                                   alt=""
                                 />
                               </div>
                               <div className="author-content">
-                                <h5>Mateo Daniel</h5>
-                                <span>Indonesia</span>
+                                <h5>
+                                  Ashitha s Nair</h5>
                               </div>
                             </div>
                           </div>
