@@ -60,8 +60,8 @@ const Home1Visa = () => {
         />
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-3 mb-60">
-              <div className="section-title">
+            <div className="col-lg-12 ">
+              <div className="section-title text-center mb-60">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -91,29 +91,6 @@ const Home1Visa = () => {
                 </span>
                 <h2>Visa Processing</h2>
               </div>
-              <div className="slider-btn-grp2">
-                <div className="slider-btn package-card2-prev">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={9}
-                    height={17}
-                    viewBox="0 0 9 17"
-                  >
-                    <path d="M8.83399 0.281832L8.72217 0.16683L0.500652 8.50016L8.72217 16.8335L8.83398 16.7185L8.83398 13.0602L4.33681 8.50016L8.83399 3.94016L8.83399 0.281832Z" />
-                  </svg>
-                </div>
-                <div className="slider-btn package-card2-next">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={9}
-                    height={17}
-                    viewBox="0 0 9 17"
-                    fill="none"
-                  >
-                    <path d="M0.166016 16.7182L0.277828 16.8332L8.49935 8.49984L0.277828 0.166504L0.166016 0.281504V3.93984L4.66319 8.49984L0.166016 13.0598V16.7182Z" />
-                  </svg>
-                </div>
-              </div>
             </div>
           </div>
           <div className="row">
@@ -122,7 +99,7 @@ const Home1Visa = () => {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="package-card2">
-                      <Link href="/visas/visas-details">
+                      <Link href="/visa">
                         <img
                           src="/assets/img/Ajwa/Saudi-ajwaVisa.jpg"
                           alt=""
@@ -130,7 +107,7 @@ const Home1Visa = () => {
                       </Link>
                       <div className="eg-tag">
                         <h4>
-                          <Link href="/visas/visas-details">SAUDI ARABIA</Link>
+                          <Link href="/visa">SAUDI ARABIA</Link>
                         </h4>
                       </div>
                       <div className="package-card2-content">
@@ -146,7 +123,7 @@ const Home1Visa = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="package-card2 style-2">
-                      <Link href="/visas/visas-details">
+                      <Link href="/visa">
                         <img
                           src="/assets/img/Ajwa/Uae-ajwaVisa.jpg"
                           alt=""
@@ -154,7 +131,7 @@ const Home1Visa = () => {
                       </Link>
                       <div className="eg-tag">
                         <h4>
-                          <Link href="/visas/visas-details">UAE</Link>
+                          <Link href="/visa">UAE</Link>
                         </h4>
                       </div>
                       <div className="package-card2-content">
@@ -170,7 +147,7 @@ const Home1Visa = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="package-card2">
-                      <Link href="/visas/visas-details">
+                      <Link href="/visa">
                         <img
                           src="/assets/img/Ajwa/Malaysia-ajwaVisa.jpg"
                           alt=""
@@ -178,7 +155,7 @@ const Home1Visa = () => {
                       </Link>
                       <div className="eg-tag">
                         <h4>
-                          <Link href="/visas/visas-details">MALAYSIA</Link>
+                          <Link href="/visa">MALAYSIA</Link>
                         </h4>
                       </div>
                       <div className="package-card2-content">
@@ -187,54 +164,6 @@ const Home1Visa = () => {
                         </div>
                         <div className="price-area">
                           <span>₹5,999</span>
-                          <p>TAXES INCL/PERS</p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="package-card2 style-2">
-                      <Link href="/visas/visas-details">
-                        <img
-                          src="/assets/img/home1/package-card2-img4.png"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="eg-tag">
-                        <h4>
-                          <Link href="/visas/visas-details">India</Link>
-                        </h4>
-                      </div>
-                      <div className="package-card2-content">
-                        <div className="title">
-                          <h6>E-Visa - Only Processing</h6>
-                        </div>
-                        <div className="price-area">
-                          <span>$3,618</span>
-                          <p>TAXES INCL/PERS</p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="package-card2">
-                      <Link href="/visas/visas-details">
-                        <img
-                          src="/assets/img/home1/package-card2-img5.png"
-                          alt=""
-                        />
-                      </Link>
-                      <div className="eg-tag">
-                        <h4>
-                          <Link href="/visas/visas-details">Brazil</Link>
-                        </h4>
-                      </div>
-                      <div className="package-card2-content">
-                        <div className="title">
-                          <h6>E-Visa - Only Processing</h6>
-                        </div>
-                        <div className="price-area">
-                          <span>$8,798</span>
                           <p>TAXES INCL/PERS</p>
                         </div>
                       </div>
