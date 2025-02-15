@@ -1,4 +1,8 @@
 {
   "/page": "app/page.js",
+  "/services/page": "app/services/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/package/page": "app/package/page.js",
+  "/package/goa-package/page": "app/package/goa-package/page.js",
   "/not-found": "app/not-found.js"
 }
