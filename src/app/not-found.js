@@ -1,6 +1,5 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import Link from "next/link";
 import React from "react";
 
