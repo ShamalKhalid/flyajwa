@@ -1,11 +1,7 @@
 "use client";
-import Newslatter from "@/components/common/Newsletter";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
 import { useState } from "react";
-import Lightbox from "yet-another-react-lightbox";
-import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 
 const Page = () => {
   const [isOpenimg, setOpenimg] = useState({
@@ -187,19 +183,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <Newslatter />
       <Footer />
-      <Lightbox
-        className="img-fluid"
-        open={isOpenimg.openingState}
-        plugins={[Fullscreen]}
-        index={isOpenimg.openingIndex}
-        close={() => setOpenimg(false)}
-        styles={{ container: { backgroundColor: "rgba(0, 0, 0, .9)" } }}
-        slides={images.map(function (elem) {
-          return { src: elem.imageBig };
-        })}
-      />
     </>
   );
 };

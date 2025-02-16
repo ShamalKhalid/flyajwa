@@ -1,10 +1,7 @@
 "use client";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import Newslatter from "@/components/common/Newsletter";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Topbar from "@/components/topbar/Topbar";
-import SelectComponent from "@/uitils/SelectComponent";
 import Link from "next/link";
 import React from "react";
 
