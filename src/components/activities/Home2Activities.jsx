@@ -91,11 +91,11 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link active"
-                            id="outdoor-tab"
+                            id="flight-tab"
                             data-bs-toggle="pill"
-                            data-bs-target="#outdoor"
+                            data-bs-target="#flight"
                             role="tab"
-                            aria-controls="outdoor"
+                            aria-controls="flight"
                             aria-selected="true"
                             style={{ height: '5vh', justifyContent: 'center' }}
                           >
@@ -105,11 +105,11 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link"
-                            id="cultural-tab"
+                            id="visa-tab"
                             data-bs-toggle="pill"
-                            data-bs-target="#cultural"
+                            data-bs-target="#visa"
                             role="tab"
-                            aria-controls="cultural"
+                            aria-controls="visa"
                             aria-selected="false"
                             style={{ height: '5vh', justifyContent: 'center' }}
                           >
@@ -119,11 +119,11 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link"
-                            id="event-tab"
+                            id="recruitment-tab"
                             data-bs-toggle="pill"
-                            data-bs-target="#event"
+                            data-bs-target="#recruitment"
                             role="tab"
-                            aria-controls="event"
+                            aria-controls="recruitment"
                             aria-selected="false"
                             style={{ height: '5vh', justifyContent: 'center' }}
                           >
@@ -133,11 +133,11 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link"
-                            id="event-tab"
+                            id="umrah-tab"
                             data-bs-toggle="pill"
-                            data-bs-target="#event"
+                            data-bs-target="#umrah"
                             role="tab"
-                            aria-controls="event"
+                            aria-controls="umrah"
                             aria-selected="false"
                             style={{ height: '5vh', justifyContent: 'center' }}
                           >
@@ -147,11 +147,11 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link"
-                            id="event-tab"
+                            id="studyAbroad-tab"
                             data-bs-toggle="pill"
-                            data-bs-target="#event"
+                            data-bs-target="#studyAbroad"
                             role="tab"
-                            aria-controls="event"
+                            aria-controls="studyAbroad"
                             aria-selected="false"
                             style={{ height: '5vh', justifyContent: 'center' }}
                           >
@@ -161,11 +161,11 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link"
-                            id="wildlife-tab"
+                            id="document-tab"
                             data-bs-toggle="pill"
-                            data-bs-target="#wildlife"
+                            data-bs-target="#document"
                             role="tab"
-                            aria-controls="wildlife"
+                            aria-controls="document"
                             aria-selected="false"
                             style={{ height: '5vh', justifyContent: 'center' }}
                           >
@@ -175,11 +175,11 @@ const Home2Activities = () => {
                         <li className="nav-item" role="presentation">
                           <div
                             className="nav-link"
-                            id="event-tab"
+                            id="tours-tab"
                             data-bs-toggle="pill"
-                            data-bs-target="#event"
+                            data-bs-target="#tours"
                             role="tab"
-                            aria-controls="event"
+                            aria-controls="tours"
                             aria-selected="false"
                             style={{ height: '5vh', justifyContent: 'center' }}
                           >
@@ -193,17 +193,14 @@ const Home2Activities = () => {
                     <div className="tab-content" id="pills-tab3Content">
                       <div
                         className="tab-pane fade show active"
-                        id="outdoor"
+                        id="flight"
                         role="tabpanel"
-                        aria-labelledby="outdoor-tab"
+                        aria-labelledby="flight-tab"
                       >
                         <div className="tab-content-wrap">
-                          <h2>Thrill Above Ground: The Zip Line Adventure</h2>
+                          <h2>Seamless Skies: Your Flight Ticket Awaits</h2>
                           <p>
-                            Embark on an adrenaline-fueled journey, zipping
-                            through lush landscapes, feeling the wind rush past,
-                            and experiencing nature from breathtaking heights.
-                            Unleash your inner adventurer today.
+                            Book your journey effortlessly and soar to your destination with ease. Enjoy competitive fares, smooth bookings, and a hassle-free travel experience. Let your adventure take flight today.
                           </p>
                           <ul>
                             <li>
@@ -215,7 +212,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Treetop Views
+                              Best Deals & Competitive Pricing
                             </li>
                             <li>
                               <svg
@@ -226,7 +223,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Adrenaline Rush
+                              Flexible Booking Options
                             </li>
                             <li>
                               <svg
@@ -237,7 +234,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Safety Measures
+                              Secure & Reliable
                             </li>
                             <li>
                               <svg
@@ -248,33 +245,31 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Nature Immersion
+                              Global Destinations
                             </li>
                           </ul>
                           <div className="content-bottom-area">
                             <Link
-                              href="/activities/activities-details"
+                              href="/services"
                               className="primary-btn3"
                             >
-                              Check Availability
+                              Contact Us
                             </Link>
                           </div>
                         </div>
                       </div>
                       <div
                         className="tab-pane fade"
-                        id="cultural"
+                        id="visa"
                         role="tabpanel"
-                        aria-labelledby="cultural-tab"
+                        aria-labelledby="visa-tab"
                       >
                         <div className=" tab-content-wrap">
                           <h2>
-                            Plunge: Bungee Jumping's Gravity-Defying Thrill
+                            Hassle-Free Visas: Your Gateway to the World
                           </h2>
                           <p>
-                            Plunge into pure adrenaline. Free fall, then
-                            rebound, suspended mid-air. Experience the ultimate
-                            rush, a heart-pounding leap into the unknown.
+                            Simplify your travel with seamless visa assistance. From application to approval, we ensure a smooth process so you can focus on your journey. Let us handle the paperwork while you prepare for your adventure.
                           </p>
                           <ul>
                             <li>
@@ -286,7 +281,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Professional Guidance
+                              Expert Guidance
                             </li>
                             <li>
                               <svg
@@ -297,7 +292,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Secure Harnesses
+                              Smooth & Fast Processing
                             </li>
                             <li>
                               <svg
@@ -308,7 +303,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Adrenaline Rush
+                              Visas for Multiple Destinations
                             </li>
                             <li>
                               <svg
@@ -319,31 +314,29 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Scenic Locations
+                              Hassle-Free Documentation
                             </li>
                           </ul>
                           <div className="content-bottom-area">
                             <Link
-                              href="/activities/activities-details"
+                              href="/services"
                               className="primary-btn3"
                             >
-                              Check Availability
+                              Contact Us
                             </Link>
                           </div>
                         </div>
                       </div>
                       <div
                         className="tab-pane fade"
-                        id="cuisine"
+                        id="recruitment"
                         role="tabpanel"
-                        aria-labelledby="cuisine-tab"
+                        aria-labelledby="recruitment-tab"
                       >
                         <div className=" tab-content-wrap">
-                          <h2>Whitewater Rush: Thrilling Rafting Adventure</h2>
+                          <h2>Career Gateway: Your Job Recruitment Partner</h2>
                           <p>
-                            Ride through rapids, paddle through currents, and
-                            enjoy thrilling adventures with expert guides amidst
-                            stunning natural landscapes and excitement.
+                            Unlock exciting job opportunities with our expert recruitment services. Whether you're seeking your dream job or hiring top talent, we connect the right people to the right roles effortlessly.
                           </p>
                           <ul>
                             <li>
@@ -355,7 +348,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Professional Guides
+                              Global Job Opportunities
                             </li>
                             <li>
                               <svg
@@ -366,7 +359,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Adventurous Rapids
+                              Tailored Job Matching
                             </li>
                             <li>
                               <svg
@@ -377,7 +370,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Scenic Landscapes
+                              Hassle-Free Documentation
                             </li>
                             <li>
                               <svg
@@ -388,34 +381,31 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Team Experience
+                              Trusted Recruitment Process
                             </li>
                           </ul>
                           <div className="content-bottom-area">
                             <Link
-                              href="/activities/activities-details"
+                              href="/services"
                               className="primary-btn3"
                             >
-                              Check Availability
+                              Contact Us
                             </Link>
                           </div>
                         </div>
                       </div>
                       <div
                         className="tab-pane fade"
-                        id="wildlife"
+                        id="umrah"
                         role="tabpanel"
-                        aria-labelledby="wildlife-tab"
+                        aria-labelledby="umrah-tab"
                       >
                         <div className=" tab-content-wrap">
                           <h2>
-                            Horizon Dance: Unique Paragliding Perspectives.
+                            Spiritual Journeys: Umrah & Hajj Packages
                           </h2>
                           <p>
-                            Experience freedom in flight, soaring gracefully
-                            over landscapes, feeling the wind's embrace on an
-                            exhilarating paragliding escapade. Adventure awaits
-                            above!
+                            Embark on a blessed journey with our carefully curated Umrah and Hajj packages. Experience a hassle-free pilgrimage with expert guidance, comfortable accommodations, and seamless travel arrangements.
                           </p>
                           <ul>
                             <li>
@@ -427,7 +417,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Glide Experience
+                              Customized Packages
                             </li>
                             <li>
                               <svg
@@ -438,7 +428,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Scenic Views
+                              Flights & Accommodation
                             </li>
                             <li>
                               <svg
@@ -449,7 +439,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Safety Measures
+                              Spiritual Guidance
                             </li>
                             <li>
                               <svg
@@ -460,34 +450,31 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Adventurous Spirit
+                              Visa & Documentation Assistance
                             </li>
                           </ul>
                           <div className="content-bottom-area">
                             <Link
-                              href="/activities/activities-details"
+                              href="/services"
                               className="primary-btn3"
                             >
-                              Check Availability
+                              Contact Us
                             </Link>
                           </div>
                         </div>
                       </div>
                       <div
                         className="tab-pane fade"
-                        id="event"
+                        id="studyAbroad"
                         role="tabpanel"
-                        aria-labelledby="event-tab"
+                        aria-labelledby="studyAbroad-tab"
                       >
                         <div className=" tab-content-wrap">
                           <h2>
-                            Powder Quest: Exploring Snow-Covered Landscapes on
-                            Skis
+                            Study Abroad: Your Global Education Journey
                           </h2>
                           <p>
-                            Ski tour through pristine snowscapes, ascend peaks,
-                            and savor thrilling descents, immersing in nature's
-                            beauty on an exhilarating adventure.
+                            Turn your dream of studying abroad into reality with our expert guidance. From university selection to visa assistance, we ensure a smooth transition to your international education journey.
                           </p>
                           <ul>
                             <li>
@@ -499,7 +486,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Ascend and Descend
+                              Top Universities & Courses
                             </li>
                             <li>
                               <svg
@@ -510,7 +497,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Specialized Equipment
+                              Hassle-Free Admission Process
                             </li>
                             <li>
                               <svg
@@ -521,7 +508,7 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Remote Exploration
+                              Visa & Documentation Support
                             </li>
                             <li>
                               <svg
@@ -532,15 +519,153 @@ const Home2Activities = () => {
                               >
                                 <circle cx="4.5" cy="4.5" r="4.5" />
                               </svg>
-                              Physical Challenge
+                              Global Study Destinations
                             </li>
                           </ul>
                           <div className="content-bottom-area">
                             <Link
-                              href="/activities/activities-details"
+                              href="/services"
                               className="primary-btn3"
                             >
-                              Check Availability
+                              Contact Us
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="tab-pane fade"
+                        id="document"
+                        role="tabpanel"
+                        aria-labelledby="document-tab"
+                      >
+                        <div className=" tab-content-wrap">
+                          <h2>
+                            Document Attestation: Fast & Reliable Services
+                          </h2>
+                          <p>
+                            Get your documents attested seamlessly for international use. We ensure a hassle-free process with authentication from relevant authorities, making your paperwork valid worldwide.
+                          </p>
+                          <ul>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Educational & Personal Documents
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Embassy & Government Attestation
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Fast & Secure Processing
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Accepted Worldwide
+                            </li>
+                          </ul>
+                          <div className="content-bottom-area">
+                            <Link
+                              href="/services"
+                              className="primary-btn3"
+                            >
+                              Contact Us
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="tab-pane fade"
+                        id="tours"
+                        role="tabpanel"
+                        aria-labelledby="tours-tab"
+                      >
+                        <div className=" tab-content-wrap">
+                          <h2>
+                            Explore the World: Customized Tours & Travel Packages
+                          </h2>
+                          <p>
+                            Discover breathtaking destinations with our expertly crafted travel packages. Whether it’s a relaxing getaway or an adventure-filled trip, we ensure a seamless and unforgettable experience.
+                          </p>
+                          <ul>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Worldwide Destinations
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Flights & Accommodation
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Tailored Itineraries
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={9}
+                                height={9}
+                                viewBox="0 0 9 9"
+                              >
+                                <circle cx="4.5" cy="4.5" r="4.5" />
+                              </svg>
+                              Expert Travel Assistance
+                            </li>
+                          </ul>
+                          <div className="content-bottom-area">
+                            <Link
+                              href="/services"
+                              className="primary-btn3"
+                            >
+                              Contact Us
                             </Link>
                           </div>
                         </div>
