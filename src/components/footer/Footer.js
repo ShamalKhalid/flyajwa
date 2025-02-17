@@ -35,7 +35,7 @@ const Footer = ({ style }) => {
                   Want to Take Tour Packages<span>?</span>
                 </h3>
                 <Link href="/package" className="primary-btn1">
-                  Book A Tour
+                  Check our packages
                 </Link>
               </div>
             </div>
@@ -49,13 +49,13 @@ const Footer = ({ style }) => {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/destination">Destinations</Link>
+                    <Link href="/package">Tour Packages</Link>
                   </li>
                   <li>
-                    <Link href="/package-grid">Tour Package</Link>
+                    <Link href="/services">Services</Link>
                   </li>
                   <li>
-                    <Link href="/guide2">Contact</Link>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>

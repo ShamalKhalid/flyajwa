@@ -136,11 +136,11 @@ const Home2About = () => {
                   <div className="content">
                     <div className="number">
                       <h5 className="counter">
-                        <CountUp delay={2} end={60} />
+                        <CountUp delay={2} end={10} />
                       </h5>
                       <span>K+</span>
                     </div>
-                    <p>Happy Traveler</p>
+                    <p>Happy Travellers</p>
                   </div>
                 </div>
               </div>
@@ -161,11 +161,11 @@ const Home2About = () => {
                   <div className="content">
                     <div className="number">
                       <h5 className="counter">
-                        <CountUp delay={2} end={60} />
+                        <CountUp delay={2} end={4} />
                       </h5>
                       <span>K+</span>
                     </div>
-                    <p>Tours Success</p>
+                    <p>Successful Tours</p>
                   </div>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const Home2About = () => {
                   <div className="content">
                     <div className="number">
                       <h5 className="counter">
-                        <CountUp delay={2} end={60} />
+                        <CountUp delay={2} end={99} />
                       </h5>
                       <span>%</span>
                     </div>
@@ -234,10 +234,10 @@ const Home2About = () => {
                 <strong>Excellent!</strong>
                 <img src="/assets/img/home2/icon/tripadvisor-star.svg" alt="" />
                 <p>
-                  <strong>5.0</strong> Rating out of <strong>5.0</strong> based
+                  <strong>4.9</strong> Rating out of <strong>5.0</strong> based
                   on{" "}
                   <a href="https://www.tripadvisor.com/">
-                    <strong>245354</strong>
+                    <strong>400</strong>
                     reviews
                   </a>
                 </p>
