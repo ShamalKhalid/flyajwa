@@ -26,6 +26,18 @@
       "static/chunks/main-app.js",
       "static/chunks/app/package/page.js"
     ],
+    "/package/azerbaijan-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/azerbaijan-package/page.css",
+      "static/chunks/app/package/azerbaijan-package/page.js"
+    ],
+    "/package/thailand-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/thailand-package/page.css",
+      "static/chunks/app/package/thailand-package/page.js"
+    ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -36,25 +48,46 @@
       "static/chunks/main-app.js",
       "static/chunks/app/services/page.js"
     ],
-    "/visa/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/visa/page.js"
-    ],
     "/gallery/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/gallery/page.js"
     ],
-    "/contact/page": [
+    "/package/maldives-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
+      "static/css/app/package/maldives-package/page.css",
+      "static/chunks/app/package/maldives-package/page.js"
     ],
-    "/contact/layout": [
+    "/package/malaysia-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact/layout.js"
+      "static/css/app/package/malaysia-package/page.css",
+      "static/chunks/app/package/malaysia-package/page.js"
+    ],
+    "/package/vietnam-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/vietnam-package/page.css",
+      "static/chunks/app/package/vietnam-package/page.js"
+    ],
+    "/package/dubai-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/dubai-package/page.css",
+      "static/chunks/app/package/dubai-package/page.js"
+    ],
+    "/package/manali-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/manali-package/page.css",
+      "static/chunks/app/package/manali-package/page.js"
+    ],
+    "/package/goa-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/goa-package/page.css",
+      "static/chunks/app/package/goa-package/page.js"
     ]
   }
 }
