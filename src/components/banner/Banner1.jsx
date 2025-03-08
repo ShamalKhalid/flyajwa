@@ -189,7 +189,7 @@ const Banner1 = () => {
                   className="home1-banner-wrapper"
                   style={{
                     backgroundImage:
-                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Azerbaijan-ajwa.jpg)",
+                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Azerbaijan-ajwa2.jpg)",
                   }}
                 >
                   <div className="container">

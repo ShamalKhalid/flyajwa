@@ -96,7 +96,7 @@ const page = () => {
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/Ajwa/Malaysia-ajwa.jpg"
+                            src="/assets/img/Ajwa//Malaysia/Malaysia-ajwa.jpg"
                             alt=""
                           />
                         </Link>
