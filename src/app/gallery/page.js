@@ -1,186 +1,50 @@
 "use client";
+import { useState } from "react";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import { useState } from "react";
+import galleryImages from "@/data/galleryData"; // Importing images
 
 const Page = () => {
-  const [isOpenimg, setOpenimg] = useState({
-    openingState: false,
-    openingIndex: 0,
-  });
-  const images = [
-    {
-      id: 6,
-      imageBig: "/assets/img/innerpage/gallery-06.jpg",
-    },
-    {
-      id: 1,
-      imageBig: "/assets/img/innerpage/gallery-01.jpg",
-    },
-    {
-      id: 2,
-      imageBig: "/assets/img/innerpage/gallery-02.jpg",
-    },
-    {
-      id: 3,
-      imageBig: "/assets/img/innerpage/gallery-03.jpg",
-    },
-    {
-      id: 4,
-      imageBig: "/assets/img/innerpage/gallery-04.jpg",
-    },
-    {
-      id: 5,
-      imageBig: "/assets/img/innerpage/gallery-05.jpg",
-    },
-    {
-      id: 6,
-      imageBig: "/assets/img/innerpage/gallery-06.jpg",
-    },
-    {
-      id: 7,
-      imageBig: "/assets/img/innerpage/gallery-07.jpg",
-    },
-    {
-      id: 8,
-      imageBig: "/assets/img/innerpage/gallery-08.jpg",
-    },
-    {
-      id: 9,
-      imageBig: "/assets/img/innerpage/gallery-09.jpg",
-    },
-  ];
+  const [visibleCount, setVisibleCount] = useState(12); // Show 12 images initially
+  const batchSize = 9; // Number of images to load per click
+
+  const loadMoreImages = () => {
+    setVisibleCount((prevCount) => prevCount + batchSize);
+  };
+
   return (
     <>
       <Header />
+      <div className="row mt-50">
+        <div className="col-lg-12">
+          <div className="section-title2 text-center">
+            <div className="eg-section-tag">
+              <span>Captured Moments with Ajwa</span>
+            </div>
+            <h2>Cherished Travels, Unforgettable Memories</h2>
+          </div>
+        </div>
+      </div>
       <div className="destination-gallery pt-120 mb-120">
         <div className="container">
-          <div className="row g-4 mb-70">
-            <div className="col-lg-4 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-06.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 0 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
+          <div className="row g-3">
+            {galleryImages.slice(0, visibleCount).map((img) => (
+              <div key={img.id} className="col-lg-4 col-md-4 col-sm-6">
+                <div className="gallery-img-wrap">
+                  <img src={img.imageBig} alt={`Gallery ${img.id}`} />
+                </div>
               </div>
-            </div>
-            <div className="col-lg-5 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-01.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 1 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-02.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 2 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-03.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 3 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-04.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 4 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-5 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-05.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 5 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-07.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 6 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-5 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-08.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 7 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="gallery-img-wrap">
-                <img src="/assets/img/innerpage/gallery-09.jpg" alt="" />
-                <a
-                  data-fancybox="gallery-01"
-                  onClick={() =>
-                    setOpenimg({ openingState: true, openingIndex: 8 })
-                  }
-                >
-                  <i className="bi bi-eye" /> Discover Island
-                </a>
-              </div>
-            </div>
+            ))}
           </div>
-          <div className="row">
-            <div className="col-lg-12 d-flex justify-content-center">
-              <a href="#" className="primary-btn1">
-                Load More
-              </a>
+          {visibleCount < galleryImages.length && (
+            <div className="row">
+              <div className="col-lg-12 d-flex justify-content-center mt-50">
+                <button onClick={loadMoreImages} className="primary-btn1">
+                  Load More
+                </button>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
       <Footer />

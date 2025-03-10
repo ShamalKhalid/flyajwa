@@ -21,7 +21,7 @@ const page = () => {
       <Home2About />
       <Home2WhyChoose />
       <Home2Activities />
-      <Home2Team />
+      {/* <Home2Team /> */}
       <Footer />
     </>
   );
