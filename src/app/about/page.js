@@ -6,11 +6,11 @@ import Home2Team from "@/components/team/Home2Team";
 import Home2WhyChoose from "@/components/whyChoose/Home2WhyChoose";
 import Home2About from "@/components/about/Home2About";
 export const metadata = {
-  title: "TripRex - Tour & Travel Agency  NextJs Template",
+  title: "Fly Ajwa by Ajwa Travels and Holidays",
   description:
-    "TripRex is a NextJs Template for Tour and Travel Agency purpose",
+    "Explore amazing travel packages with Ajwa Travels and Holidays. Plan your dream vacation now with FlyAjwa.in.",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/Ajwa/logo-ajwa.png",
   },
 };
 const page = () => {
