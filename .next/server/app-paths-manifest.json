@@ -1,11 +1,4 @@
 {
-  "/package/page": "app/package/page.js",
-  "/about/page": "app/about/page.js",
-  "/package/azerbaijan-package/page": "app/package/azerbaijan-package/page.js",
-  "/package/vietnam-package/page": "app/package/vietnam-package/page.js",
-  "/not-found": "app/not-found.js",
-  "/package/maldives-package/page": "app/package/maldives-package/page.js",
-  "/package/malaysia-package/page": "app/package/malaysia-package/page.js",
-  "/package/thailand-package/page": "app/package/thailand-package/page.js",
-  "/package/dubai-package/page": "app/package/dubai-package/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
 }
