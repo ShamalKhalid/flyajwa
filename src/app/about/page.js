@@ -6,9 +6,9 @@ import Home2Team from "@/components/team/Home2Team";
 import Home2WhyChoose from "@/components/whyChoose/Home2WhyChoose";
 import Home2About from "@/components/about/Home2About";
 export const metadata = {
-  title: "Fly Ajwa by Ajwa Travels and Holidays",
+  title: "Flyajwa Travels and Holidays",
   description:
-    "Explore amazing travel packages with Ajwa Travels and Holidays. Plan your dream vacation now with FlyAjwa.in.",
+    "Explore amazing travel packages with flyajwa Travels and Holidays. Plan your dream vacation now with FlyAjwa.in.",
   icons: {
     icon: "/assets/img/Ajwa/logo-ajwa.png",
   },
