@@ -213,48 +213,6 @@ const Page = () => {
                 tranquil riverside landscapes, immerse yourself in a journey of
                 culture, adventure, and natural wonders.
               </p>
-              <h4>Included and Excluded</h4>
-              <div className="includ-and-exclud-area mb-20">
-                <ul>
-                  <li>
-                    <i className="bi bi-check-lg" /> Meal as per hotel Plan and
-                    drinks free too.
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Return airport and round
-                    trip transfers.
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Accommodation on twin
-                    sharing basis.
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> The above rates are on per
-                    day disposal basi
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Enjoy Brussels day tours.
-                    Overnight Brussels
-                  </li>
-                </ul>
-                <ul className="exclud">
-                  <li>
-                    <i className="bi bi-x-lg" /> AC will not be functional on
-                    Hills or Slopes.
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" /> Any other service not mentioned
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" /> Additional entry fees other
-                    than specified
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" /> Amsterdam canal cruise not
-                    included for basic
-                  </li>
-                </ul>
-              </div>
               <div className="highlight-tour mb-20">
                 <h4>Highlights of the Tour</h4>
                 <ul>

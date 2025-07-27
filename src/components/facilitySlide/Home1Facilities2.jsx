@@ -144,7 +144,7 @@ const Home1Facilities2 = () => {
                             />
                           </Link>
                           <div className="batch">
-                            <span className="date">3 Days / 4 Night</span>
+                            <span className="date">5 Days / 4 Night</span>
                             <div className="location">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +233,7 @@ const Home1Facilities2 = () => {
                             />
                           </Link>
                           <div className="batch">
-                            <span className="date">7 Days / 8 Night</span>
+                            <span className="date">5 Days / 4 Night</span>
                             <div className="location">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -320,7 +320,7 @@ const Home1Facilities2 = () => {
                             />
                           </Link>
                           <div className="batch">
-                            <span className="date">5 Days / 6 Night</span>
+                            <span className="date">5 Days / 4 Night</span>
                             <div className="location">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"

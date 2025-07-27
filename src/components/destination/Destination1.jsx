@@ -55,7 +55,7 @@ const Destination1 = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="/destination/destination-details">Azerbaijan</Link>
+                    <Link href="/package/azerbaijan-package">Azerbaijan</Link>
                   </h4>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Destination1 = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="/destination/destination-details">Malaysia</Link>
+                    <Link href="/package/malaysia-package">Malaysia</Link>
                   </h4>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Destination1 = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="/destination/destination-details">
+                    <Link href="/package/maldives-package">
                       Maldives
                     </Link>
                   </h4>
@@ -99,7 +99,7 @@ const Destination1 = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="/destination/destination-details">Thailand</Link>
+                    <Link href="/package/thailand-package">Thailand</Link>
                   </h4>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const Destination1 = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="/destination/destination-details">Indian Subcontinet</Link>
+                    <Link href="/package">Indian Subcontinet</Link>
                   </h4>
                 </div>
               </div>
@@ -125,7 +125,7 @@ const Destination1 = () => {
                     <span>Go visit</span>
                   </div>
                   <h2>All Destinations</h2>
-                  <Link href="/destination" className="primary-btn1">
+                  <Link href="/package" className="primary-btn1">
                     View All Destination
                   </Link>
                 </div>
