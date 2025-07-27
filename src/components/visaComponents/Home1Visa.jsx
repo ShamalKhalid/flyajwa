@@ -99,7 +99,7 @@ const Home1Visa = () => {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="package-card2">
-                      <Link href="/visa">
+                      <Link href="/contact">
                         <img
                           src="/assets/img/Ajwa/Saudi-ajwaVisa.jpg"
                           alt=""
@@ -107,7 +107,7 @@ const Home1Visa = () => {
                       </Link>
                       <div className="eg-tag">
                         <h4>
-                          <Link href="/visa">SAUDI ARABIA</Link>
+                          <Link href="/contact">SAUDI ARABIA</Link>
                         </h4>
                       </div>
                       <div className="package-card2-content">
@@ -123,7 +123,7 @@ const Home1Visa = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="package-card2 style-2">
-                      <Link href="/visa">
+                      <Link href="/contact">
                         <img
                           src="/assets/img/Ajwa/Uae-ajwaVisa.jpg"
                           alt=""
@@ -131,7 +131,7 @@ const Home1Visa = () => {
                       </Link>
                       <div className="eg-tag">
                         <h4>
-                          <Link href="/visa">UAE</Link>
+                          <Link href="/contact">UAE</Link>
                         </h4>
                       </div>
                       <div className="package-card2-content">
@@ -147,7 +147,7 @@ const Home1Visa = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="package-card2">
-                      <Link href="/visa">
+                      <Link href="/contact">
                         <img
                           src="/assets/img/Ajwa/Malaysia-ajwaVisa.jpg"
                           alt=""
@@ -155,7 +155,7 @@ const Home1Visa = () => {
                       </Link>
                       <div className="eg-tag">
                         <h4>
-                          <Link href="/visa">MALAYSIA</Link>
+                          <Link href="/contact">MALAYSIA</Link>
                         </h4>
                       </div>
                       <div className="package-card2-content">
