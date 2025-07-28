@@ -65,7 +65,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting From:</h6>
-                            <span>₹69,499</span>
+                            <span>₹24,499</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -130,7 +130,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹34,999</span>
+                            <span>₹15,999</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -198,7 +198,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹67,999</span>
+                            <span>₹24,499</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -266,7 +266,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹79,999</span>
+                            <span>₹18,499</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -334,7 +334,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹87,499</span>
+                            <span>₹17,499</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -400,7 +400,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹57,999</span>
+                            <span>₹25,499</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -468,7 +468,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹9,499</span>
+                            <span>₹10,999</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link
@@ -527,7 +527,7 @@ const page = () => {
                         <div className="card-content-bottom">
                           <div className="price-area">
                             <h6>Starting Form:</h6>
-                            <span>₹4,999</span>
+                            <span>₹8,999</span>
                             <p>TAXES INCL/PERS</p>
                           </div>
                           <Link

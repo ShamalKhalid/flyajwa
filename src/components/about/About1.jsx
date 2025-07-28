@@ -114,7 +114,7 @@ const About1 = () => {
                     id="mission"
                     role="tabpanel"
                   >
-                    At Fly Ajwa Travels and Tours, our mission is to provide exceptional travel experiences that blend comfort, affordability, and personalized service. We aim to make every journey seamless, enriching, and memorable by offering well-curated travel packages, seamless booking services, and expert guidance. Our commitment is to deliver high-quality travel solutions while ensuring customer satisfaction, safety, and hassle-free adventures.
+                    At Fly Ajwa Travels &amp; Holidays, our mission is to provide exceptional travel experiences that blend comfort, affordability, and personalized service. We aim to make every journey seamless, enriching, and memorable by offering well-curated travel packages, seamless booking services, and expert guidance. Our commitment is to deliver high-quality travel solutions while ensuring customer satisfaction, safety, and hassle-free adventures.
                   </div>
                   <div
                     className="tab-pane fade"

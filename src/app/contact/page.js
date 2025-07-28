@@ -147,8 +147,8 @@ const page = () => {
                 <div className="content">
                   <h6>
                     <a href="https://g.co/kgs/5fYjKgq">
-                      Flyajwa travels and tours,<br></br> 1st floor, CK Tower,
-                      Pattambi Rd,<br></br> Edappal, Kerala 679576
+                      Flyajwa Travels &amp; Holidays<br></br> 1st floor, CK
+                      Tower, Pattambi Rd,<br></br> Edappal, Kerala 679576
                     </a>
                   </h6>
                 </div>
@@ -203,7 +203,7 @@ const page = () => {
               <div className="contact-form-area">
                 <h3>Send us your Enquiries</h3>
                 <form
-                  action="https://formsubmit.co/8e6c36073e90dccd68dd5d8a31e10816"
+                  action="https://formsubmit.co/d74c7dfbe2d4e6a0f38bce022f10fb63"
                   method="POST"
                 >
                   <div className="row">

@@ -642,15 +642,15 @@ const Page = () => {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          You can book a trip with Flyajwa Travels &amp; Tours
-                          by contacting us via WhatsApp, call, or email.Share
-                          your travel preferences, including destination, travel
-                          dates, and any specific requirements. Our team will
-                          provide you with a customized itinerary and pricing
-                          details. Once you confirm the booking and complete the
-                          payment, you will receive a confirmation with all
-                          necessary details. For any queries or assistance, feel
-                          free to get in touch.
+                          You can book a trip with Flyajwa Travels &amp;
+                          Holidays by contacting us via WhatsApp, call, or
+                          email.Share your travel preferences, including
+                          destination, travel dates, and any specific
+                          requirements. Our team will provide you with a
+                          customized itinerary and pricing details. Once you
+                          confirm the booking and complete the payment, you will
+                          receive a confirmation with all necessary details. For
+                          any queries or assistance, feel free to get in touch.
                         </div>
                       </div>
                     </div>
