@@ -19,6 +19,33 @@ const page = () => {
                   <div className="col-lg-4 col-md-6 item">
                     <div className="package-card">
                       <div className="package-card-img-wrap">
+                        <Link href="/contact" className="card-img">
+                          <img
+                            src="/assets/img/ajwa/services/tours.jpg"
+                            alt=""
+                          />
+                        </Link>
+                      </div>
+                      <div className="package-card-content">
+                        <div
+                          className="card-content-top"
+                          style={{ textAlign: "center!important" }}
+                        >
+                          <h5>
+                            <Link href="/contact">Tours</Link>
+                          </h5>
+                        </div>
+                        <div className="card-content-bottom">
+                          <Link href="/contact" className="primary-btn6">
+                            Contact Us
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 item">
+                    <div className="package-card">
+                      <div className="package-card-img-wrap">
                         <Link href="/visa" className="card-img">
                           <img
                             src="/assets/img/ajwa/services/visa.jpg"
@@ -32,7 +59,34 @@ const page = () => {
                           style={{ textAlign: "center!important" }}
                         >
                           <h5>
-                            <Link href="/contact">Visit Visas</Link>
+                            <Link href="/contact">Visa Services</Link>
+                          </h5>
+                        </div>
+                        <div className="card-content-bottom">
+                          <Link href="/contact" className="primary-btn6">
+                            Contact Us
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 item">
+                    <div className="package-card">
+                      <div className="package-card-img-wrap">
+                        <Link href="/contact" className="card-img">
+                          <img
+                            src="/assets/img/ajwa/services/study-abroad.jpg"
+                            alt=""
+                          />
+                        </Link>
+                      </div>
+                      <div className="package-card-content">
+                        <div
+                          className="card-content-top"
+                          style={{ textAlign: "center!important" }}
+                        >
+                          <h5>
+                            <Link href="/contact">Study Abroad</Link>
                           </h5>
                         </div>
                         <div className="card-content-bottom">
@@ -59,7 +113,34 @@ const page = () => {
                           style={{ textAlign: "center!important" }}
                         >
                           <h5>
-                            <Link href="/contact">Recruitment</Link>
+                            <Link href="/contact">Overseas Recruitment</Link>
+                          </h5>
+                        </div>
+                        <div className="card-content-bottom">
+                          <Link href="/contact" className="primary-btn6">
+                            Contact Us
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6 item">
+                    <div className="package-card">
+                      <div className="package-card-img-wrap">
+                        <Link href="/contact" className="card-img">
+                          <img
+                            src="/assets/img/ajwa/services/tickets.jpg"
+                            alt=""
+                          />
+                        </Link>
+                      </div>
+                      <div className="package-card-content">
+                        <div
+                          className="card-content-top"
+                          style={{ textAlign: "center!important" }}
+                        >
+                          <h5>
+                            <Link href="/contact">Ticketing Services</Link>
                           </h5>
                         </div>
                         <div className="card-content-bottom">
@@ -86,9 +167,7 @@ const page = () => {
                           style={{ textAlign: "center!important" }}
                         >
                           <h5>
-                            <Link href="/contact">
-                              Umrah &amp; Hajj booking
-                            </Link>
+                            <Link href="/contact">Umrah &amp; Hajj</Link>
                           </h5>
                         </div>
                         <div className="card-content-bottom">
@@ -116,60 +195,6 @@ const page = () => {
                         >
                           <h5>
                             <Link href="/contact">Document Attestation</Link>
-                          </h5>
-                        </div>
-                        <div className="card-content-bottom">
-                          <Link href="/contact" className="primary-btn6">
-                            Contact Us
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 item">
-                    <div className="package-card">
-                      <div className="package-card-img-wrap">
-                        <Link href="/contact" className="card-img">
-                          <img
-                            src="/assets/img/ajwa/services/tickets.jpg"
-                            alt=""
-                          />
-                        </Link>
-                      </div>
-                      <div className="package-card-content">
-                        <div
-                          className="card-content-top"
-                          style={{ textAlign: "center!important" }}
-                        >
-                          <h5>
-                            <Link href="/contact">Flight Tickets</Link>
-                          </h5>
-                        </div>
-                        <div className="card-content-bottom">
-                          <Link href="/contact" className="primary-btn6">
-                            Contact Us
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 item">
-                    <div className="package-card">
-                      <div className="package-card-img-wrap">
-                        <Link href="/contact" className="card-img">
-                          <img
-                            src="/assets/img/ajwa/services/tours.jpg"
-                            alt=""
-                          />
-                        </Link>
-                      </div>
-                      <div className="package-card-content">
-                        <div
-                          className="card-content-top"
-                          style={{ textAlign: "center!important" }}
-                        >
-                          <h5>
-                            <Link href="/contact">Study Abroad</Link>
                           </h5>
                         </div>
                         <div className="card-content-bottom">

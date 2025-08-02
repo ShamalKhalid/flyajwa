@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/services/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/services/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -26,30 +26,22 @@
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
     ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
-    ],
     "/package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/package/page.js"
     ],
-    "/services/page": [
+    "/package/azerbaijan-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/services/page.js"
+      "static/css/app/package/azerbaijan-package/page.css",
+      "static/chunks/app/package/azerbaijan-package/page.js"
     ],
-    "/contact/page": [
+    "/package/goa-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/contact/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/layout.js"
+      "static/css/app/package/goa-package/page.css",
+      "static/chunks/app/package/goa-package/page.js"
     ]
   }
 }

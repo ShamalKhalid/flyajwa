@@ -184,7 +184,7 @@ const Page = () => {
               <h2>Experience Azerbaijan’s Wonders, Culture &amp; Vibrance.</h2>
               <div className="tour-price">
                 <span>From:&nbsp;</span>
-                <h3>₹67,999/</h3>
+                <h3>₹24,499/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">

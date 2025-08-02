@@ -181,7 +181,7 @@ const Page = () => {
               <h2>Experience the Maldives: A Thrilling Adventure Awaits!</h2>
               <div className="tour-price">
                 <span>From:&nbsp;</span>
-                <h3>₹70000/</h3>
+                <h3>₹24,499/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">

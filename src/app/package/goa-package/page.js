@@ -170,7 +170,7 @@ const Page = () => {
               </h2>
               <div className="tour-price">
                 <span>From:&nbsp;</span>
-                <h3>₹9,499/</h3>
+                <h3>₹8,999/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">
