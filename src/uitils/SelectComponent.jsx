@@ -32,9 +32,8 @@ const SelectComponent = ({ options, placeholder, open, customClass }) => {
     };
   }, [isOpen]);
 
-  const dropdownClassName = `nice-select ${customClass || ""} ${
-    isOpen ? "open" : ""
-  }`;
+  const dropdownClassName = `nice-select ${customClass || ""} ${isOpen ? "open" : ""
+    }`;
 
   return (
     <div
@@ -48,9 +47,8 @@ const SelectComponent = ({ options, placeholder, open, customClass }) => {
         {options.map((option, index) => (
           <li
             key={index}
-            className={`option${
-              selectedOption === option ? " selected focus" : ""
-            }`}
+            className={`option${selectedOption === option ? " selected focus" : ""
+              }`}
             data-value={index}
             onClick={() => {
               selectOption(option);
