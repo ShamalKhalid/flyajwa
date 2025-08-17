@@ -586,7 +586,8 @@ const Home1Facilities2 = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    {/* Rajasthan Commented */}
+                    {/* <div className="col-lg-4 col-md-6">
                       <div className="package-card">
                         <div className="package-card-img-wrap">
                           <Link
@@ -674,7 +675,7 @@ const Home1Facilities2 = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
