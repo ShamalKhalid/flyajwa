@@ -216,7 +216,7 @@ const Page = () => {
                 breathtaking landscapes, immerse yourself in a journey of
                 culture, adventure, and timeless beauty.
               </p>
-              {/* <h4>Included and Excluded</h4>
+              <h4>Included and Excluded</h4>
               <div className="includ-and-exclud-area mb-20">
                 <ul>
                   <li>
@@ -258,7 +258,6 @@ const Page = () => {
                   </li>
                 </ul>
               </div>
-              */}
               <div className="highlight-tour mb-20">
                 <h4>Highlights of the Tour</h4>
                 <ul>

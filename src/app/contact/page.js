@@ -202,10 +202,7 @@ const page = () => {
             <div className="col-lg-7">
               <div className="contact-form-area">
                 <h3>Send us your Enquiries</h3>
-                <form
-                  action="https://formsubmit.co/d74c7dfbe2d4e6a0f38bce022f10fb63"
-                  method="POST"
-                >
+                <form action="https://formspree.io/f/xldpvbyb" method="POST">
                   <div className="row">
                     <div className="col-lg-12 mb-20">
                       <div className="form-inner">

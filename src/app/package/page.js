@@ -72,7 +72,7 @@ const page = () => {
                             href="/package/maldives-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
@@ -137,7 +137,7 @@ const page = () => {
                             href="/package/malaysia-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
@@ -205,7 +205,7 @@ const page = () => {
                             href="/package/azerbaijan-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
@@ -273,7 +273,7 @@ const page = () => {
                             href="/package/vietnam-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
@@ -341,7 +341,7 @@ const page = () => {
                             href="/package/thailand-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
@@ -407,7 +407,7 @@ const page = () => {
                             href="/package/dubai-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
@@ -475,7 +475,7 @@ const page = () => {
                             href="/package/manali-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
@@ -534,7 +534,7 @@ const page = () => {
                             href="/package/goa-package"
                             className="primary-btn2"
                           >
-                            Book a Trip
+                            Explore
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width={18}
