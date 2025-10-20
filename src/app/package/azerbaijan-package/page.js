@@ -6,6 +6,9 @@ import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
+import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
+import AzerbaijanGallery from "./azerbaijanGallery";
+import azerbaijanImages from "../../../data/azerbaijanData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -15,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan1.jpg",
+      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan2.jpg",
+      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan3.jpg",
+      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan4.jpg",
+      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan5.jpg",
+      imageBig: "/assets/img/Ajwa/azerbaijan/azerbaijan5.webp",
     },
   ];
   return (
@@ -50,7 +53,7 @@ const Page = () => {
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
                       <img
-                        src="/assets/img/Ajwa/azerbaijan/azerbaijan1.jpg"
+                        src="/assets/img/Ajwa/azerbaijan/azerbaijan1.webp"
                         alt=""
                       />
                       <a
@@ -72,7 +75,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan2.jpg"
+                            src="/assets/img/Ajwa/azerbaijan/azerbaijan2.webp"
                             alt=""
                           />
                           <a
@@ -98,7 +101,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan3.jpg"
+                            src="/assets/img/Ajwa/azerbaijan/azerbaijan3.webp"
                             alt=""
                           />
                           <a
@@ -124,7 +127,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan4.jpg"
+                            src="/assets/img/Ajwa/azerbaijan/azerbaijan4.webp"
                             alt=""
                           />
                           <a
@@ -150,7 +153,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan5.jpg"
+                            src="/assets/img/Ajwa/azerbaijan/azerbaijan5.webp"
                             alt=""
                           />
                           <a
@@ -197,7 +200,7 @@ const Page = () => {
                   >
                     <path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z"></path>
                   </svg>
-                  5 Days / 4 Night
+                  3 Days / 2 Night
                 </li>
                 <li>
                   <svg
@@ -216,50 +219,12 @@ const Page = () => {
                 breathtaking landscapes, immerse yourself in a journey of
                 culture, adventure, and timeless beauty.
               </p>
-              <h4>Included and Excluded</h4>
-              <div className="includ-and-exclud-area mb-20">
-                <ul>
-                  <li>
-                    <i className="bi bi-check-lg" /> Meal as per hotel Plan and
-                    drinks free too.
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Return airport and round
-                    trip transfers.
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Accommodation on twin
-                    sharing basis.
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> The above rates are on per
-                    day disposal basi
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Enjoy Brussels day tours.
-                    Overnight Brussels
-                  </li>
-                </ul>
-                <ul className="exclud">
-                  <li>
-                    <i className="bi bi-x-lg" /> AC will not be functional on
-                    Hills or Slopes.
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" /> Any other service not mentioned
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" /> Additional entry fees other
-                    than specified
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" /> Amsterdam canal cruise not
-                    included for basic
-                  </li>
-                </ul>
-              </div>
-              <div className="highlight-tour mb-20">
-                <h4>Highlights of the Tour</h4>
+              <WhatsAppLink
+                packageName="Azerbaijan"
+                className="primary-btn1"
+              ></WhatsAppLink>
+              <div className="highlight-tour mb-20 mt-3">
+                <h4 className="subtitle-underline">Highlights of the Tour</h4>
                 <ul>
                   <li>
                     <span>
@@ -299,7 +264,7 @@ const Page = () => {
                   </li>
                 </ul>
               </div>
-              <h4>Itinerary</h4>
+              <h4 className="subtitle-underline">Itinerary</h4>
               <div className="accordion tour-plan" id="tourPlan">
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingOne">
@@ -614,10 +579,54 @@ const Page = () => {
                   </div>
                 </div>
               </div>
-
+              <h4 className="subtitle-underline">Included and Excluded</h4>
+              <div className="includ-and-exclud-area mb-20">
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg" /> 4-night stay at a Baku
+                    hotel
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Daily breakfast included at
+                    each hotel
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Private sedan
+                    transportation throughout your trip
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Guided tours and transfers
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> English-speaking driver for
+                    all transfers
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Entrance fees included:
+                    Shahdag Cable Car (1 line), Fire Temple, and Fire Mountain
+                  </li>
+                </ul>
+                <ul className="exclud">
+                  <li>
+                    <i className="bi bi-x-lg" /> Flight tickets to and from the
+                    destination
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Activities not listed under
+                    inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Personal expenses such as shopping, tips, or additional
+                    meals
+                  </li>
+                </ul>
+              </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
-                  <h4>Frequently Asked &amp; Question</h4>
+                  <h4 className="subtitle-underline">
+                    Frequently Asked Questions
+                  </h4>
                 </div>
                 <div className="faq-content">
                   <div className="accordion" id="accordionTravel">
@@ -780,6 +789,9 @@ const Page = () => {
               </div>
             </div>
           </div>
+          <h4 className="subtitle-underline mt-4">
+            Snapshots from our clients
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -792,6 +804,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
+        <AzerbaijanGallery images={azerbaijanImages} />
       </div>
       <Footer />
     </>

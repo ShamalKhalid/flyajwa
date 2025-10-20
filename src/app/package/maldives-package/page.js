@@ -6,6 +6,7 @@ import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
+import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -215,8 +216,11 @@ const Page = () => {
                 waters, your Maldives adventure promises unforgettable
                 excitement.
               </p>
-              <div className="highlight-tour mb-20">
-                <h4>Highlights of the Tour</h4>
+              <WhatsAppLink packageName="Maldives" className="primary-btn1">
+                View All Destination
+              </WhatsAppLink>
+              <div className="highlight-tour mb-20 mt-3">
+                <h4 className="subtitle-underline">Highlights of the Tour</h4>
                 <ul>
                   <li>
                     <span>
@@ -255,7 +259,7 @@ const Page = () => {
                   </li>
                 </ul>
               </div>
-              <h4>Itinerary</h4>
+              <h4 className="subtitle-underline">Itinerary</h4>
               <div className="accordion tour-plan" id="tourPlan">
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingOne">
@@ -397,8 +401,8 @@ const Page = () => {
                         adventure activities at your own pace. After an
                         exhilarating day of exploration and adventure, return to
                         the hotel for an overnight stay (Stay – Night 3).
-                        <h4>Optional Activities (At Your Own Cost):</h4>
                       </p>
+                      <h4>Optional Activities (At Your Own Cost):</h4>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" /> Manta Ray Trip –
@@ -460,10 +464,53 @@ const Page = () => {
                   </div>
                 </div>
               </div>
-
+              <h4 className="subtitle-underline">Included and Excluded</h4>
+              <div className="includ-and-exclud-area mb-20">
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg" /> Comfortable 3-star
+                    accommodation throughout the trip
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Airport pickup and drop via
+                    speed boat or seaplane transfers
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" />
+                    Guided sightseeing to all destinations mentioned in the
+                    itinerary
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> All meals included
+                    (breakfast, lunch, and dinner)
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Excursion to the sandbank
+                    for leisure and photography
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Lucky dolphin and turtle
+                    reef watching tour
+                  </li>
+                </ul>
+                <ul className="exclud">
+                  <li>
+                    <i className="bi bi-x-lg" /> Flight tickets to and from the
+                    destination
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Activities not listed under
+                    inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Personal expenses such as
+                    shopping, tips, or additional meals
+                  </li>
+                </ul>
+              </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
-                  <h4>Frequently Asked &amp; Question</h4>
+                  <h4>Frequently Asked Question</h4>
                 </div>
                 <div className="faq-content">
                   <div className="accordion" id="accordionTravel">

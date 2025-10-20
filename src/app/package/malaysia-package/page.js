@@ -5,7 +5,10 @@ import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
+import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
 import Header from "@/components/header/Header";
+import MalaysiaGallery from "./MalaysiaGallery";
+import malaysiaImages from "../../../data/malaysiaData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -15,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia1-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/malaysia/malaysia1-ajwa.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia2-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/malaysia/malaysia2-ajwa.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia3-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/malaysia/malaysia3-ajwa.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia5-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/malaysia/malaysia5-ajwa.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia4-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/malaysia/malaysia4-ajwa.webp",
     },
   ];
   return (
@@ -47,7 +50,7 @@ const Page = () => {
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
                       <img
-                        src="/assets/img/Ajwa/malaysia/malaysia1-ajwa.jpg"
+                        src="/assets/img/Ajwa/malaysia/malaysia1-ajwa.webp"
                         alt=""
                       />
                       <a
@@ -69,7 +72,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia2-ajwa.jpg"
+                            src="/assets/img/Ajwa/malaysia/malaysia2-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -95,7 +98,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia3-ajwa.jpg"
+                            src="/assets/img/Ajwa/malaysia/malaysia3-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -121,7 +124,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia4-ajwa.jpg"
+                            src="/assets/img/Ajwa/malaysia/malaysia4-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -147,7 +150,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia5-ajwa.jpg"
+                            src="/assets/img/Ajwa/malaysia/malaysia5-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -215,6 +218,10 @@ const Page = () => {
                 islands, dive into a world of culture, adventure, and natural
                 beauty for an unforgettable journey.
               </p>
+              <WhatsAppLink
+                packageName="Azerbaijan"
+                className="primary-btn1"
+              ></WhatsAppLink>
               <div className="highlight-tour mb-20">
                 <h4>Highlights of the Tour</h4>
                 <ul>
@@ -504,7 +511,73 @@ const Page = () => {
                   </div>
                 </div>
               </div>
-
+              <h4 className="subtitle-underline">Included and Excluded</h4>
+              <div className="includ-and-exclud-area mb-20">
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg" /> 3 nights stay at the
+                    mentioned hotel
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Airport pick-up and
+                    drop-off
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" />
+                    Enroute Putrajaya photostop
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Kuala Lumpur city tour
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Genting Highlands tour
+                    (SIC)
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Two-way cable car tickets
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Enroute visit to Batu Caves
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Daily breakfast (3 meals)
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Transfers on Private / SIC
+                    basis
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> 24/7 customer support
+                    throughout the trip
+                  </li>
+                </ul>
+                <ul className="exclud">
+                  <li>
+                    <i className="bi bi-x-lg" /> Meals not mentioned in the
+                    inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Travel insurance
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Porterage, tips, beverages, telephone charges, and other
+                    personal expenses
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Any service not specifically mentioned under inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Airfare
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    TCS @ 5%
+                  </li>
+                </ul>
+              </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
                   <h4>Frequently Asked &amp; Question</h4>
@@ -670,6 +743,9 @@ const Page = () => {
               </div>
             </div>
           </div>
+          <h4 className="subtitle-underline mt-4">
+            Snapshots from our clients
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -682,6 +758,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
+        <MalaysiaGallery images={malaysiaImages} />
       </div>
       <Footer />
     </>

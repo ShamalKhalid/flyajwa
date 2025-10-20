@@ -48,7 +48,7 @@ const Destination1 = () => {
           <div className="row g-4">
             <div className="col-lg-3 col-sm-6">
               <div className="destination-card">
-                <img src="/assets/img/Ajwa/azerbaijan3-ajwa.jpg" alt="" />
+                <img src="/assets/img/Ajwa/azerbaijan3-ajwa.webp" alt="" />
                 <div className="overlay" />
                 <div className="card-title">
                   <h4>Azerbaijan</h4>
@@ -62,7 +62,7 @@ const Destination1 = () => {
             </div>
             <div className="col-lg-5 col-sm-6">
               <div className="destination-card">
-                <img src="/assets/img/Ajwa/Malaysia2-ajwa.jpg" alt="" />
+                <img src="/assets/img/Ajwa/Malaysia2-ajwa.webp" alt="" />
                 <div className="overlay" />
                 <div className="card-title">
                   <h4>Malaysia</h4>
@@ -76,7 +76,7 @@ const Destination1 = () => {
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="destination-card">
-                <img src="/assets/img/Ajwa/Maldives2-ajwa.jpg" alt="" />
+                <img src="/assets/img/Ajwa/Maldives2-ajwa.webp" alt="" />
                 <div className="overlay" />
                 <div className="card-title">
                   <h4>Maldives</h4>
@@ -92,7 +92,7 @@ const Destination1 = () => {
             </div>
             <div className="col-lg-5 col-sm-6">
               <div className="destination-card">
-                <img src="/assets/img/Ajwa/Thailand2-ajwa.jpg" alt="" />
+                <img src="/assets/img/Ajwa/Thailand2-ajwa.webp" alt="" />
                 <div className="overlay" />
                 <div className="card-title">
                   <h4>Thailand</h4>
@@ -106,7 +106,7 @@ const Destination1 = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="destination-card">
-                <img src="/assets/img/Ajwa/India-ajwa.jpg" alt="" />
+                <img src="/assets/img/Ajwa/India-ajwa.webp" alt="" />
                 <div className="overlay" />
                 <div className="card-title">
                   <h4>India</h4>

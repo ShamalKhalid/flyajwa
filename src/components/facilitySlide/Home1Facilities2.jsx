@@ -139,7 +139,7 @@ const Home1Facilities2 = () => {
                             className="card-img"
                           >
                             <img
-                              src="/assets/img/Ajwa/Thailand-ajwaCard.jpg"
+                              src="/assets/img/Ajwa/Thailand-ajwaCard.webp"
                               alt=""
                             />
                           </Link>
@@ -228,7 +228,7 @@ const Home1Facilities2 = () => {
                             className="card-img"
                           >
                             <img
-                              src="/assets/img/Ajwa/Malaysia-ajwaCard.jpg"
+                              src="/assets/img/Ajwa/Malaysia-ajwaCard.webp"
                               alt=""
                             />
                           </Link>
@@ -315,7 +315,7 @@ const Home1Facilities2 = () => {
                             className="card-img"
                           >
                             <img
-                              src="/assets/img/Ajwa/Azerbaijan-ajwaCard.jpg"
+                              src="/assets/img/Ajwa/Azerbaijan-ajwaCard.webp"
                               alt=""
                             />
                           </Link>
@@ -415,7 +415,7 @@ const Home1Facilities2 = () => {
                             className="card-img"
                           >
                             <img
-                              src="/assets/img/Ajwa/Kashmir-ajwaCard.jpg"
+                              src="/assets/img/Ajwa/Kashmir-ajwaCard.webp"
                               alt=""
                             />
                           </Link>
@@ -504,7 +504,7 @@ const Home1Facilities2 = () => {
                             className="card-img"
                           >
                             <img
-                              src="/assets/img/Ajwa/Manali-ajwaCard.jpg"
+                              src="/assets/img/Ajwa/Manali-ajwaCard.webp"
                               alt=""
                             />
                           </Link>

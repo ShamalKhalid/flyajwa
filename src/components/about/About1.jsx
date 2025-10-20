@@ -43,7 +43,7 @@ const About1 = () => {
                       />
                     </svg>
                   </span>
-                  <h2>Let’s know About Our Journey For TripRex.</h2>
+                  <h2>Experience India’s Best Tours with FlyAjwa</h2>
                 </div>
                 <ul className="nav nav-pills" id="pills-tab3" role="tablist">
                   <li className="nav-item" role="presentation">

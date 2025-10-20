@@ -5,7 +5,10 @@ import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
+import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
 import Header from "@/components/header/Header";
+import DubaiGallery from "./DubaiGallery.jsx";
+import dubaiImages from "../../../data/dubaiData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -15,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/dubai/dubai1.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/dubai/dubai2.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/dubai/dubai3.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/dubai/dubai4.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/dubai/dubai5.jpg",
+      imageBig: "/assets/img/Ajwa/dubai/dubai5.webp",
     },
   ];
   return (
@@ -46,7 +49,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img src="/assets/img/Ajwa/dubai/dubai1.jpg" alt="" />
+                      <img src="/assets/img/Ajwa/dubai/dubai1.webp" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -65,7 +68,10 @@ const Page = () => {
                     <div className="row g-3 h-100">
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/dubai/dubai2.jpg" alt="" />
+                          <img
+                            src="/assets/img/Ajwa/dubai/dubai2.webp"
+                            alt=""
+                          />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -88,7 +94,10 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/dubai/dubai3.jpg" alt="" />
+                          <img
+                            src="/assets/img/Ajwa/dubai/dubai3.webp"
+                            alt=""
+                          />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -111,7 +120,10 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/dubai/dubai4.jpg" alt="" />
+                          <img
+                            src="/assets/img/Ajwa/dubai/dubai4.webp"
+                            alt=""
+                          />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -134,7 +146,10 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/dubai/dubai5.jpg" alt="" />
+                          <img
+                            src="/assets/img/Ajwa/dubai/dubai5.webp"
+                            alt=""
+                          />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -204,7 +219,11 @@ const Page = () => {
                 bashing, ride camels, and indulge in authentic Bedouin
                 entertainment under the starlit sky.
               </p>
-              <div className="highlight-tour mb-20">
+              <WhatsAppLink
+                packageName="Dubai"
+                className="primary-btn1"
+              ></WhatsAppLink>
+              <div className="highlight-tour mb-20 mt-3">
                 <h4>Highlights of the Tour</h4>
                 <ul>
                   <li>
@@ -256,8 +275,8 @@ const Page = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      <span>Day 01 :</span> Arrival in Thailand &amp; Pattaya
-                      Exploration
+                      <span>Day 01 :</span> Arrival in Dubai Airport &amp;
+                      exploration
                     </button>
                   </h2>
                   <div
@@ -521,6 +540,51 @@ const Page = () => {
                   </div>
                 </div>
               </div>
+              <h4 className="subtitle-underline">Included and Excluded</h4>
+              <div className="includ-and-exclud-area mb-20">
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg" /> 4-night stay at hotel
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Daily breakfast (except on
+                    the arrival day)
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Airport pick-up and
+                    drop-off on a private basis
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Tours and entry tickets as
+                    per the itinerary
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> All tours and transfers
+                    mentioned above
+                  </li>
+                </ul>
+                <ul className="exclud">
+                  <li>
+                    <i className="bi bi-x-lg" /> Anything not mentioned in the
+                    inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Personal expenses of any kind
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Early check-in or late check-out charges
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Meals not specified in the package
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Airfare and Visa Fees
+                  </li>
+                </ul>
+              </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
                   <h4>Frequently Asked &amp; Question</h4>
@@ -686,6 +750,9 @@ const Page = () => {
               </div>
             </div>
           </div>
+          <h4 className="subtitle-underline mt-4">
+            Snapshots from our clients
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -698,6 +765,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
+        <DubaiGallery images={dubaiImages} />
       </div>
       <Footer />
     </>

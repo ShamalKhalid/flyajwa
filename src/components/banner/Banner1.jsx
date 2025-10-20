@@ -41,7 +41,7 @@ const Banner1 = () => {
                   className="home1-banner-wrapper"
                   style={{
                     backgroundImage:
-                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/maldives-ajwa.jpg)",
+                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/maldives-ajwa.webp)",
                   }}
                 >
                   <div className="container">
@@ -115,7 +115,7 @@ const Banner1 = () => {
                   className="home1-banner-wrapper"
                   style={{
                     backgroundImage:
-                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Thailand-ajwa2.jpg)",
+                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Thailand-ajwa2.webp)",
                   }}
                 >
                   <div className="container">
@@ -189,7 +189,7 @@ const Banner1 = () => {
                   className="home1-banner-wrapper"
                   style={{
                     backgroundImage:
-                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Azerbaijan-ajwa2.jpg)",
+                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Azerbaijan-ajwa2.webp)",
                   }}
                 >
                   <div className="container">
@@ -263,7 +263,7 @@ const Banner1 = () => {
                   className="home1-banner-wrapper"
                   style={{
                     backgroundImage:
-                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Malaysia-ajwa.jpg)",
+                      "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%), url(assets/img/Ajwa/Malaysia-ajwa.webp)",
                   }}
                 >
                   <div className="container">

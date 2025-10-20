@@ -1,6 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/package/page": "app/package/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/package/dubai-package/page": "app/package/dubai-package/page.js",
+  "/package/goa-package/page": "app/package/goa-package/page.js",
+  "/package/azerbaijan-package/page": "app/package/azerbaijan-package/page.js",
+  "/package/bali-package/page": "app/package/bali-package/page.js",
+  "/package/malaysia-package/page": "app/package/malaysia-package/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

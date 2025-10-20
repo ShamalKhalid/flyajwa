@@ -8271,7 +8271,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   }
 }
 .home1-destination-section .destination-banner .batch {
-  -webkit-mask-image: url(../img/Ajwa/maldives-ajwa.jpg);
+  -webkit-mask-image: url(../img/Ajwa/maldives-ajwa.webp);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -10153,7 +10153,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   color: var(--white-color);
 }
 .banner2-card.four .banner2-content-wrap {
-  background-image: url(../img/Ajwa/azerbaijan3-ajwa.jpg);
+  background-image: url(../img/Ajwa/azerbaijan3-ajwa.webp);
   bottom: unset;
   top: 0;
   text-align: start;
@@ -23248,7 +23248,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   }
 }
 .home2-banner-area .home2-banner-content-wrap .home2-banner-content .eg-tag {
-  -webkit-mask-image: url(../img/Ajwa/maldives-ajwa.jpg);
+  -webkit-mask-image: url(../img/Ajwa/maldives-ajwa.webp);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -26972,4 +26972,23 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   width: 202px;
   height: 90px;
   object-fit: contain; /* Ensures the entire image is visible without cropping */
+}
+
+.subtitle-underline {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.subtitle-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #d1d5db; /* Tailwind's gray-300 */
+  border-radius: 9999px;
 }

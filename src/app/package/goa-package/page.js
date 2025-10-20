@@ -5,6 +5,9 @@ import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
+import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
+import goaImages from "../../../data/goaData.js";
+import GoaGallery from "./GoaGallery";
 import Header from "@/components/header/Header";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
@@ -15,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/goa/goa1.jpg",
+      imageBig: "/assets/img/Ajwa/goa/goa1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/goa/goa2.jpg",
+      imageBig: "/assets/img/Ajwa/goa/goa2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/goa/goa3.jpg",
+      imageBig: "/assets/img/Ajwa/goa/goa3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/goa/goa4.jpg",
+      imageBig: "/assets/img/Ajwa/goa/goa4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/goa/goa5.jpg",
+      imageBig: "/assets/img/Ajwa/goa/goa5.webp",
     },
   ];
   return (
@@ -46,7 +49,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img src="/assets/img/Ajwa/goa/goa1.jpg" alt="" />
+                      <img src="/assets/img/Ajwa/goa/goa1.webp" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -65,7 +68,7 @@ const Page = () => {
                     <div className="row g-3 h-100">
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa2.jpg" alt="" />
+                          <img src="/assets/img/Ajwa/goa/goa2.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -88,7 +91,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa3.jpg" alt="" />
+                          <img src="/assets/img/Ajwa/goa/goa3.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -111,7 +114,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa4.jpg" alt="" />
+                          <img src="/assets/img/Ajwa/goa/goa4.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -134,7 +137,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa5.jpg" alt="" />
+                          <img src="/assets/img/Ajwa/goa/goa5.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -204,6 +207,10 @@ const Page = () => {
                 of Portuguese and Indian heritage. Visitors flock here for
                 world-class music, dance, and mesmerizing sunsets.
               </p>
+              <WhatsAppLink
+                packageName="Goa"
+                className="primary-btn1"
+              ></WhatsAppLink>
               <div className="highlight-tour mb-20">
                 <h4>Highlights of the Tour</h4>
                 <ul>
@@ -461,6 +468,55 @@ const Page = () => {
                   </div>
                 </div>
               </div>
+              <h4 className="subtitle-underline">Included and Excluded</h4>
+              <div className="includ-and-exclud-area mb-20">
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg" /> 2 nights accommodation at
+                    the selected hotel
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Daily breakfast (fixed
+                    menu) at the hotel
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Transportation by
+                    air-conditioned vehicle as per the itinerary
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> All vehicle-related
+                    expenses including parking, tolls, permits, and driver
+                    allowances
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Entrance fees as applicable
+                    for visits mentioned in the itinerary
+                  </li>
+                </ul>
+                <ul className="exclud">
+                  <li>
+                    <i className="bi bi-x-lg" /> Airfare, train tickets, and
+                    travel insurance
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Meals not mentioned in the
+                    inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Personal expenses such as telephone calls, laundry, tips,
+                    etc.
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Any services not specified under package inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    GST @ 5% on the total package price
+                  </li>
+                </ul>
+              </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
                   <h4>Frequently Asked &amp; Question</h4>
@@ -626,6 +682,9 @@ const Page = () => {
               </div>
             </div>
           </div>
+          {/*<h4 className="subtitle-underline mt-4">
+            Snapshots from our clients
+          </h4> */}
         </div>
         <Lightbox
           className="img-fluid"
@@ -638,6 +697,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
+        {/*<GoaGallery images={goaImages} /> */}
       </div>
       <Footer />
     </>
