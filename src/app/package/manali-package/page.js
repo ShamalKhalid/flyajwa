@@ -6,6 +6,9 @@ import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
+import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
+import ManaliGallery from "./ManaliGallery";
+import manaliImages from "../../../data/manaliData";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -15,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/manali/manali1.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/manali/manali2.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/manali/manali3.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/manali/manali4.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/manali/manali5.jpg",
+      imageBig: "/assets/img/Ajwa/manali/manali5.webp",
     },
   ];
   return (
@@ -46,7 +49,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img src="/assets/img/Ajwa/manali/manali1.jpg" alt="" />
+                      <img src="/assets/img/Ajwa/manali/manali1.webp" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -66,7 +69,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/manali/manali2.jpg"
+                            src="/assets/img/Ajwa/manali/manali2.webp"
                             alt=""
                           />
                           <a
@@ -92,7 +95,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/manali/manali3.jpg"
+                            src="/assets/img/Ajwa/manali/manali3.webp"
                             alt=""
                           />
                           <a
@@ -118,7 +121,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/manali/manali4.jpg"
+                            src="/assets/img/Ajwa/manali/manali4.webp"
                             alt=""
                           />
                           <a
@@ -144,7 +147,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/manali/manali5.jpg"
+                            src="/assets/img/Ajwa/manali/manali5.webp"
                             alt=""
                           />
                           <a
@@ -212,6 +215,10 @@ const Page = () => {
                 valleys, immerse yourself in nature, adventure, and breathtaking
                 Himalayan landscapes.
               </p>
+              <WhatsAppLink
+                packageName="Manali"
+                className="primary-btn1"
+              ></WhatsAppLink>
               <div className="highlight-tour mb-20">
                 <h4>Highlights of the Tour</h4>
                 <ul>
@@ -491,6 +498,53 @@ const Page = () => {
                   </div>
                 </div>
               </div>
+              <h4 className="subtitle-underline">Included and Excluded</h4>
+              <div className="includ-and-exclud-area mb-20">
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg" /> Volvo bus tickets from
+                    Delhi to Manali and return
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" />2 nights’ accommodation in
+                    Manali
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" />
+                    Cab for sightseeing at all mentioned locations in the
+                    itinerary
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" />
+                    Daily meals: 2 breakfasts and 2 dinners
+                  </li>
+                </ul>
+                <ul className="exclud">
+                  <li>
+                    <i className="bi bi-x-lg" /> Flight tickets
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Entry tickets or activity
+                    charges
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Meals not mentioned in the inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Laundry, personal expenses, and direct hotel bills
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Any transportation not included in the itinerary
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Snow dresses, jackets, or other personal gear
+                  </li>
+                </ul>
+              </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
                   <h4>Frequently Asked &amp; Question</h4>
@@ -656,6 +710,9 @@ const Page = () => {
               </div>
             </div>
           </div>
+          <h4 className="subtitle-underline mt-4">
+            Snapshots from our clients
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -668,6 +725,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
+        <ManaliGallery images={manaliImages} />
       </div>
       <Footer />
     </>

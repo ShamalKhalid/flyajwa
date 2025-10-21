@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import navData from "../../data/nav.json";
-import destinaiton_sidebar_data from "../../data/destination-_idebar.json";
 import { useEffect, useMemo, useReducer, useRef } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -463,71 +462,6 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="destination-wrapper">
-            <h4>Our Destinations</h4>
-            <div className="row">
-              <div className="col-lg-12">
-                <Swiper
-                  {...settings}
-                  className="swiper destination-sidebar-slider mb-35"
-                >
-                  <div className="swiper-wrapper">
-                    {destinaiton_sidebar_data.map((data) => {
-                      const { id, img, tour_palce, tour_type, place } = data;
-                      return (
-                        <SwiperSlide key={id} className="swiper-slide">
-                          <div className="destination-card2">
-                            <Link
-                              href="/destination/destination-details"
-                              className="destination-card-img"
-                            >
-                              <img src={img} alt="" />
-                            </Link>
-                            <div className="batch">
-                              <span>{tour_palce} Tour</span>
-                            </div>
-                            <div className="destination-card2-content">
-                              <span>{tour_type}</span>
-                              <h4>
-                                <Link href="/destination/destination-details">
-                                  {place}
-                                </Link>
-                              </h4>
-                            </div>
-                          </div>
-                        </SwiperSlide>
-                      );
-                    })}
-                  </div>
-                </Swiper>
-                <div className="slide-and-view-btn-grp">
-                  <div className="destination-sidebar-prev">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={53}
-                      height={13}
-                      viewBox="0 0 53 13"
-                    >
-                      <path d="M53 6.5L1 6.5M1 6.5L7 12M1 6.5L7 0.999996" />
-                    </svg>
-                  </div>
-                  <Link href="destination/style2" className="secondary-btn2">
-                    View All
-                  </Link>
-                  <div className="destination-sidebar-next">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={53}
-                      height={13}
-                      viewBox="0 0 53 13"
-                    >
-                      <path d="M0 6.5H52M52 6.5L46 1M52 6.5L46 12" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="sidebar-bottom">

@@ -7,6 +7,8 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
+import MaldivesGallery from "./MaldivesGallery";
+import maldivesImages from "../../../data/maldivesData";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -16,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/maldives/maldives1-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/maldives/maldives1-ajwa.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/maldives/maldives2-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/maldives/maldives2-ajwa.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/maldives/maldives3-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/maldives/maldives3-ajwa.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/maldives/maldives5-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/maldives/maldives5-ajwa.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/maldives/maldives4-ajwa.jpg",
+      imageBig: "/assets/img/Ajwa/maldives/maldives4-ajwa.webp",
     },
   ];
   return (
@@ -48,7 +50,7 @@ const Page = () => {
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
                       <img
-                        src="/assets/img/Ajwa/maldives/maldives1-ajwa.jpg"
+                        src="/assets/img/Ajwa/maldives/maldives1-ajwa.webp"
                         alt=""
                       />
                       <a
@@ -70,7 +72,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives2-ajwa.jpg"
+                            src="/assets/img/Ajwa/maldives/maldives2-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -96,7 +98,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives3-ajwa.jpg"
+                            src="/assets/img/Ajwa/maldives/maldives3-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -122,7 +124,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives4-ajwa.jpg"
+                            src="/assets/img/Ajwa/maldives/maldives4-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -148,7 +150,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives5-ajwa.jpg"
+                            src="/assets/img/Ajwa/maldives/maldives5-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -673,6 +675,9 @@ const Page = () => {
               </div>
             </div>
           </div>
+          <h4 className="subtitle-underline mt-4">
+            Snapshots from our clients
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -685,6 +690,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
+        <MaldivesGallery images={maldivesImages} />
       </div>
       <Footer />
     </>

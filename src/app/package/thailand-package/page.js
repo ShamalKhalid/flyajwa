@@ -6,6 +6,9 @@ import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
+import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
+import thailandImages from "../../../data/thailandData";
+import ThailandGallery from "./ThailandGallery";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -15,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/thailand/thailand1.jpg",
+      imageBig: "/assets/img/Ajwa/thailand/thailand1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/thailand/thailand2.jpg",
+      imageBig: "/assets/img/Ajwa/thailand/thailand2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/thailand/thailand3.jpg",
+      imageBig: "/assets/img/Ajwa/thailand/thailand3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/thailand/thailand4.jpg",
+      imageBig: "/assets/img/Ajwa/thailand/thailand4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/thailand/thailand5.jpg",
+      imageBig: "/assets/img/Ajwa/thailand/thailand5.webp",
     },
   ];
   return (
@@ -47,7 +50,7 @@ const Page = () => {
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
                       <img
-                        src="/assets/img/Ajwa/thailand/thailand1.jpg"
+                        src="/assets/img/Ajwa/thailand/thailand1.webp"
                         alt=""
                       />
                       <a
@@ -69,7 +72,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand2.jpg"
+                            src="/assets/img/Ajwa/thailand/thailand2.webp"
                             alt=""
                           />
                           <a
@@ -95,7 +98,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand3.jpg"
+                            src="/assets/img/Ajwa/thailand/thailand3.webp"
                             alt=""
                           />
                           <a
@@ -121,7 +124,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand4.jpg"
+                            src="/assets/img/Ajwa/thailand/thailand4.webp"
                             alt=""
                           />
                           <a
@@ -147,7 +150,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand5.jpg"
+                            src="/assets/img/Ajwa/thailand/thailand5.webp"
                             alt=""
                           />
                           <a
@@ -216,6 +219,10 @@ const Page = () => {
                 beaches, immerse yourself in a world of culture, adventure, and
                 breathtaking landscapes.
               </p>
+              <WhatsAppLink
+                packageName="Thailand"
+                className="primary-btn1"
+              ></WhatsAppLink>
               <div className="highlight-tour mb-20">
                 <h4>Highlights of the Tour</h4>
                 <ul>
@@ -541,6 +548,79 @@ const Page = () => {
                   </div>
                 </div>
               </div>
+              <h4 className="subtitle-underline">Included and Excluded</h4>
+              <div className="includ-and-exclud-area mb-20">
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg" /> 2 nights stay in Pattaya
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> 2 nights’ stay in Bangkok
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Airport pick-up and
+                    drop-off in Bangkok
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Enroute visit to Tiger
+                    Topia
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" />
+                    Coral Island Tour with Lunch (SIC)
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Safari World and Marine
+                    Park entry
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Visit to the Floating
+                    Market
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Bangkok City Tour –
+                    including Temple Tour, Golden Buddha, and Marble Buddha
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> All transfers in Kuala
+                    Lumpur will be on Private / SIC basis (if applicable)
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> All sightseeing transfers
+                    in Bangkok and Pattaya
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> 24/7 customer support
+                    throughout the trip
+                  </li>
+                </ul>
+                <ul className="exclud">
+                  <li>
+                    <i className="bi bi-x-lg" /> Meals not mentioned in the
+                    inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Travel insurance
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Porterage, tips, beverages, telephone charges, and other
+                    personal expenses
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Any services not specifically mentioned under inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Airfare
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Any additional cab rides beyond the scheduled program time
+                  </li>
+                </ul>
+              </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
                   <h4>Frequently Asked &amp; Question</h4>
@@ -706,6 +786,9 @@ const Page = () => {
               </div>
             </div>
           </div>
+          <h4 className="subtitle-underline mt-4">
+            Snapshots from our clients
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -718,6 +801,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
+        <ThailandGallery images={thailandImages} />
       </div>
       <Footer />
     </>

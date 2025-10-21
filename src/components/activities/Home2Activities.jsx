@@ -181,7 +181,7 @@ const Home2Activities = () => {
                             role="tab"
                             aria-controls="tours"
                             aria-selected="false"
-                            style={{ height: '5vh', justifyContent: 'center' }}
+                            style={{ height: '5vh', justifyContent: 'center', paddingRight: '0px', paddingLeft: '0pxs' }}
                           >
                             <h6>Tours and Travel Packages</h6>
                           </div>
