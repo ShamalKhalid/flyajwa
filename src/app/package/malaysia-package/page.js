@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
 import Header from "@/components/header/Header";
-import MalaysiaGallery from "./MalaysiaGallery";
+import MalaysiaGallery from "./MalaysiaGallery.jsx";
 import malaysiaImages from "../../../data/malaysiaData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);

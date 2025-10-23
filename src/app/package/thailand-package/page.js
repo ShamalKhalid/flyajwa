@@ -7,8 +7,8 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
-import thailandImages from "../../../data/thailandData";
-import ThailandGallery from "./ThailandGallery";
+import thailandImages from "../../../data/thailandData.js";
+import ThailandGallery from "./ThailandGallery.jsx";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({

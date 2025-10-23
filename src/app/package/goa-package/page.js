@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
 import goaImages from "../../../data/goaData.js";
-import GoaGallery from "./GoaGallery";
+import GoaGallery from "./GoaGallery.jsx";
 import Header from "@/components/header/Header";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);

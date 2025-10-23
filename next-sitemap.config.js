@@ -1,5 +1,5 @@
 // next-sitemap.config.js
-export default {
+module.exports = {
   siteUrl: "https://flyajwa.com",
   generateRobotsTxt: true,
   robotsTxtOptions: {

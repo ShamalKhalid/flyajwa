@@ -7,8 +7,8 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
-import ManaliGallery from "./ManaliGallery";
-import manaliImages from "../../../data/manaliData";
+import ManaliGallery from "./ManaliGallery.jsx";
+import manaliImages from "../../../data/manaliData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({

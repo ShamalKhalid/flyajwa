@@ -8,7 +8,7 @@ import Footer from "@/components/footer/Footer";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
 import Header from "@/components/header/Header";
 import BaliGallery from "./BaliGallery.jsx";
-import BaliImages from "../../../data/BaliData.js";
+import BaliImages from "../../../data/baliData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
