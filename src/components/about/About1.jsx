@@ -43,7 +43,7 @@ const About1 = () => {
                       />
                     </svg>
                   </span>
-                  <h2>Experience India’s Best Tours with FlyAjwa</h2>
+                  <h2>Crafting remarkable journeys, One destination at a time.</h2>
                 </div>
                 <ul className="nav nav-pills" id="pills-tab3" role="tablist">
                   <li className="nav-item" role="presentation">

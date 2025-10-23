@@ -807,6 +807,9 @@ const page = () => {
                       </div>
                     </div>
                   </div>
+                  {/*<div className="section-title text-center mt-40">
+                    <h4>The more the merrier!</h4>
+                  </div>*/}
                 </div>
               </div>
             </div>

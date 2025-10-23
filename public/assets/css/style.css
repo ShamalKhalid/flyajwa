@@ -26992,3 +26992,15 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   background-color: #d1d5db; /* Tailwind's gray-300 */
   border-radius: 9999px;
 }
+
+/* Default: hidden on all screens */
+.swipe-mobile {
+  display: none;
+}
+
+/* Show only on mobile (screens smaller than 768px) */
+@media (max-width: 768px) {
+  .swipe-mobile {
+    display: block;
+  }
+}

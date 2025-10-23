@@ -171,7 +171,7 @@ const Home1Visa = () => {
                   </SwiperSlide>
                 </div>
               </Swiper>
-              <div className="section-title text-center mt-60">
+              <div className="section-title text-center mt-60 swipe-mobile">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -74,9 +74,9 @@ const Home2Activities = () => {
           <div className="col-lg-7">
             <div className="tab-area">
               <div className="section-title2 text-center mb-50">
-                <div className="eg-section-tag">
+                {/* <div className="eg-section-tag">
                   <span>What We Do</span>
-                </div>
+                </div> */}
                 <h2>Services we Provide</h2>
               </div>
               <div className="tab-content-area">

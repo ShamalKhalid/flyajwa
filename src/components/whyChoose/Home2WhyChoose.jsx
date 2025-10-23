@@ -32,9 +32,9 @@ const Home2WhyChoose = () => {
           <div className="row mb-50">
             <div className="col-lg-12">
               <div className="section-title2 text-center">
-                <div className="eg-section-tag">
+                {/* <div className="eg-section-tag">
                   <span>Who We Are</span>
-                </div>
+                </div> */}
                 <h2>Why Flyajwa is the Best</h2>
               </div>
             </div>

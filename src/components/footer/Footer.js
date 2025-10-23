@@ -32,10 +32,10 @@ const Footer = ({ style }) => {
                   </Link>
                 </div>
                 <h3>
-                  Want to Take Tour Packages<span>?</span>
+                  Interested in Our Tour Packages<span>?</span>
                 </h3>
                 <Link href="/package" className="primary-btn1">
-                  Check our packages
+                  Explore
                 </Link>
               </div>
             </div>
@@ -120,11 +120,11 @@ const Footer = ({ style }) => {
             <div className="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-lg-end justify-content-sm-end">
               <div className="footer-widget">
                 <div className="widget-title">
-                  <h5>We are also here</h5>
+                  <h5>Now serving you across multiple locations</h5>
                 </div>
                 <p>
-                  Edappal , Arangotukkara, Ponnani, Cheruthuruthy,Alappuzha,
-                  UAE,Maldives,Dammam
+                  Edappal, Kochi, Arangotukkara, Ponnani, Cheruthuruthy,
+                  Alappuzha, UAE, Maldives, KSA
                 </p>
               </div>
             </div>

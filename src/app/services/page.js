@@ -37,7 +37,7 @@ const page = () => {
                         </div>
                         <div className="card-content-bottom">
                           <Link href="/package" className="primary-btn6">
-                            Contact Us
+                            Explore
                           </Link>
                         </div>
                       </div>
