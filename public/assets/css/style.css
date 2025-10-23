@@ -27004,3 +27004,8 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
     display: block;
   }
 }
+
+.banner-class {
+  height: 240px;
+  width: 100%;
+}

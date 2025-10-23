@@ -4,7 +4,10 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Link from "next/link";
 import React from "react";
-
+const phone = "919947617000";
+const message = `Hello, I am interested in your group tour package from your website.`;
+const encodedMessage = encodeURIComponent(message);
+const whatsappURL = `https://wa.me/${phone}?text=${encodedMessage}`;
 const page = () => {
   return (
     <>
@@ -807,9 +810,15 @@ const page = () => {
                       </div>
                     </div>
                   </div>
-                  {/*<div className="section-title text-center mt-40">
-                    <h4>The more the merrier!</h4>
-                  </div>*/}
+                  <div className="section-title text-center mt-40">
+                    <Link href={whatsappURL} target="_blank">
+                      <img
+                        src="/assets/img/Ajwa/banner.jpg"
+                        className="banner-class cursor-pointer"
+                        alt="Ajwa Banner"
+                      />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
