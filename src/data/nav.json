@@ -7,19 +7,19 @@
   },
   {
     "id": "2",
-    "label": "About",
+    "label": "About Us",
     "link": "/about",
     "icon": false
   },
   {
     "id": "3",
-    "label": "Tours",
+    "label": "Packages",
     "link": "/package",
     "icon": false
   },
   {
     "id": "4",
-    "label": "Services",
+    "label": "Our Services",
     "link": "/services",
     "icon": false
   },

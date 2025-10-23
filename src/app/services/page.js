@@ -9,7 +9,7 @@ const page = () => {
   return (
     <>
       <Header />
-      <Breadcrumb pagename="Services" pagetitle="Services" />
+      <Breadcrumb pagename="Our Services" pagetitle="Our Services" />
       <div className="package-grid-with-sidebar-section pt-120 mb-40">
         <div className="container">
           <div className="row g-lg-4 ">
