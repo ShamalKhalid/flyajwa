@@ -1,9 +1,21 @@
 {
-  "/package/page": "app/package/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/package/agra-jaipur-package/page": "app/package/agra-jaipur-package/page.js",
+  "/package/azerbaijan-package/page": "app/package/azerbaijan-package/page.js",
+  "/package/bali-package/page": "app/package/bali-package/page.js",
+  "/package/dubai-package/page": "app/package/dubai-package/page.js",
+  "/package/goa-package/page": "app/package/goa-package/page.js",
+  "/package/kashmir-package/page": "app/package/kashmir-package/page.js",
   "/package/malaysia-package/page": "app/package/malaysia-package/page.js",
+  "/package/maldives-package/page": "app/package/maldives-package/page.js",
+  "/package/manali-package/page": "app/package/manali-package/page.js",
+  "/package/page": "app/package/page.js",
   "/package/thailand-package/page": "app/package/thailand-package/page.js",
   "/package/vietnam-package/page": "app/package/vietnam-package/page.js",
-  "/package/agra-jaipur-package/page": "app/package/agra-jaipur-package/page.js",
-  "/package/goa-package/page": "app/package/goa-package/page.js",
-  "/package/manali-package/page": "app/package/manali-package/page.js"
+  "/services/page": "app/services/page.js",
+  "/about/page": "app/about/page.js",
+  "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js"
 }

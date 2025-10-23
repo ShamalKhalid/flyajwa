@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
-import AzerbaijanGallery from "./azerbaijanGallery.jsx";
+import AzerbaijanGallery from "./AzerbaijanGallery.jsx";
 import azerbaijanImages from "../../../data/azerbaijanData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);

@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
-import AgraGallery from "./agraGallery.jsx";
+import AgraGallery from "./AgraGallery.jsx";
 import agraImages from "../../../data/agraData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
