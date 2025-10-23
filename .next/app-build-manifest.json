@@ -16,38 +16,38 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/package/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/package/page.js"
+      "static/chunks/app/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
     ],
-    "/package/maldives-package/page": [
+    "/package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/package/maldives-package/page.css",
-      "static/chunks/app/package/maldives-package/page.js"
+      "static/chunks/app/package/page.js"
     ],
-    "/page": [
+    "/package/vietnam-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/package/malaysia-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/malaysia-package/page.css",
-      "static/chunks/app/package/malaysia-package/page.js"
+      "static/css/app/package/vietnam-package/page.css",
+      "static/chunks/app/package/vietnam-package/page.js"
     ],
     "/package/azerbaijan-package/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/package/azerbaijan-package/page.css",
       "static/chunks/app/package/azerbaijan-package/page.js"
+    ],
+    "/package/agra-jaipur-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/agra-jaipur-package/page.css",
+      "static/chunks/app/package/agra-jaipur-package/page.js"
     ],
     "/about/page": [
       "static/chunks/webpack.js",
@@ -59,17 +59,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/services/page.js"
     ],
-    "/package/manali-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/manali-package/page.css",
-      "static/chunks/app/package/manali-package/page.js"
-    ],
-    "/gallery/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/gallery/page.js"
-    ],
     "/contact/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -79,24 +68,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
-    ],
-    "/package/thailand-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/thailand-package/page.css",
-      "static/chunks/app/package/thailand-package/page.js"
-    ],
-    "/package/goa-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/goa-package/page.css",
-      "static/chunks/app/package/goa-package/page.js"
-    ],
-    "/package/vietnam-package/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/package/vietnam-package/page.css",
-      "static/chunks/app/package/vietnam-package/page.js"
     ]
   }
 }

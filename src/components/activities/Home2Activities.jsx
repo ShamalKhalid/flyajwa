@@ -253,7 +253,7 @@ const Home2Activities = () => {
                               href="/services"
                               className="primary-btn3"
                             >
-                              Contact Us
+                              See what we provide
                             </Link>
                           </div>
                         </div>

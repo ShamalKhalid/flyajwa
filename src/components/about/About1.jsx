@@ -126,7 +126,7 @@ const About1 = () => {
                 </div>
                 <div className="about-content-bottom">
                   <Link href="/about" className="primary-btn1">
-                    More About
+                    More About Us
                   </Link>
                   <div className="counter-area">
                     <div className="customer-img-grp">

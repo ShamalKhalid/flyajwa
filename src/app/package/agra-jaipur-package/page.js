@@ -7,8 +7,8 @@ import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
-import VietnamGallery from "./VitenamGallery";
-import vietnamImages from "../../../data/vietnamData";
+import AgraGallery from "./agraGallery";
+import agraImages from "../../../data/agraData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -18,29 +18,32 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam1.jpg",
+      imageBig: "/assets/img/Ajwa/agra/agra1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam2.jpg",
+      imageBig: "/assets/img/Ajwa/agra/agra2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam3.jpeg",
+      imageBig: "/assets/img/Ajwa/agra/agra3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam4.jpg",
+      imageBig: "/assets/img/Ajwa/agra/agra4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam5.jpg",
+      imageBig: "/assets/img/Ajwa/agra/agra5.webp",
     },
   ];
   return (
     <>
       <Header />
-      <Breadcrumb pagename="Vietnam Package" pagetitle="Vietnam Package" />
+      <Breadcrumb
+        pagename="Agra - Jaipur Package"
+        pagetitle="Agra - Jaipur Package"
+      />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container">
           <div className="row">
@@ -49,7 +52,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img src="/assets/img/Ajwa/vietnam/vietnam1.jpg" alt="" />
+                      <img src="/assets/img/Ajwa/agra/agra1.webp" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -68,10 +71,7 @@ const Page = () => {
                     <div className="row g-3 h-100">
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/vietnam/vietnam2.jpg"
-                            alt=""
-                          />
+                          <img src="/assets/img/Ajwa/agra/agra2.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -94,10 +94,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/vietnam/vietnam3.jpeg"
-                            alt=""
-                          />
+                          <img src="/assets/img/Ajwa/agra/agra3.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -111,7 +108,7 @@ const Page = () => {
                               onClick={() =>
                                 setOpenimg({
                                   openingState: true,
-                                  openingIndex: 3,
+                                  openingIndex: 2,
                                 })
                               }
                             />
@@ -120,10 +117,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/vietnam/vietnam4.jpg"
-                            alt=""
-                          />
+                          <img src="/assets/img/Ajwa/agra/agra4.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -146,10 +140,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img
-                            src="/assets/img/Ajwa/vietnam/vietnam5.jpg"
-                            alt=""
-                          />
+                          <img src="/assets/img/Ajwa/agra/agra5.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -179,12 +170,12 @@ const Page = () => {
           <div className="row g-xl-12 gy-5">
             <div className="col-xl-12 col-lg-12">
               <h2>
-                Vietnam: A land of timeless beauty, from bustling cities to
-                serene landscapes.
+                Experience North India’s Heritage, Royalty &amp; Vibrant
+                Culture.
               </h2>
               <div className="tour-price">
                 <span>From:&nbsp;</span>
-                <h3>₹18,499/</h3>
+                <h3>₹22,400/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">
@@ -197,7 +188,7 @@ const Page = () => {
                   >
                     <path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z"></path>
                   </svg>
-                  4 Days / 3 Night
+                  5 Days / 4 Night
                 </li>
                 <li>
                   <svg
@@ -212,55 +203,56 @@ const Page = () => {
                 </li>
               </ul>
               <p>
-                Experience the Charm of Vietnam! From bustling cities to
-                tranquil riverside landscapes, immerse yourself in a journey of
-                culture, adventure, and natural wonders.
+                Experience the Magic of Agra, Delhi &amp; Jaipur! Discover
+                majestic forts, grand monuments, and vibrant bazaars as you
+                journey through India’s royal heritage and timeless charm.
               </p>
               <WhatsAppLink
-                packageName="Vietnam"
+                packageName="Agra-Delhi-Jaipur"
                 className="primary-btn1"
               ></WhatsAppLink>
-              <div className="highlight-tour mb-20">
-                <h4>Highlights of the Tour</h4>
+              <div className="highlight-tour mb-20 mt-3">
+                <h4 className="subtitle-underline">Highlights of the Tour</h4>
                 <ul>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Ho Chi Minh City Tour – Explore the iconic Notre Dame
-                    Cathedral, Central Post Office, and War Remnants Museum.
+                    Shahdag Mountain Adventure – Enjoy outdoor activities or a
+                    peaceful nature walk in the stunning Caucasus Mountains.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Cu Chi Tunnels – Discover the historic underground tunnels
-                    and learn about wartime survival.
+                    Tufandag Ropeway (Gabala) – Take in breathtaking panoramic
+                    views from the famous cable car.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Mekong River Adventure – Experience a hand-rowed sampan ride
-                    along Thoi Son Canal and visit Unicorn Island.
+                    Absheron Peninsula Tour – Visit the Atashgah Fire Temple and
+                    witness the eternal flames of Yanardag Fire Mountain.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Vinh Trang Pagoda – Visit this historic and beautiful pagoda
-                    in My Tho.
+                    Baku Old Town (Icherisheher) Exploration – Discover the
+                    historic charm of Baku, including the Maiden Tower and the
+                    Palace of the Shirvanshahs.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Cycling through Tan Thach Hamlet – Ride through the peaceful
-                    countryside and experience local rural life.
+                    Waterfall 7 Beauties &amp; Lake Nokhur (Gabala) – Experience
+                    the serene beauty of these natural wonders.
                   </li>
                 </ul>
               </div>
-              <h4>Itinerary</h4>
+              <h4 className="subtitle-underline">Itinerary</h4>
               <div className="accordion tour-plan" id="tourPlan">
                 <div className="accordion-item">
                   <h2 className="accordion-header" id="headingOne">
@@ -272,8 +264,7 @@ const Page = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      <span>Day 01 :</span> Arrival &amp; Ho Chi Minh City
-                      Exploration
+                      <span>Day 01 :</span> Arrival &amp; Delhi Sightseeing
                     </button>
                   </h2>
                   <div
@@ -284,50 +275,42 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Upon arrival at Ho Chi Minh Airport, our team will greet
-                        you and transfer you to your hotel for check-in and
-                        relaxation. After a short rest, set out to explore the
-                        city's highlights, starting with the culturally rich Cho
-                        Lon Chinatown and the beautiful Jade Emperor Pagoda.
-                        Wander through local markets and soak in the vibrant
-                        energy of Cho Lon. End the day with a stroll along
-                        Nguyen Hue Walking Street before returning to the hotel
-                        for an overnight stay.
+                        Upon arrival at Delhi Railway Station / Airport, you
+                        will be warmly welcomed by our company representative
+                        and assisted with a smooth transfer to your hotel. After
+                        check-in, take some time to relax and unwind. Begin your
+                        exploration of Delhi with visits to its iconic landmarks
+                        and soak in the city’s rich heritage.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Arrival at Ho Chi Minh Airport – Warm welcome by our
-                          team and smooth transfer to the hotel.
+                          Arrival at Delhi Railway Station / Airport – Warm
+                          welcome by our company representative.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Hotel Check-in &amp;
-                          Rest – Relax after your journey.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Cho Lon Chinatown –
-                          Discover the vibrant Chinese district of Ho Chi Minh
-                          City.
+                          <i className="bi bi-check-lg" /> Airport / Railway
+                          Transfer – Smooth transfer to your hotel.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Jade Emperor Pagoda – Visit this sacred site adorned
-                          with intricate wooden carvings.
+                          Hotel Check-in – Relax and settle in (as per standard
+                          check-in time).
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Market Exploration – Stroll through bustling local
-                          markets.
+                          Sightseeing – Visit India Gate, Rashtrapati Bhavan,
+                          and Lotus Temple.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Nguyen Hue Walking Street – Enjoy the vibrant street
-                          filled with entertainment and local charm.
+                          Evening Excursion – Explore Qutub Minar and Humayun’s
+                          Tomb after some rest.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Overnight Stay at Hotel – Rest and recharge for the
-                          next day's adventures.
+                          Overnight Stay at Hotel – Comfortable stay to recharge
+                          for the journey ahead.
                         </li>
                       </ul>
                     </div>
@@ -343,8 +326,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      <span>Day 02 :</span> Ho Chi Minh City Tour &amp; Cu Chi
-                      Tunnels Exploration
+                      <span>Day 02 :</span>Delhi – Agra Sightseeing
                     </button>
                   </h2>
                   <div
@@ -355,55 +337,34 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, embark on a sightseeing tour of Ho Chi
-                        Minh City, visiting historical landmarks like the Notre
-                        Dame Cathedral, the famous Central Post Office, and the
-                        War Remnants Museum. After lunch, journey to the Cu Chi
-                        Tunnels, an extensive underground network used during
-                        the Vietnam War. Begin with an introductory movie
-                        showcasing the tunnel construction and the resilience of
-                        the people who lived there. Conclude the day with an
-                        overnight stay at the hotel.
+                        After breakfast at your hotel, embark on a scenic drive
+                        to Agra, the city of the Taj Mahal. Upon arrival, begin
+                        your sightseeing tour and explore the magnificent Mughal
+                        monuments that showcase India’s rich heritage.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Start your day with a delicious meal.
+                          <i className="bi bi-check-lg" />
+                          Breakfast at Hotel – Start your day with a hearty
+                          breakfast.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Ho Chi Minh City
-                          Exploration – Discover the city's rich history and
-                          culture.
+                          <i className="bi bi-check-lg" /> Transfer to Agra –
+                          Enjoy a 3.5-hour scenic drive to Agra.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Notre Dame Cathedral
-                          – Admire the stunning French colonial architecture.
+                          <i className="bi bi-check-lg" /> Agra Sightseeing –
+                          Visit the iconic Taj Mahal, a symbol of eternal love.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Central Post Office –
-                          Visit this iconic landmark designed by Gustave Eiffel.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> War Remnants Museum –
-                          Gain insights into Vietnam’s war history.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Lunch Break – Enjoy a
-                          local Vietnamese meal.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Cu Chi Tunnels Tour –
-                          Travel 1.5 hours to explore the historic underground
-                          tunnels.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Introductory Movie –
-                          Learn about the construction of the tunnels and
-                          wartime survival.
+                          <i className="bi bi-check-lg" /> Agra Fort – Explore
+                          this UNESCO World Heritage site with its grand palaces
+                          and historic significance.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" /> Overnight Stay at
-                          Hotel – Rest and prepare for the next day’s adventure.
+                          Hotel in Agra – Rest and prepare for the journey to
+                          Jaipur.
                         </li>
                       </ul>
                     </div>
@@ -419,8 +380,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      <span>Day 03 :</span> Mekong River Adventure &amp; My Tho
-                      Exploration
+                      <span>Day 03 :</span> Agra – Jaipur via Fatehpur Sikri
                     </button>
                   </h2>
                   <div
@@ -431,59 +391,43 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, begin your journey to My Tho, where
-                        you’ll visit the Vinh Trang Pagoda and explore the
-                        beautiful Unicorn Island. Enjoy a relaxing hand-rowed
-                        sampan ride along the Thoi Son Canal and visit a honey
-                        farm for a taste of local honey tea. Continue your
-                        adventure with a coconut candy-making workshop and a
-                        peaceful cycling tour through Tan Thach hamlet. In the
-                        evening, return to your hotel for an overnight stay.
+                        After breakfast at your hotel, begin your journey to
+                        Jaipur with a visit to the historic city of Fatehpur
+                        Sikri. Explore its magnificent Mughal monuments,
+                        including the Buland Darwaza, Jama Masjid, and the Tomb
+                        of Salim Chishti. Continue your drive to Jaipur, with a
+                        brief stop at Akshardham en route, before checking in to
+                        your hotel for a comfortable overnight stay.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Enjoy a hearty breakfast to start your day.
+                          <i className="bi bi-check-lg" />
+                          Breakfast at Hotel – Enjoy a refreshing breakfast to
+                          start the day.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Journey to My Tho –
-                          Travel to this picturesque town on the left bank of
-                          the Mekong River.
+                          <i className="bi bi-check-lg" /> Transfer to Jaipur
+                          via Fatehpur Sikri – Scenic drive with historic
+                          sightseeing.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Vinh Trang Pagoda –
-                          Visit this beautiful and historic pagoda, a symbol of
-                          the region’s spiritual heritage.
+                          <i className="bi bi-check-lg" /> Fatehpur Sikri
+                          Sightseeing – Visit Buland Darwaza, Jama Masjid, and
+                          Tomb of Salim Chishti.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Unicorn Island –
-                          Explore this charming island and enjoy its natural
-                          beauty.
+                          <i className="bi bi-check-lg" /> Enroute Stop – Visit
+                          Akshardham for a quick sightseeing stop.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Hand-Rowed Sampan
-                          Ride – Glide along the Thoi Son Canal in a traditional
-                          sampan boat.
+                          <i className="bi bi-check-lg" />
+                          Hotel Check-in in Jaipur – Relax and settle in after
+                          the journey.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Honey Farm Visit –
-                          Experience local agriculture with a visit to a honey
-                          farm, and enjoy a cup of refreshing honey tea.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Coconut Candy
-                          Workshop – Learn how coconut candies are made and
-                          taste these local treats.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Cycling through Tan
-                          Thach Hamlet – Ride through the peaceful and scenic
-                          Tan Thach hamlet, experiencing rural life.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Return &amp;
-                          Overnight Stay at Hotel – Rest after a day of
-                          exploration.
+                          <i className="bi bi-check-lg" /> Overnight Stay at
+                          Hotel in Jaipur – Comfortable stay to recharge for the
+                          next day.
                         </li>
                       </ul>
                     </div>
@@ -499,7 +443,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      <span>Day 04 :</span> Departure from Ho Chi Minh City
+                      <span>Day 04 :</span> Jaipur Sightseeing
                     </button>
                   </h2>
                   <div
@@ -510,11 +454,95 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, check out from the hotel and proceed
-                        with the airport transfer for your flight back home.
-                        Take with you the memories of your exciting and
-                        enriching journey through Vietnam.
+                        After breakfast at your hotel, embark on a full day of
+                        sightseeing in the Pink City, Jaipur. Explore its
+                        majestic forts, palaces, and iconic landmarks that
+                        reflect the royal heritage and vibrant culture of
+                        Rajasthan.
                       </p>
+                      <ul>
+                        <li>
+                          <i className="bi bi-check-lg" /> Breakfast at Hotel –
+                          Start your day with a hearty breakfast.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Amber Fort – Visit this grand fort and explore its
+                          stunning architecture.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> Jal Mahal – Stop for
+                          photographs at the picturesque Water Palace.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> City Palace –
+                          Discover the royal residence and its museum.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> Jantar Mantar –
+                          Explore the historic astronomical observatory.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Hawa Mahal – Photo stop at the iconic Palace of Winds.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Overnight Stay at Hotel in Jaipur – Rest and relax
+                          after a day of exploration.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingFive">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      <span>Day 05 :</span> Departure
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#tourPlan"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        After breakfast at your hotel, check out and prepare for
+                        your onward journey. You will be comfortably transferred
+                        to Delhi or Jaipur Airport / Railway Station, concluding
+                        your memorable North India tour.
+                      </p>
+                      <ul>
+                        <li>
+                          <i className="bi bi-check-lg" /> Breakfast at Hotel –
+                          Enjoy your final meal at the hotel.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Hotel Check-out – Complete formalities and get ready
+                          for departure.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> Transfer to Airport /
+                          Railway Station – Approximately 5-hour journey from
+                          Delhi to Jaipur (if applicable) for your onward
+                          travel.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Departure – Bid farewell with wonderful memories of
+                          your trip.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -523,72 +551,54 @@ const Page = () => {
               <div className="includ-and-exclud-area mb-20">
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg" /> 3 nights’ stay in 3-star
-                    accommodation at Ho Chi Minh City
+                    <i className="bi bi-check-lg" />
+                    All sightseeing transfers in a private air-conditioned
+                    vehicle
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Private airport transfers
-                    (airport–hotel–airport)
+                    <i className="bi bi-check-lg" /> 4 nights accommodation at
+                    selected hotels
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Entry tickets to all
-                    mentioned attractions
+                    <i className="bi bi-check-lg" />4 breakfasts at hotels
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Daily breakfast (3 meals)
+                    <i className="bi bi-check-lg" /> Guided tours and transfers
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Ho Chi Minh City Tour on
-                    SIC basis
+                    <i className="bi bi-check-lg" /> Pick-up from Delhi Airport
+                    / Railway Station on Day 1
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Cu Chi Tunnel Tour on SIC
-                    basis
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Mekong Delta Tour on SIC
-                    basis
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> 2 lunches included as per
-                    the itinerary
+                    <i className="bi bi-check-lg" /> Drop at Delhi Airport /
+                    Railway Station on Day 5
                   </li>
                 </ul>
                 <ul className="exclud">
                   <li>
-                    <i className="bi bi-x-lg" /> Anything not mentioned in the
+                    <i className="bi bi-x-lg" /> Airfare or train tickets
+                    to/from Delhi
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" /> Activities not listed under
                     inclusions
                   </li>
                   <li>
-                    <i className="bi bi-x-lg" /> Additional expenses due to
-                    weather, technical issues, or unforeseen circumstances
+                    <i className="bi bi-x-lg" />
+                    Personal expenses such as shopping, tips, or additional
+                    meals
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Personal expenses such as tips, laundry, and beverages
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" />
-                    Visa and travel insurance
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" />
-                    Additional sightseeing or extra vehicle usage beyond the
-                    itinerary
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" />
-                    Tips for guide and driver
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" />
-                    Tax Collected at Source (TCS) to be borne by the agent
+                    Early check-in or late check-out charges
                   </li>
                 </ul>
               </div>
               <div className="faq-content-wrap mb-10">
                 <div className="faq-content-title mb-20">
-                  <h4>Frequently Asked &amp; Question</h4>
+                  <h4 className="subtitle-underline">
+                    Frequently Asked Questions
+                  </h4>
                 </div>
                 <div className="faq-content">
                   <div className="accordion" id="accordionTravel">
@@ -599,7 +609,7 @@ const Page = () => {
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#travelcollapseOne"
-                          aria-expanded="false"
+                          aria-expanded="true"
                           aria-controls="travelcollapseOne"
                         >
                           01. How do I book a trip with you?
@@ -751,9 +761,9 @@ const Page = () => {
               </div>
             </div>
           </div>
-          {/* <h4 className="subtitle-underline mt-4">
+          <h4 className="subtitle-underline mt-4">
             Snapshots from our clients
-          </h4> */}
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -766,7 +776,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
-        {/* <VietnamGallery images={vietnamImages} /> */}
+        <AgraGallery images={agraImages} />
       </div>
       <Footer />
     </>

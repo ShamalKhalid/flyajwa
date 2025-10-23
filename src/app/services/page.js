@@ -32,11 +32,11 @@ const page = () => {
                           style={{ textAlign: "center!important" }}
                         >
                           <h5>
-                            <Link href="/contact">Tours</Link>
+                            <Link href="/package">Tours</Link>
                           </h5>
                         </div>
                         <div className="card-content-bottom">
-                          <Link href="/contact" className="primary-btn6">
+                          <Link href="/package" className="primary-btn6">
                             Contact Us
                           </Link>
                         </div>

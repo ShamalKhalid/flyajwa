@@ -5,10 +5,10 @@ import Lightbox from "yet-another-react-lightbox";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import "react-datepicker/dist/react-datepicker.css";
 import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
 import WhatsAppLink from "@/components/whyChoose/WhatsAppLink";
-import VietnamGallery from "./VitenamGallery";
-import vietnamImages from "../../../data/vietnamData";
+import Header from "@/components/header/Header";
+import KashmirGallery from "./KashmirGallery.jsx";
+import kashmirImages from "../../../data/kashmirData.js";
 const Page = () => {
   const [isOpen, setOpen] = useState(false);
   const [isOpenimg, setOpenimg] = useState({
@@ -18,29 +18,29 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam1.jpg",
+      imageBig: "/assets/img/Ajwa/Kashmir/Kashmir1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam2.jpg",
+      imageBig: "/assets/img/Ajwa/Kashmir/Kashmir2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam3.jpeg",
+      imageBig: "/assets/img/Ajwa/Kashmir/Kashmir3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam4.jpg",
+      imageBig: "/assets/img/Ajwa/Kashmir/Kashmir4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam5.jpg",
+      imageBig: "/assets/img/Ajwa/Kashmir/Kashmir5.webp",
     },
   ];
   return (
     <>
       <Header />
-      <Breadcrumb pagename="Vietnam Package" pagetitle="Vietnam Package" />
+      <Breadcrumb pagename="Kashmir Package" pagetitle="Kashmir Package" />
       <div className="package-details-area pt-120 mb-120 position-relative">
         <div className="container">
           <div className="row">
@@ -49,7 +49,10 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img src="/assets/img/Ajwa/vietnam/vietnam1.jpg" alt="" />
+                      <img
+                        src="/assets/img/Ajwa/Kashmir/Kashmir1.webp"
+                        alt=""
+                      />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -69,7 +72,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam2.jpg"
+                            src="/assets/img/Ajwa/Kashmir/Kashmir2.webp"
                             alt=""
                           />
                           <a
@@ -95,7 +98,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam3.jpeg"
+                            src="/assets/img/Ajwa/Kashmir/Kashmir3.webp"
                             alt=""
                           />
                           <a
@@ -121,7 +124,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam4.jpg"
+                            src="/assets/img/Ajwa/Kashmir/Kashmir4.webp"
                             alt=""
                           />
                           <a
@@ -147,7 +150,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam5.jpg"
+                            src="/assets/img/Ajwa/Kashmir/Kashmir5.webp"
                             alt=""
                           />
                           <a
@@ -179,12 +182,12 @@ const Page = () => {
           <div className="row g-xl-12 gy-5">
             <div className="col-xl-12 col-lg-12">
               <h2>
-                Vietnam: A land of timeless beauty, from bustling cities to
-                serene landscapes.
+                Discover the charm of Bali – an island paradise of serenity,
+                culture, and breathtaking natural beauty.
               </h2>
               <div className="tour-price">
-                <span>From:&nbsp;</span>
-                <h3>₹18,499/</h3>
+                <span>Starting from:&nbsp;</span>
+                <h3>₹25,499/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">
@@ -197,7 +200,7 @@ const Page = () => {
                   >
                     <path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z"></path>
                   </svg>
-                  4 Days / 3 Night
+                  5 Days / 4 Night
                 </li>
                 <li>
                   <svg
@@ -212,51 +215,64 @@ const Page = () => {
                 </li>
               </ul>
               <p>
-                Experience the Charm of Vietnam! From bustling cities to
-                tranquil riverside landscapes, immerse yourself in a journey of
-                culture, adventure, and natural wonders.
+                Bali is a tropical haven that perfectly blends natural beauty
+                with vibrant culture, offering unforgettable experiences. A
+                highlight of any trip is exploring its lush rice terraces,
+                ancient temples, and sun-kissed beaches, where you can unwind,
+                surf, or witness stunning sunsets. Immerse yourself in Balinese
+                traditions, savor local delicacies, and experience the island’s
+                serene and spiritual charm.
               </p>
               <WhatsAppLink
-                packageName="Vietnam"
+                packageName="Kashmir"
                 className="primary-btn1"
               ></WhatsAppLink>
-              <div className="highlight-tour mb-20">
+              <div className="highlight-tour mb-20 mt-3">
                 <h4>Highlights of the Tour</h4>
                 <ul>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Ho Chi Minh City Tour – Explore the iconic Notre Dame
-                    Cathedral, Central Post Office, and War Remnants Museum.
+                    Ubud Monkey Forest: Walk among playful monkeys and explore
+                    lush tropical forest trails.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Cu Chi Tunnels – Discover the historic underground tunnels
-                    and learn about wartime survival.
+                    Tegallalang Rice Terraces: Admire the iconic cascading rice
+                    fields and capture perfect photo moments.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Mekong River Adventure – Experience a hand-rowed sampan ride
-                    along Thoi Son Canal and visit Unicorn Island.
+                    Tanah Lot Temple: Visit the breathtaking sea temple perched
+                    on a rock formation at sunset.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Vinh Trang Pagoda – Visit this historic and beautiful pagoda
-                    in My Tho.
+                    Uluwatu Temple &amp; Kecak Dance: Experience a cliffside
+                    temple and watch the mesmerizing traditional Kecak dance
+                    performance.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Cycling through Tan Thach Hamlet – Ride through the peaceful
-                    countryside and experience local rural life.
+                    Waterfalls &amp; Nature Excursions: Refresh at stunning
+                    waterfalls like Tegenungan and explore Bali’s natural
+                    beauty.
+                  </li>
+                  <li>
+                    <span>
+                      <i className="bi bi-check" />
+                    </span>{" "}
+                    Beach Relaxation: Enjoy sun, sand, and waves at Bali’s
+                    famous beaches, including Kuta, Seminyak, or Nusa Dua.
                   </li>
                 </ul>
               </div>
@@ -272,8 +288,7 @@ const Page = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      <span>Day 01 :</span> Arrival &amp; Ho Chi Minh City
-                      Exploration
+                      <span>Day 01 :</span> Arrival and Check-in
                     </button>
                   </h2>
                   <div
@@ -284,50 +299,29 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Upon arrival at Ho Chi Minh Airport, our team will greet
-                        you and transfer you to your hotel for check-in and
-                        relaxation. After a short rest, set out to explore the
-                        city's highlights, starting with the culturally rich Cho
-                        Lon Chinatown and the beautiful Jade Emperor Pagoda.
-                        Wander through local markets and soak in the vibrant
-                        energy of Cho Lon. End the day with a stroll along
-                        Nguyen Hue Walking Street before returning to the hotel
-                        for an overnight stay.
+                        Upon arrival at the airport, you will be assisted with
+                        your transfer to the hotel. After check-in, take some
+                        time to relax and unwind before your overnight stay.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Arrival at Ho Chi Minh Airport – Warm welcome by our
-                          team and smooth transfer to the hotel.
+                          Arrival at Airport – Meet and greet assistance upon
+                          arrival.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Hotel Check-in &amp;
-                          Rest – Relax after your journey.
+                          <i className="bi bi-check-lg" /> Hotel Transfer –
+                          Smooth transfer from the airport to your hotel.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Cho Lon Chinatown –
-                          Discover the vibrant Chinese district of Ho Chi Minh
-                          City.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" />
-                          Jade Emperor Pagoda – Visit this sacred site adorned
-                          with intricate wooden carvings.
+                          <i className="bi bi-check-lg" /> Hotel Check-in –
+                          Complete the check-in process and settle in
+                          comfortably.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Market Exploration – Stroll through bustling local
-                          markets.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" />
-                          Nguyen Hue Walking Street – Enjoy the vibrant street
-                          filled with entertainment and local charm.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" />
-                          Overnight Stay at Hotel – Rest and recharge for the
-                          next day's adventures.
+                          Overnight Stay – Relax and enjoy your stay at the
+                          hotel.
                         </li>
                       </ul>
                     </div>
@@ -343,8 +337,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      <span>Day 02 :</span> Ho Chi Minh City Tour &amp; Cu Chi
-                      Tunnels Exploration
+                      <span>Day 02 :</span> Water Adventures and Temple Visit
                     </button>
                   </h2>
                   <div
@@ -355,55 +348,38 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, embark on a sightseeing tour of Ho Chi
-                        Minh City, visiting historical landmarks like the Notre
-                        Dame Cathedral, the famous Central Post Office, and the
-                        War Remnants Museum. After lunch, journey to the Cu Chi
-                        Tunnels, an extensive underground network used during
-                        the Vietnam War. Begin with an introductory movie
-                        showcasing the tunnel construction and the resilience of
-                        the people who lived there. Conclude the day with an
-                        overnight stay at the hotel.
+                        Start your day with a delicious breakfast before heading
+                        out for an exciting day of water sports and cultural
+                        exploration. Enjoy thrilling activities at Tanjung Benoa
+                        and later visit the iconic Uluwatu Temple before
+                        returning to your hotel for a relaxing night.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Start your day with a delicious meal.
+                          <i className="bi bi-check-lg" /> Breakfast – Enjoy a
+                          hearty breakfast at the hotel.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Ho Chi Minh City
-                          Exploration – Discover the city's rich history and
-                          culture.
+                          <i className="bi bi-check-lg" />
+                          Tanjung Benoa – Proceed to Tanjung Benoa for exciting
+                          water sport activities.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Notre Dame Cathedral
-                          – Admire the stunning French colonial architecture.
+                          <i className="bi bi-check-lg" />
+                          Water Sports Activities: • 1 round of Banana Boat ride
+                          • 1 round of Jet Ski • 1 round of Parasailing
+                          Adventure (Couple Parasailing)
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Central Post Office –
-                          Visit this iconic landmark designed by Gustave Eiffel.
+                          <i className="bi bi-check-lg" /> Uluwatu Temple Visit
+                          – Explore the famous Uluwatu Temple, perched on a
+                          stunning cliff overlooking the ocean.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> War Remnants Museum –
-                          Gain insights into Vietnam’s war history.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Lunch Break – Enjoy a
-                          local Vietnamese meal.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Cu Chi Tunnels Tour –
-                          Travel 1.5 hours to explore the historic underground
-                          tunnels.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Introductory Movie –
-                          Learn about the construction of the tunnels and
-                          wartime survival.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Overnight Stay at
-                          Hotel – Rest and prepare for the next day’s adventure.
+                          <i className="bi bi-check-lg" />
+                          Return to Hotel &amp; Overnight Stay – Transfer back
+                          to the hotel after sightseeing. Relax and unwind at
+                          the hotel.
                         </li>
                       </ul>
                     </div>
@@ -419,8 +395,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      <span>Day 03 :</span> Mekong River Adventure &amp; My Tho
-                      Exploration
+                      <span>Day 03 :</span>Nusa Penida Island Exploration
                     </button>
                   </h2>
                   <div
@@ -431,59 +406,42 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, begin your journey to My Tho, where
-                        you’ll visit the Vinh Trang Pagoda and explore the
-                        beautiful Unicorn Island. Enjoy a relaxing hand-rowed
-                        sampan ride along the Thoi Son Canal and visit a honey
-                        farm for a taste of local honey tea. Continue your
-                        adventure with a coconut candy-making workshop and a
-                        peaceful cycling tour through Tan Thach hamlet. In the
-                        evening, return to your hotel for an overnight stay.
+                        After breakfast, embark on a full-day trip to the
+                        stunning Nusa Penida Island. Explore its iconic beaches
+                        and natural wonders, enjoy a delicious lunch, and return
+                        to the mainland for a relaxing evening at your hotel.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast at the
-                          Hotel – Enjoy a hearty breakfast to start your day.
+                          <i className="bi bi-check-lg" />
+                          Breakfast – Start your day with a nutritious breakfast
+                          at the hotel.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Journey to My Tho –
-                          Travel to this picturesque town on the left bank of
-                          the Mekong River.
+                          <i className="bi bi-check-lg" /> Transfer to Nusa
+                          Penida – Move to Nusa Penida Island for sightseeing.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Vinh Trang Pagoda –
-                          Visit this beautiful and historic pagoda, a symbol of
-                          the region’s spiritual heritage.
+                          <i className="bi bi-check-lg" />
+                          Island Sightseeing: • Kelingking Beach – Famous for
+                          its dramatic cliffs and scenic views • Broken Beach –
+                          Natural archway over turquoise waters • Angel’s
+                          Billabong – Stunning natural infinity pool • Crystal
+                          Bay – Relax and enjoy the pristine beach and clear
+                          waters
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Unicorn Island –
-                          Explore this charming island and enjoy its natural
-                          beauty.
+                          <i className="bi bi-check-lg" /> Lunch – Enjoy a meal
+                          at a local restaurant on the island.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Hand-Rowed Sampan
-                          Ride – Glide along the Thoi Son Canal in a traditional
-                          sampan boat.
+                          <i className="bi bi-check-lg" /> Return to Mainland –
+                          Travel back via ferry to the main island.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Honey Farm Visit –
-                          Experience local agriculture with a visit to a honey
-                          farm, and enjoy a cup of refreshing honey tea.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Coconut Candy
-                          Workshop – Learn how coconut candies are made and
-                          taste these local treats.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Cycling through Tan
-                          Thach Hamlet – Ride through the peaceful and scenic
-                          Tan Thach hamlet, experiencing rural life.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Return &amp;
-                          Overnight Stay at Hotel – Rest after a day of
-                          exploration.
+                          <i className="bi bi-check-lg" /> Transfer to Hotel
+                          &amp; Overnight Stay – Smooth transfer back to your
+                          hotel. Rest and relax at the hotel.
                         </li>
                       </ul>
                     </div>
@@ -499,7 +457,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      <span>Day 04 :</span> Departure from Ho Chi Minh City
+                      <span>Day 04 :</span> Kintamani and Ubud Village Tour
                     </button>
                   </h2>
                   <div
@@ -510,10 +468,73 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, check out from the hotel and proceed
-                        with the airport transfer for your flight back home.
-                        Take with you the memories of your exciting and
-                        enriching journey through Vietnam.
+                        After breakfast at the hotel, enjoy a day filled with
+                        adventure and culture. Experience thrilling swings at
+                        Kintamani, take in the breathtaking views of Mount
+                        Batur, and explore the art and craft villages of Ubud
+                        before returning to your hotel for an overnight stay.
+                      </p>
+                      <ul>
+                        <li>
+                          <i className="bi bi-check-lg" /> Breakfast – Start
+                          your day with a delicious breakfast at the hotel.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Transfer to Kintamani – Head to Kintamani for
+                          adventure and sightseeing.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Bali Swing Experience: • 2 Single Swings • 1 Romantic
+                          Swing • 1 Bed Swing • 1 Sky Bed • 1 Bird Nest • 1
+                          Chicken Nest
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> Kintamani View Point
+                          – Enjoy panoramic views of Mount Batur and the
+                          surrounding landscape.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Ubud Village Tour: • Explore Ubud village and its
+                          cultural attractions • Visit Celuk &amp; Mas villages,
+                          famous for gold and silversmiths • Stop at a Batik
+                          factory to see traditional textile making
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" /> Return to Hotel &amp;
+                          Overnight Stay – Transfer back to your hotel after the
+                          tour. Relax and unwind at the hotel.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingFive">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      <span>Day 05 :</span> Departure
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#tourPlan"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        After breakfast, check out from the hotel and prepare
+                        for your onward journey. Enjoy a smooth transfer to the
+                        airport for your departure.
                       </p>
                     </div>
                   </div>
@@ -523,66 +544,52 @@ const Page = () => {
               <div className="includ-and-exclud-area mb-20">
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg" /> 3 nights’ stay in 3-star
-                    accommodation at Ho Chi Minh City
+                    <i className="bi bi-check-lg" /> Meet and greet upon arrival
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Private airport transfers
-                    (airport–hotel–airport)
+                    <i className="bi bi-check-lg" /> 4 days of breakfast at the
+                    hotel
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Entry tickets to all
-                    mentioned attractions
+                    <i className="bi bi-check-lg" /> All transfers in a private
+                    vehicle
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Daily breakfast (3 meals)
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Ho Chi Minh City Tour on
-                    SIC basis
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Cu Chi Tunnel Tour on SIC
-                    basis
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> Mekong Delta Tour on SIC
-                    basis
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg" /> 2 lunches included as per
-                    the itinerary
+                    <i className="bi bi-check-lg" /> Guided sightseeing tours
                   </li>
                 </ul>
                 <ul className="exclud">
                   <li>
-                    <i className="bi bi-x-lg" /> Anything not mentioned in the
-                    inclusions
+                    <i className="bi bi-x-lg" /> Visa
                   </li>
                   <li>
-                    <i className="bi bi-x-lg" /> Additional expenses due to
-                    weather, technical issues, or unforeseen circumstances
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" />
-                    Personal expenses such as tips, laundry, and beverages
+                    <i className="bi bi-x-lg" /> International and domestic
+                    flights
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Visa and travel insurance
+                    Video and camera permits at attractions
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Additional sightseeing or extra vehicle usage beyond the
-                    itinerary
+                    Meals not specified in the meal plan
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Tips for guide and driver
+                    Use of vehicles outside the specified itinerary
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Tax Collected at Source (TCS) to be borne by the agent
+                    Personal expenses of any kind
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Any services not mentioned above
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Early check-in and late check-out at hotels (standard
+                    check-in/check-out: 12:00 PM)
                   </li>
                 </ul>
               </div>
@@ -751,9 +758,9 @@ const Page = () => {
               </div>
             </div>
           </div>
-          {/* <h4 className="subtitle-underline mt-4">
+          <h4 className="subtitle-underline mt-4">
             Snapshots from our clients
-          </h4> */}
+          </h4>
         </div>
         <Lightbox
           className="img-fluid"
@@ -766,7 +773,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
-        {/* <VietnamGallery images={vietnamImages} /> */}
+        <KashmirGallery images={kashmirImages} />
       </div>
       <Footer />
     </>

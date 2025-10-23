@@ -92,8 +92,8 @@ const Footer = ({ style }) => {
                     </svg>
                     <h5>Send Mail</h5>
                   </div>
-                  <a href="mailto:ajwatravels1@gmail.com">
-                    ajwatravels1@gmail.com
+                  <a href="mailto:holidays2@ajwatravel.com">
+                    holidays2@ajwatravel.com
                   </a>
                 </div>
                 <div className="single-contact">
