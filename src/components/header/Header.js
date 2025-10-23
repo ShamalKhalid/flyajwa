@@ -312,16 +312,6 @@ const Header = () => {
           state.isRightSidebar ? "show-right-menu" : ""
         }`}
       >
-        <div className="sidebar-logo-area d-flex justify-content-between align-items-center">
-          <div className="sidebar-logo-wrap">
-            <Link href="/">
-              <img alt="image" src="/assets/img/logo.svg" />
-            </Link>
-          </div>
-          <div className="right-sidebar-close-btn" onClick={toggleRightSidebar}>
-            <i className="bi bi-x" />
-          </div>
-        </div>
         <div className="sidebar-content-wrap">
           <div className="category-wrapper">
             <h4>Tour Type</h4>

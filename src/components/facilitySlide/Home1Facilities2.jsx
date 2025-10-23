@@ -196,7 +196,7 @@ const Home1Facilities2 = () => {
                             <div className="price-area">
                               <h6>Starting Form:</h6>
                               <span>
-                                ₹19,700 <del>₹24,999</del>
+                                ₹17,499 <del>₹24,999</del>
                               </span>
                               <p>FLIGHTS EXCL/TAXES INCL/PERS</p>
                             </div>
@@ -284,7 +284,7 @@ const Home1Facilities2 = () => {
                           <div className="card-content-bottom">
                             <div className="price-area">
                               <h6>Starting Form:</h6>
-                              <span>₹18,400<del>₹27,999</del></span>
+                              <span>₹15,999<del>₹27,999</del></span>
                               <p>FLIGHTS EXCL/TAXES INCL/PERS</p>
                             </div>
                             <Link
@@ -372,7 +372,7 @@ const Home1Facilities2 = () => {
                             <div className="price-area">
                               <h6>Starting Form:</h6>
                               <span>
-                                ₹46,799 <del>₹59,900</del>
+                                ₹24,499 <del>₹49,900</del>
                               </span>
                               <p>FLIGHTS EXCL/TAXES INCL/PERS</p>
                             </div>
@@ -472,7 +472,7 @@ const Home1Facilities2 = () => {
                             <div className="price-area">
                               <h6>Starting Form:</h6>
                               <span>
-                                ₹15,400
+                                ₹16,400
                               </span>
                               <p>FLIGHTS EXCL/TAXES INCL/PERS</p>
                             </div>
@@ -563,7 +563,7 @@ const Home1Facilities2 = () => {
                           <div className="card-content-bottom">
                             <div className="price-area">
                               <h6>Starting Form:</h6>
-                              <span>₹7,999</span>
+                              <span>₹10,999</span>
                               <p>FLIGHTS EXCL/TAXES INCL/PERS</p>
                             </div>
                             <Link

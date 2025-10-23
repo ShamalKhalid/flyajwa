@@ -68,6 +68,54 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
+    ],
+    "/package/kashmir-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/kashmir-package/page.css",
+      "static/chunks/app/package/kashmir-package/page.js"
+    ],
+    "/package/bali-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/bali-package/page.css",
+      "static/chunks/app/package/bali-package/page.js"
+    ],
+    "/package/dubai-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/dubai-package/page.css",
+      "static/chunks/app/package/dubai-package/page.js"
+    ],
+    "/package/maldives-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/maldives-package/page.css",
+      "static/chunks/app/package/maldives-package/page.js"
+    ],
+    "/package/malaysia-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/malaysia-package/page.css",
+      "static/chunks/app/package/malaysia-package/page.js"
+    ],
+    "/package/thailand-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/thailand-package/page.css",
+      "static/chunks/app/package/thailand-package/page.js"
+    ],
+    "/package/goa-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/goa-package/page.css",
+      "static/chunks/app/package/goa-package/page.js"
+    ],
+    "/package/manali-package/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/package/manali-package/page.css",
+      "static/chunks/app/package/manali-package/page.js"
     ]
   }
 }

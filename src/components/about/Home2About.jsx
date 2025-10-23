@@ -228,23 +228,6 @@ const Home2About = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12 d-flex justify-content-center">
-              <div className="tripadvisor-review">
-                <strong>Excellent!</strong>
-                <img src="/assets/img/home2/icon/tripadvisor-star.svg" alt="" />
-                <p>
-                  <strong>4.9</strong> Rating out of <strong>5.0</strong> based
-                  on{" "}
-                  <a href="https://www.tripadvisor.com/">
-                    <strong>400</strong>
-                    reviews
-                  </a>
-                </p>
-                <img src="/assets/img/home2/icon/tripadvisor-logo.svg" alt="" />
-              </div>
-            </div>
-          </div>
         </div>
         <React.Fragment>
           <ModalVideo

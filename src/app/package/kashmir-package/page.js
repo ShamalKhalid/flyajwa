@@ -182,12 +182,12 @@ const Page = () => {
           <div className="row g-xl-12 gy-5">
             <div className="col-xl-12 col-lg-12">
               <h2>
-                Discover the charm of Bali – an island paradise of serenity,
-                culture, and breathtaking natural beauty.
+                Explore Kashmir – where tranquil lakes, snow-capped peaks, and
+                rich culture await.
               </h2>
               <div className="tour-price">
                 <span>Starting from:&nbsp;</span>
-                <h3>₹25,499/</h3>
+                <h3>₹16,400/</h3>
                 <span>per person</span>
               </div>
               <ul className="tour-info-metalist">
@@ -215,13 +215,14 @@ const Page = () => {
                 </li>
               </ul>
               <p>
-                Bali is a tropical haven that perfectly blends natural beauty
-                with vibrant culture, offering unforgettable experiences. A
-                highlight of any trip is exploring its lush rice terraces,
-                ancient temples, and sun-kissed beaches, where you can unwind,
-                surf, or witness stunning sunsets. Immerse yourself in Balinese
-                traditions, savor local delicacies, and experience the island’s
-                serene and spiritual charm.
+                Kashmir is a breathtaking haven that seamlessly blends majestic
+                landscapes with rich culture, offering unforgettable
+                experiences. A highlight of any trip is exploring its serene
+                valleys, pristine lakes, and snow-capped mountains, where you
+                can relax on shikara rides, trek through meadows, or witness
+                stunning sunsets over the Himalayas. Immerse yourself in
+                Kashmiri traditions, savor local delicacies like Wazwan, and
+                experience the region’s tranquil and spiritual charm.
               </p>
               <WhatsAppLink
                 packageName="Kashmir"
@@ -234,45 +235,57 @@ const Page = () => {
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Ubud Monkey Forest: Walk among playful monkeys and explore
-                    lush tropical forest trails.
+                    Dal Lake Shikara Ride: Enjoy a serene one-hour boat ride on
+                    the iconic Dal Lake.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Tegallalang Rice Terraces: Admire the iconic cascading rice
-                    fields and capture perfect photo moments.
+                    Mughal Gardens: Visit Nishat Bagh, Shalimar Bagh, Chashma
+                    Shahi Garden, and Pari Mahal Garden.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Tanah Lot Temple: Visit the breathtaking sea temple perched
-                    on a rock formation at sunset.
+                    Shankaracharya Temple: Panoramic views of Srinagar from this
+                    historic hilltop temple.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Uluwatu Temple &amp; Kecak Dance: Experience a cliffside
-                    temple and watch the mesmerizing traditional Kecak dance
-                    performance.
+                    Gulmarg Excursion: Explore the meadows of Gulmarg with a
+                    professional guide.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Waterfalls &amp; Nature Excursions: Refresh at stunning
-                    waterfalls like Tegenungan and explore Bali’s natural
-                    beauty.
+                    Snow Activities: Option for snow jeep rides at Gulmarg
+                    during winter months.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Beach Relaxation: Enjoy sun, sand, and waves at Bali’s
-                    famous beaches, including Kuta, Seminyak, or Nusa Dua.
+                    Pahalgam Valleys: Visit Baisaran, Betaab, and Aru Valley
+                    with pony/horse rides or union vehicles.
+                  </li>
+                  <li>
+                    <span>
+                      <i className="bi bi-check" />
+                    </span>{" "}
+                    Cultural Experience: Savor local cuisine with breakfast and
+                    dinner included, and enjoy guided sightseeing.
+                  </li>
+                  <li>
+                    <span>
+                      <i className="bi bi-check" />
+                    </span>{" "}
+                    Convenient Transfers: Private AC vehicles and well-trained
+                    drivers throughout the trip.
                   </li>
                 </ul>
               </div>
@@ -288,7 +301,7 @@ const Page = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      <span>Day 01 :</span> Arrival and Check-in
+                      <span>Day 01 :</span> Arrival &amp; Srinagar Sightseeing
                     </button>
                   </h2>
                   <div
@@ -299,29 +312,35 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Upon arrival at the airport, you will be assisted with
-                        your transfer to the hotel. After check-in, take some
-                        time to relax and unwind before your overnight stay.
+                        Upon arrival at Srinagar Airport, you will be warmly
+                        welcomed by our company representative and assisted with
+                        a smooth transfer to your hotel. After some time to
+                        refresh and settle in, begin your sightseeing tour of
+                        Srinagar’s iconic Mughal Gardens and landmarks,
+                        immersing yourself in the city’s serene beauty.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Arrival at Airport – Meet and greet assistance upon
-                          arrival.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Hotel Transfer –
-                          Smooth transfer from the airport to your hotel.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Hotel Check-in –
-                          Complete the check-in process and settle in
-                          comfortably.
+                          Arrival at Srinagar Airport – Pickup by our company
+                          representative and transfer to the hotel.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Overnight Stay – Relax and enjoy your stay at the
-                          hotel.
+                          Hotel Check-in &amp; Refresh – Relax and unwind after
+                          your journey.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Sightseeing – Visit Mughal Gardens including Nishat
+                          Bagh, Shalimar Bagh, Chashma Shahi Garden, Pari Mahal,
+                          and Shankaracharya Temple.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Dinner &amp; Overnight Stay at Hotel – Enjoy a
+                          comfortable stay and rest for the next day’s
+                          adventures.
                         </li>
                       </ul>
                     </div>
@@ -337,7 +356,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      <span>Day 02 :</span> Water Adventures and Temple Visit
+                      <span>Day 02 :</span> Gulmarg Day Excursion
                     </button>
                   </h2>
                   <div
@@ -348,38 +367,44 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Start your day with a delicious breakfast before heading
-                        out for an exciting day of water sports and cultural
-                        exploration. Enjoy thrilling activities at Tanjung Benoa
-                        and later visit the iconic Uluwatu Temple before
-                        returning to your hotel for a relaxing night.
+                        After breakfast at your hotel, embark on a scenic drive
+                        to Gulmarg, located approximately 56 km from Srinagar.
+                        Known for its stunning landscapes, Gulmarg offers
+                        world-class ski slopes and the highest 18-hole golf
+                        course in Asia. Enjoy the natural beauty and, if you
+                        wish, experience the famous Aparwath cable car — Asia’s
+                        highest (direct/supplement cost). Return to Srinagar by
+                        evening for dinner and a comfortable overnight stay.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast – Enjoy a
-                          hearty breakfast at the hotel.
+                          <i className="bi bi-check-lg" /> Breakfast at Hotel –
+                          Start your day with a hearty breakfast.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Tanjung Benoa – Proceed to Tanjung Benoa for exciting
-                          water sport activities.
+                          Drive to Gulmarg – Approx. 56 km, 2-3 hours journey
+                          from Srinagar.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Water Sports Activities: • 1 round of Banana Boat ride
-                          • 1 round of Jet Ski • 1 round of Parasailing
-                          Adventure (Couple Parasailing)
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Uluwatu Temple Visit
-                          – Explore the famous Uluwatu Temple, perched on a
-                          stunning cliff overlooking the ocean.
+                          Sightseeing in Gulmarg – Explore ski slopes, the
+                          18-hole golf course, and other scenic spots.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Return to Hotel &amp; Overnight Stay – Transfer back
-                          to the hotel after sightseeing. Relax and unwind at
-                          the hotel.
+                          Optional Activity – Ride the Aparwath cable car
+                          (Asia’s highest) at an additional cost.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Return to Srinagar – Drive back to the hotel by
+                          evening.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Dinner &amp; Overnight Stay at Hotel – Relax and
+                          recharge for the next day.
                         </li>
                       </ul>
                     </div>
@@ -395,7 +420,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      <span>Day 03 :</span>Nusa Penida Island Exploration
+                      <span>Day 03 :</span>Pahalgam Day Excursion
                     </button>
                   </h2>
                   <div
@@ -406,42 +431,44 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast, embark on a full-day trip to the
-                        stunning Nusa Penida Island. Explore its iconic beaches
-                        and natural wonders, enjoy a delicious lunch, and return
-                        to the mainland for a relaxing evening at your hotel.
+                        After breakfast at your hotel, drive to Pahalgam,
+                        located approximately 90 km from Srinagar. En route,
+                        explore the picturesque saffron fields, apple orchards,
+                        and the Pahalgam Bat Factory. In Pahalgam, you can visit
+                        scenic spots such as Aru Valley, Betaab Valley, and
+                        Chandanwadi (by Taxi Union Vehicle, direct/supplement
+                        cost). Return to Srinagar by evening for dinner and a
+                        comfortable overnight stay at your hotel.
                       </p>
                       <ul>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Breakfast – Start your day with a nutritious breakfast
-                          at the hotel.
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Transfer to Nusa
-                          Penida – Move to Nusa Penida Island for sightseeing.
+                          Breakfast at Hotel – Enjoy a hearty start to your day.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Island Sightseeing: • Kelingking Beach – Famous for
-                          its dramatic cliffs and scenic views • Broken Beach –
-                          Natural archway over turquoise waters • Angel’s
-                          Billabong – Stunning natural infinity pool • Crystal
-                          Bay – Relax and enjoy the pristine beach and clear
-                          waters
+                          Drive to Pahalgam – Approx. 90 km, 2-3 hours journey
+                          from Srinagar
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Lunch – Enjoy a meal
-                          at a local restaurant on the island.
+                          <i className="bi bi-check-lg" />
+                          Enroute Sightseeing – Visit saffron fields, apple
+                          orchards, and Bat Factory.
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Return to Mainland –
-                          Travel back via ferry to the main island.
+                          <i className="bi bi-check-lg" /> Pahalgam Sightseeing
+                          – Explore Aru Valley, Betaab Valley, and Chandanwadi
+                          (optional by Taxi Union Vehicle, direct/supplement
+                          cost).
                         </li>
                         <li>
-                          <i className="bi bi-check-lg" /> Transfer to Hotel
-                          &amp; Overnight Stay – Smooth transfer back to your
-                          hotel. Rest and relax at the hotel.
+                          <i className="bi bi-check-lg" /> Return to Srinagar –
+                          Drive back to the hotel in the evening.
+                        </li>
+                        <li>
+                          <i className="bi bi-check-lg" />
+                          Dinner &amp; Overnight Stay at Hotel – Relax and
+                          recharge for the next day.
                         </li>
                       </ul>
                     </div>
@@ -457,7 +484,7 @@ const Page = () => {
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      <span>Day 04 :</span> Kintamani and Ubud Village Tour
+                      <span>Day 04 :</span> Departure from Srinagar
                     </button>
                   </h2>
                   <div
@@ -468,74 +495,33 @@ const Page = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        After breakfast at the hotel, enjoy a day filled with
-                        adventure and culture. Experience thrilling swings at
-                        Kintamani, take in the breathtaking views of Mount
-                        Batur, and explore the art and craft villages of Ubud
-                        before returning to your hotel for an overnight stay.
+                        After breakfast at your hotel, complete the check-out
+                        formalities and prepare for your onward journey.
+                        Depending on your flight schedule, you will be
+                        transferred to Srinagar Airport for departure,
+                        concluding your memorable trip to Kashmir.
                       </p>
                       <ul>
                         <li>
-                          <i className="bi bi-check-lg" /> Breakfast – Start
-                          your day with a delicious breakfast at the hotel.
+                          <i className="bi bi-check-lg" /> Breakfast at Hotel –
+                          Enjoy your final meal at the hotel.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Transfer to Kintamani – Head to Kintamani for
-                          adventure and sightseeing.
+                          Hotel Check-out – Complete formalities and pack for
+                          departure.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Bali Swing Experience: • 2 Single Swings • 1 Romantic
-                          Swing • 1 Bed Swing • 1 Sky Bed • 1 Bird Nest • 1
-                          Chicken Nest
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Kintamani View Point
-                          – Enjoy panoramic views of Mount Batur and the
-                          surrounding landscape.
+                          Airport Transfer – Drop at Srinagar Airport according
+                          to your flight timing.
                         </li>
                         <li>
                           <i className="bi bi-check-lg" />
-                          Ubud Village Tour: • Explore Ubud village and its
-                          cultural attractions • Visit Celuk &amp; Mas villages,
-                          famous for gold and silversmiths • Stop at a Batik
-                          factory to see traditional textile making
-                        </li>
-                        <li>
-                          <i className="bi bi-check-lg" /> Return to Hotel &amp;
-                          Overnight Stay – Transfer back to your hotel after the
-                          tour. Relax and unwind at the hotel.
+                          Departure – Bid farewell to the scenic beauty of
+                          Kashmir with wonderful memories.
                         </li>
                       </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingFive">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseFive"
-                      aria-expanded="false"
-                      aria-controls="collapseFive"
-                    >
-                      <span>Day 05 :</span> Departure
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseFive"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="headingFive"
-                    data-bs-parent="#tourPlan"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        After breakfast, check out from the hotel and prepare
-                        for your onward journey. Enjoy a smooth transfer to the
-                        airport for your departure.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -544,52 +530,88 @@ const Page = () => {
               <div className="includ-and-exclud-area mb-20">
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg" /> Meet and greet upon arrival
+                    <i className="bi bi-check-lg" /> Welcome drink on arrival
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> 4 days of breakfast at the
-                    hotel
+                    <i className="bi bi-check-lg" /> Accommodation on
+                    double/twin share basis
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> All transfers in a private
-                    vehicle
+                    <i className="bi bi-check-lg" /> All tolls, driver
+                    allowances, parking, and service charges
                   </li>
                   <li>
-                    <i className="bi bi-check-lg" /> Guided sightseeing tours
+                    <i className="bi bi-check-lg" /> Transfers and sightseeing
+                    as per itinerary on disposal basis
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Cabs for transfers: 2 pax –
+                    AC Toyota Etios, 4–6 pax – AC Toyota Innova
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> One-hour boat/shikara ride
+                    on the famous Dal Lake
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Pickup and drop at Srinagar
+                    Airport
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Daily breakfast and dinner
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Professional guide at
+                    Gulmarg
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg" /> Well-trained
+                    driver-cum-tour guide
                   </li>
                 </ul>
                 <ul className="exclud">
                   <li>
-                    <i className="bi bi-x-lg" /> Visa
+                    <i className="bi bi-x-lg" /> Airfare (return tickets;
+                    special deals available on request)
                   </li>
                   <li>
-                    <i className="bi bi-x-lg" /> International and domestic
-                    flights
-                  </li>
-                  <li>
-                    <i className="bi bi-x-lg" />
-                    Video and camera permits at attractions
+                    <i className="bi bi-x-lg" /> Lunches: Veg meals @ ₹1200/P.P,
+                    Veg + Non-veg @ ₹2000/P.P
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Meals not specified in the meal plan
+                    Entry fees for gardens and monuments @ ₹300/P.P
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Use of vehicles outside the specified itinerary
+                    Baisaran, Kashmir, Snow &amp; Dabyab Valley at Pahalgam
+                    (pony/horse ride) @ ₹1200/P.P
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Personal expenses of any kind
+                    Arun Valley, Betaab Valley &amp; Chandanwadi at Pahalgam
+                    (union vehicle) @ ₹2100/8-seater
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Any services not mentioned above
+                    Snow Jeep from Tangmarg to Gulmarg (and vice versa) @
+                    ₹2000/8-seater
                   </li>
                   <li>
                     <i className="bi bi-x-lg" />
-                    Early check-in and late check-out at hotels (standard
-                    check-in/check-out: 12:00 PM)
+                    Gondola ride tickets: First phase @ ₹750/P.P, First + Second
+                    phase @ ₹1700/P.P
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Honeymoon freebies once during houseboat stay @ ₹500/P.P
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    Any items not mentioned in inclusions
+                  </li>
+                  <li>
+                    <i className="bi bi-x-lg" />
+                    GST @ 5% on billing
                   </li>
                 </ul>
               </div>
@@ -758,9 +780,9 @@ const Page = () => {
               </div>
             </div>
           </div>
-          <h4 className="subtitle-underline mt-4">
+          {/*<h4 className="subtitle-underline mt-4">
             Snapshots from our clients
-          </h4>
+          </h4>*/}
         </div>
         <Lightbox
           className="img-fluid"
@@ -773,7 +795,7 @@ const Page = () => {
             return { src: elem.imageBig };
           })}
         />
-        <KashmirGallery images={kashmirImages} />
+        {/* <KashmirGallery images={kashmirImages} /> */}
       </div>
       <Footer />
     </>

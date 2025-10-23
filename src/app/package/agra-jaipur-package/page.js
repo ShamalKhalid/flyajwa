@@ -218,37 +218,44 @@ const Page = () => {
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Shahdag Mountain Adventure – Enjoy outdoor activities or a
-                    peaceful nature walk in the stunning Caucasus Mountains.
+                    Delhi Sightseeing: Explore India’s capital, including India
+                    Gate, Red Fort, Qutub Minar, Lotus Temple, and Raj Ghat.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Tufandag Ropeway (Gabala) – Take in breathtaking panoramic
-                    views from the famous cable car.
+                    Agra Visit: Marvel at the world-famous Taj Mahal, explore
+                    Agra Fort, and visit Itmad-ud-Daula (Baby Taj).
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Absheron Peninsula Tour – Visit the Atashgah Fire Temple and
-                    witness the eternal flames of Yanardag Fire Mountain.
+                    Jaipur City Tour: Discover the Pink City with highlights
+                    like Amber Fort, City Palace, Jantar Mantar, and the Hawa
+                    Mahal (Palace of Winds).
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Baku Old Town (Icherisheher) Exploration – Discover the
-                    historic charm of Baku, including the Maiden Tower and the
-                    Palace of the Shirvanshahs.
+                    Cultural Experiences: Witness local markets, handicrafts,
+                    and traditional cuisine in each city.
                   </li>
                   <li>
                     <span>
                       <i className="bi bi-check" />
                     </span>{" "}
-                    Waterfall 7 Beauties &amp; Lake Nokhur (Gabala) – Experience
-                    the serene beauty of these natural wonders.
+                    Convenient Transfers: Travel in private AC vehicles with
+                    experienced drivers throughout the trip.
+                  </li>
+                  <li>
+                    <span>
+                      <i className="bi bi-check" />
+                    </span>{" "}
+                    Professional Guidance: Expert guides at key monuments for a
+                    rich historical and cultural experience.
                   </li>
                 </ul>
               </div>
