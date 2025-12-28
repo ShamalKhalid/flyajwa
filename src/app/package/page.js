@@ -56,7 +56,7 @@ const page = () => {
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/Ajwa/azerbaijan/azerbaijan-ajwa.webp"
+                            src="/assets/img/Ajwa/Azerbaijan/azerbaijan-ajwa.webp"
                             alt=""
                           />
                         </Link>
@@ -185,7 +185,7 @@ const page = () => {
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/Ajwa/dubai/dubai-ajwa.webp"
+                            src="/assets/img/Ajwa/Dubai/dubai-ajwa.webp"
                             alt=""
                           />
                         </Link>
@@ -386,7 +386,7 @@ const page = () => {
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand-ajwa.webp"
+                            src="/assets/img/Ajwa/Thailand/thailand-ajwa.webp"
                             alt=""
                           />
                         </Link>
@@ -551,7 +551,7 @@ const page = () => {
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/Ajwa/agra/agra-ajwa.webp"
+                            src="/assets/img/Ajwa/Agra/agra-ajwa.webp"
                             alt=""
                           />
                         </Link>
@@ -616,7 +616,7 @@ const page = () => {
                       <div className="package-card-img-wrap">
                         <Link href="/package/goa-package" className="card-img">
                           <img
-                            src="/assets/img/Ajwa/goa/goa-ajwa.webp"
+                            src="/assets/img/Ajwa/Goa/goa-ajwa.webp"
                             alt=""
                           />
                         </Link>
@@ -681,7 +681,7 @@ const page = () => {
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/Ajwa/kashmir/kashmir-ajwa.webp"
+                            src="/assets/img/Ajwa/Kashmir/kashmir-ajwa.webp"
                             alt=""
                           />
                         </Link>
@@ -750,7 +750,7 @@ const page = () => {
                           className="card-img"
                         >
                           <img
-                            src="/assets/img/Ajwa/manali/manali-ajwa.webp"
+                            src="/assets/img/Ajwa/Manali/manali-ajwa.webp"
                             alt=""
                           />
                         </Link>

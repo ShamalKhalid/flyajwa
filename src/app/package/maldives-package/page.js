@@ -18,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/maldives/maldives1-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Maldives/maldives1-ajwa.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/maldives/maldives2-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Maldives/maldives2-ajwa.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/maldives/maldives3-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Maldives/maldives3-ajwa.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/maldives/maldives5-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Maldives/maldives5-ajwa.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/maldives/maldives4-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Maldives/maldives4-ajwa.webp",
     },
   ];
   return (
@@ -50,7 +50,7 @@ const Page = () => {
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
                       <img
-                        src="/assets/img/Ajwa/maldives/maldives1-ajwa.webp"
+                        src="/assets/img/Ajwa/Maldives/maldives1-ajwa.webp"
                         alt=""
                       />
                       <a
@@ -72,7 +72,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives2-ajwa.webp"
+                            src="/assets/img/Ajwa/Maldives/maldives2-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -98,7 +98,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives3-ajwa.webp"
+                            src="/assets/img/Ajwa/Maldives/maldives3-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -124,7 +124,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives4-ajwa.webp"
+                            src="/assets/img/Ajwa/Maldives/maldives4-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -150,7 +150,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/maldives/maldives5-ajwa.webp"
+                            src="/assets/img/Ajwa/Maldives/maldives5-ajwa.webp"
                             alt=""
                           />
                           <a

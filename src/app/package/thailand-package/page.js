@@ -18,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/thailand/thailand1.webp",
+      imageBig: "/assets/img/Ajwa/Thailand/thailand1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/thailand/thailand2.webp",
+      imageBig: "/assets/img/Ajwa/Thailand/thailand2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/thailand/thailand3.webp",
+      imageBig: "/assets/img/Ajwa/Thailand/thailand3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/thailand/thailand4.webp",
+      imageBig: "/assets/img/Ajwa/Thailand/thailand4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/thailand/thailand5.webp",
+      imageBig: "/assets/img/Ajwa/Thailand/thailand5.webp",
     },
   ];
   return (
@@ -50,7 +50,7 @@ const Page = () => {
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
                       <img
-                        src="/assets/img/Ajwa/thailand/thailand1.webp"
+                        src="/assets/img/Ajwa/Thailand/thailand1.webp"
                         alt=""
                       />
                       <a
@@ -72,7 +72,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand2.webp"
+                            src="/assets/img/Ajwa/Thailand/thailand2.webp"
                             alt=""
                           />
                           <a
@@ -98,7 +98,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand3.webp"
+                            src="/assets/img/Ajwa/Thailand/thailand3.webp"
                             alt=""
                           />
                           <a
@@ -124,7 +124,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand4.webp"
+                            src="/assets/img/Ajwa/Thailand/thailand4.webp"
                             alt=""
                           />
                           <a
@@ -150,7 +150,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/thailand/thailand5.webp"
+                            src="/assets/img/Ajwa/Thailand/thailand5.webp"
                             alt=""
                           />
                           <a

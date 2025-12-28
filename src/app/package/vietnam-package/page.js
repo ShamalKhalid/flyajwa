@@ -18,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam1.jpg",
+      imageBig: "/assets/img/Ajwa/Vietnam/vietnam1.jpg",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam2.jpg",
+      imageBig: "/assets/img/Ajwa/Vietnam/vietnam2.jpg",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam3.jpeg",
+      imageBig: "/assets/img/Ajwa/Vietnam/vietnam3.jpeg",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam4.jpg",
+      imageBig: "/assets/img/Ajwa/Vietnam/vietnam4.jpg",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/vietnam/vietnam5.jpg",
+      imageBig: "/assets/img/Ajwa/Vietnam/vietnam5.jpg",
     },
   ];
   return (
@@ -49,7 +49,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img src="/assets/img/Ajwa/vietnam/vietnam1.jpg" alt="" />
+                      <img src="/assets/img/Ajwa/Vietnam/vietnam1.jpg" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -69,7 +69,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam2.jpg"
+                            src="/assets/img/Ajwa/Vietnam/vietnam2.jpg"
                             alt=""
                           />
                           <a
@@ -95,7 +95,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam3.jpeg"
+                            src="/assets/img/Ajwa/Vietnam/vietnam3.jpeg"
                             alt=""
                           />
                           <a
@@ -121,7 +121,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam4.jpg"
+                            src="/assets/img/Ajwa/Vietnam/vietnam4.jpg"
                             alt=""
                           />
                           <a
@@ -147,7 +147,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/vietnam/vietnam5.jpg"
+                            src="/assets/img/Ajwa/Vietnam/vietnam5.jpg"
                             alt=""
                           />
                           <a

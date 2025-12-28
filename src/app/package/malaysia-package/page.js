@@ -18,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia1-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Malaysia/malaysia1-ajwa.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia2-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Malaysia/malaysia2-ajwa.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia3-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Malaysia/malaysia3-ajwa.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia5-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Malaysia/malaysia5-ajwa.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/malaysia/malaysia4-ajwa.webp",
+      imageBig: "/assets/img/Ajwa/Malaysia/malaysia4-ajwa.webp",
     },
   ];
   return (
@@ -50,7 +50,7 @@ const Page = () => {
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
                       <img
-                        src="/assets/img/Ajwa/malaysia/malaysia1-ajwa.webp"
+                        src="/assets/img/Ajwa/Malaysia/malaysia1-ajwa.webp"
                         alt=""
                       />
                       <a
@@ -72,7 +72,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia2-ajwa.webp"
+                            src="/assets/img/Ajwa/Malaysia/malaysia2-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -98,7 +98,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia3-ajwa.webp"
+                            src="/assets/img/Ajwa/Malaysia/malaysia3-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -124,7 +124,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia4-ajwa.webp"
+                            src="/assets/img/Ajwa/Malaysia/malaysia4-ajwa.webp"
                             alt=""
                           />
                           <a
@@ -150,7 +150,7 @@ const Page = () => {
                       <div className="col-6">
                         <div className="gallery-img-wrap">
                           <img
-                            src="/assets/img/Ajwa/malaysia/malaysia5-ajwa.webp"
+                            src="/assets/img/Ajwa/Malaysia/malaysia5-ajwa.webp"
                             alt=""
                           />
                           <a

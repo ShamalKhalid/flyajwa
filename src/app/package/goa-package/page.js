@@ -18,23 +18,23 @@ const Page = () => {
   const images = [
     {
       id: 1,
-      imageBig: "/assets/img/Ajwa/goa/goa1.webp",
+      imageBig: "/assets/img/Ajwa/Goa/goa1.webp",
     },
     {
       id: 2,
-      imageBig: "/assets/img/Ajwa/goa/goa2.webp",
+      imageBig: "/assets/img/Ajwa/Goa/goa2.webp",
     },
     {
       id: 3,
-      imageBig: "/assets/img/Ajwa/goa/goa3.webp",
+      imageBig: "/assets/img/Ajwa/Goa/goa3.webp",
     },
     {
       id: 4,
-      imageBig: "/assets/img/Ajwa/goa/goa4.webp",
+      imageBig: "/assets/img/Ajwa/Goa/goa4.webp",
     },
     {
       id: 5,
-      imageBig: "/assets/img/Ajwa/goa/goa5.webp",
+      imageBig: "/assets/img/Ajwa/Goa/goa5.webp",
     },
   ];
   return (
@@ -49,7 +49,7 @@ const Page = () => {
                 <div className="row align-items-center g-3">
                   <div className="col-lg-6">
                     <div className="gallery-img-wrap">
-                      <img src="/assets/img/Ajwa/goa/goa1.webp" alt="" />
+                      <img src="/assets/img/Ajwa/Goa/goa1.webp" alt="" />
                       <a
                         onClick={() =>
                           setOpenimg({ openingState: true, openingIndex: 0 })
@@ -68,7 +68,7 @@ const Page = () => {
                     <div className="row g-3 h-100">
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa2.webp" alt="" />
+                          <img src="/assets/img/Ajwa/Goa/goa2.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -91,7 +91,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa3.webp" alt="" />
+                          <img src="/assets/img/Ajwa/Goa/goa3.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -114,7 +114,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa4.webp" alt="" />
+                          <img src="/assets/img/Ajwa/Goa/goa4.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
@@ -137,7 +137,7 @@ const Page = () => {
                       </div>
                       <div className="col-6">
                         <div className="gallery-img-wrap">
-                          <img src="/assets/img/Ajwa/goa/goa5.webp" alt="" />
+                          <img src="/assets/img/Ajwa/Goa/goa5.webp" alt="" />
                           <a
                             onClick={() =>
                               setOpenimg({
