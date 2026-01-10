@@ -146,8 +146,14 @@ const Footer = ({ style }) => {
                 </li>
               </ul>
               <p>
-                ©Copyright 2025 Fly Ajwa | Developed By{" "}
-                <a href="https://shamalkhalidnp.netlify.app">SK</a>
+                Copyright © {new Date().getFullYear()}{" "}
+                <a
+                  href="https://www.shamalkhalidnp.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  SK
+                </a>
               </p>
               <div className="footer-right"></div>
             </div>
