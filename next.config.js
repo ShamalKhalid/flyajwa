@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-module.exports = nextConfig;
-module.exports = {
+const nextConfig = {
+  turbopack: {},
   webpack(config, { dev }) {
     if (!dev) {
       config.optimization.minimize = false;
@@ -10,3 +8,5 @@ module.exports = {
     return config;
   },
 };
+
+module.exports = nextConfig;
