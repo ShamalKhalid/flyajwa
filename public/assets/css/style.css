@@ -93,7 +93,7 @@
   src: url(./fonts/Jost-Black.ttf) format("truetype");
   font-weight: 900;
 }
-===========================*/
+/*===========================*/
 /*===========================
      01.COMMON CSS 
 ===========================*/
@@ -132,7 +132,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: var(rubik);
+  font-family: var(--font-rubik);
   color: var(--title-color);
   font-size: 16px;
   font-weight: 400;
@@ -18447,7 +18447,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
   .tour-date-wrap
   .form-check
   .form-check-input:checked
-  ~ .form-check-label::brfore {
+  ~ .form-check-label::before {
   border-color: var(--primary-color1);
 }
 .booking-form-wrap

@@ -1,1 +1,25 @@
-{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/src/app/_not-found/page": [],
+    "[project]/src/app/about/page": [],
+    "[project]/src/app/contact/page": [],
+    "[project]/src/app/gallery/page": [],
+    "[project]/src/app/package/agra-jaipur-package/page": [],
+    "[project]/src/app/package/azerbaijan-package/page": [],
+    "[project]/src/app/package/bali-package/page": [],
+    "[project]/src/app/package/dubai-package/page": [],
+    "[project]/src/app/package/goa-package/page": [],
+    "[project]/src/app/package/kashmir-package/page": [],
+    "[project]/src/app/package/malaysia-package/page": [],
+    "[project]/src/app/package/maldives-package/page": [],
+    "[project]/src/app/package/manali-package/page": [],
+    "[project]/src/app/package/page": [],
+    "[project]/src/app/package/thailand-package/page": [],
+    "[project]/src/app/package/vietnam-package/page": [],
+    "[project]/src/app/page": [],
+    "[project]/src/app/services/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

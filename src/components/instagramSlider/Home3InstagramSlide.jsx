@@ -1,12 +1,11 @@
 "use client";
 import React, { useMemo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, {
-  Autoplay,
+import SwiperCore from "swiper";
+import { Autoplay,
   EffectFade,
   Navigation,
-  Pagination,
-} from "swiper";
+  Pagination, } from "swiper/modules";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 const Home3InstagramSlide = () => {
   const settings = useMemo(() => {

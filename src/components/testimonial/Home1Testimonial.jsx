@@ -2,12 +2,11 @@
 import React, { useMemo } from "react";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, {
-  Autoplay,
+import SwiperCore from "swiper";
+import { Autoplay,
   EffectFade,
   Navigation,
-  Pagination,
-} from "swiper";
+  Pagination, } from "swiper/modules";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 import testimonials from "@/data/testimonials";
 
